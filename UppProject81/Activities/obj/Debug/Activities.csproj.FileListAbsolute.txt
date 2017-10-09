@@ -1,0 +1,13 @@
+D:\Ivana\FAKS\Master\UPP\UppProject81\Activities\bin\Debug\Activities.dll
+D:\Ivana\FAKS\Master\UPP\UppProject81\Activities\bin\Debug\Activities.pdb
+D:\Ivana\FAKS\Master\UPP\UppProject81\Activities\obj\Debug\DocumentationAndReportActivity.g.xaml
+D:\Ivana\FAKS\Master\UPP\UppProject81\Activities\obj\Debug\Activities.Model_DocumentationAndReportActivity_BeforeInitializeComponentHelper.txt
+D:\Ivana\FAKS\Master\UPP\UppProject81\Activities\obj\Debug\_Activities.g.cs
+D:\Ivana\FAKS\Master\UPP\UppProject81\Activities\obj\Debug\DocumentationAndReportActivity.g.cs
+D:\Ivana\FAKS\Master\UPP\UppProject81\Activities\obj\Debug\Activities.Model_DocumentationAndReportActivity_BeforeInitializeComponentHelper.cs
+D:\Ivana\FAKS\Master\UPP\UppProject81\Activities\obj\Debug\Activities.csproj.XamlGeneratedCodeFileListAbsolute.txt
+D:\Ivana\FAKS\Master\UPP\UppProject81\Activities\obj\Debug\Activities.csproj.XamlGeneratedXamlFileListAbsolute.txt
+D:\Ivana\FAKS\Master\UPP\UppProject81\Activities\obj\Debug\Activities.dll
+D:\Ivana\FAKS\Master\UPP\UppProject81\Activities\obj\Debug\Activities.pdb
+D:\Ivana\FAKS\Master\UPP\UppProject81\Activities\obj\Debug\Activities.Model_DocumentationAndReportActivity_CompiledExpressionRoot.cs
+D:\Ivana\FAKS\Master\UPP\UppProject81\Activities\obj\Debug\AC2C1ABA-CCF6-44D4-8127-588FD4D0A860-DeferredValidationErrors.xml

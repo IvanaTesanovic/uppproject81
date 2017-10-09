@@ -1,0 +1,2 @@
+obj\x86\Debug\UppProcess.g.xaml
+obj\x86\Debug\UppProject81_UppProcess_BeforeInitializeComponentHelper.txt

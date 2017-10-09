@@ -1,0 +1,4 @@
+obj\Debug\_Activities.g.cs
+obj\Debug\DocumentationAndReportActivity.g.cs
+obj\Debug\Activities.Model_DocumentationAndReportActivity_BeforeInitializeComponentHelper.cs
+D:\Ivana\FAKS\Master\UPP\UppProject81\Activities\obj\Debug\Activities.Model_DocumentationAndReportActivity_CompiledExpressionRoot.cs

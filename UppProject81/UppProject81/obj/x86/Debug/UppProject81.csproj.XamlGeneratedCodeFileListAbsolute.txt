@@ -1,0 +1,3 @@
+obj\x86\Debug\_UppProject81.g.cs
+obj\x86\Debug\UppProcess.g.cs
+obj\x86\Debug\UppProject81_UppProcess_BeforeInitializeComponentHelper.cs

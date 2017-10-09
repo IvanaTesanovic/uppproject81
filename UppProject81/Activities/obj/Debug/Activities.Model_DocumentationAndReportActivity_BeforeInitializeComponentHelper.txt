@@ -1,0 +1,2 @@
+DocumentationAndReportActivity.g.xaml
+XamlStaticHelperNamespace._XamlStaticHelper
