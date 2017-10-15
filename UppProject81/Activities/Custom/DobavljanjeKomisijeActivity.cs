@@ -16,7 +16,6 @@ namespace Activities.Custom
         protected override void Execute(CodeActivityContext context)
         {
             PotrebnaIzmenaKomisije.Set(context, false);
-            //ako je potrebna izmena komisije?
             MentorSprecen.Set(context, false);
             BrojSprecenihClanovaKomisije.Set(context, 2);
         }

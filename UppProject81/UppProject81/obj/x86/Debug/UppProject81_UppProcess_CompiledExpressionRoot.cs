@@ -380,15 +380,15 @@ namespace UppProject81 {
                     cachedCompiledDataContext[22] = new UppProcess_TypedDataContext39(locations, activityContext, true);
                 }
                 UppProcess_TypedDataContext39 refDataContext36 = ((UppProcess_TypedDataContext39)(cachedCompiledDataContext[22]));
-                return refDataContext36.GetLocation<int>(refDataContext36.ValueType___Expr36Get, refDataContext36.ValueType___Expr36Set, expressionId, this.rootActivity, activityContext);
+                return refDataContext36.GetLocation<bool>(refDataContext36.ValueType___Expr36Get, refDataContext36.ValueType___Expr36Set, expressionId, this.rootActivity, activityContext);
             }
             if ((expressionId == 37)) {
-                System.Activities.XamlIntegration.CompiledDataContext[] cachedCompiledDataContext = UppProcess_TypedDataContext39_ForReadOnly.GetCompiledDataContextCacheHelper(this.dataContextActivities, activityContext, this.rootActivity, this.forImplementation, 25);
-                if ((cachedCompiledDataContext[23] == null)) {
-                    cachedCompiledDataContext[23] = new UppProcess_TypedDataContext39_ForReadOnly(locations, activityContext, true);
+                System.Activities.XamlIntegration.CompiledDataContext[] cachedCompiledDataContext = UppProcess_TypedDataContext39.GetCompiledDataContextCacheHelper(this.dataContextActivities, activityContext, this.rootActivity, this.forImplementation, 25);
+                if ((cachedCompiledDataContext[22] == null)) {
+                    cachedCompiledDataContext[22] = new UppProcess_TypedDataContext39(locations, activityContext, true);
                 }
-                UppProcess_TypedDataContext39_ForReadOnly valDataContext37 = ((UppProcess_TypedDataContext39_ForReadOnly)(cachedCompiledDataContext[23]));
-                return valDataContext37.ValueType___Expr37Get();
+                UppProcess_TypedDataContext39 refDataContext37 = ((UppProcess_TypedDataContext39)(cachedCompiledDataContext[22]));
+                return refDataContext37.GetLocation<int>(refDataContext37.ValueType___Expr37Get, refDataContext37.ValueType___Expr37Set, expressionId, this.rootActivity, activityContext);
             }
             if ((expressionId == 38)) {
                 System.Activities.XamlIntegration.CompiledDataContext[] cachedCompiledDataContext = UppProcess_TypedDataContext39_ForReadOnly.GetCompiledDataContextCacheHelper(this.dataContextActivities, activityContext, this.rootActivity, this.forImplementation, 25);
@@ -399,11 +399,11 @@ namespace UppProject81 {
                 return valDataContext38.ValueType___Expr38Get();
             }
             if ((expressionId == 39)) {
-                System.Activities.XamlIntegration.CompiledDataContext[] cachedCompiledDataContext = UppProcess_TypedDataContext44_ForReadOnly.GetCompiledDataContextCacheHelper(this.dataContextActivities, activityContext, this.rootActivity, this.forImplementation, 25);
-                if ((cachedCompiledDataContext[24] == null)) {
-                    cachedCompiledDataContext[24] = new UppProcess_TypedDataContext44_ForReadOnly(locations, activityContext, true);
+                System.Activities.XamlIntegration.CompiledDataContext[] cachedCompiledDataContext = UppProcess_TypedDataContext39_ForReadOnly.GetCompiledDataContextCacheHelper(this.dataContextActivities, activityContext, this.rootActivity, this.forImplementation, 25);
+                if ((cachedCompiledDataContext[23] == null)) {
+                    cachedCompiledDataContext[23] = new UppProcess_TypedDataContext39_ForReadOnly(locations, activityContext, true);
                 }
-                UppProcess_TypedDataContext44_ForReadOnly valDataContext39 = ((UppProcess_TypedDataContext44_ForReadOnly)(cachedCompiledDataContext[24]));
+                UppProcess_TypedDataContext39_ForReadOnly valDataContext39 = ((UppProcess_TypedDataContext39_ForReadOnly)(cachedCompiledDataContext[23]));
                 return valDataContext39.ValueType___Expr39Get();
             }
             if ((expressionId == 40)) {
@@ -413,6 +413,14 @@ namespace UppProject81 {
                 }
                 UppProcess_TypedDataContext44_ForReadOnly valDataContext40 = ((UppProcess_TypedDataContext44_ForReadOnly)(cachedCompiledDataContext[24]));
                 return valDataContext40.ValueType___Expr40Get();
+            }
+            if ((expressionId == 41)) {
+                System.Activities.XamlIntegration.CompiledDataContext[] cachedCompiledDataContext = UppProcess_TypedDataContext44_ForReadOnly.GetCompiledDataContextCacheHelper(this.dataContextActivities, activityContext, this.rootActivity, this.forImplementation, 25);
+                if ((cachedCompiledDataContext[24] == null)) {
+                    cachedCompiledDataContext[24] = new UppProcess_TypedDataContext44_ForReadOnly(locations, activityContext, true);
+                }
+                UppProcess_TypedDataContext44_ForReadOnly valDataContext41 = ((UppProcess_TypedDataContext44_ForReadOnly)(cachedCompiledDataContext[24]));
+                return valDataContext41.ValueType___Expr41Get();
             }
             return null;
         }
@@ -570,23 +578,27 @@ namespace UppProject81 {
             }
             if ((expressionId == 36)) {
                 UppProcess_TypedDataContext39 refDataContext36 = new UppProcess_TypedDataContext39(locations, true);
-                return refDataContext36.GetLocation<int>(refDataContext36.ValueType___Expr36Get, refDataContext36.ValueType___Expr36Set);
+                return refDataContext36.GetLocation<bool>(refDataContext36.ValueType___Expr36Get, refDataContext36.ValueType___Expr36Set);
             }
             if ((expressionId == 37)) {
-                UppProcess_TypedDataContext39_ForReadOnly valDataContext37 = new UppProcess_TypedDataContext39_ForReadOnly(locations, true);
-                return valDataContext37.ValueType___Expr37Get();
+                UppProcess_TypedDataContext39 refDataContext37 = new UppProcess_TypedDataContext39(locations, true);
+                return refDataContext37.GetLocation<int>(refDataContext37.ValueType___Expr37Get, refDataContext37.ValueType___Expr37Set);
             }
             if ((expressionId == 38)) {
                 UppProcess_TypedDataContext39_ForReadOnly valDataContext38 = new UppProcess_TypedDataContext39_ForReadOnly(locations, true);
                 return valDataContext38.ValueType___Expr38Get();
             }
             if ((expressionId == 39)) {
-                UppProcess_TypedDataContext44_ForReadOnly valDataContext39 = new UppProcess_TypedDataContext44_ForReadOnly(locations, true);
+                UppProcess_TypedDataContext39_ForReadOnly valDataContext39 = new UppProcess_TypedDataContext39_ForReadOnly(locations, true);
                 return valDataContext39.ValueType___Expr39Get();
             }
             if ((expressionId == 40)) {
                 UppProcess_TypedDataContext44_ForReadOnly valDataContext40 = new UppProcess_TypedDataContext44_ForReadOnly(locations, true);
                 return valDataContext40.ValueType___Expr40Get();
+            }
+            if ((expressionId == 41)) {
+                UppProcess_TypedDataContext44_ForReadOnly valDataContext41 = new UppProcess_TypedDataContext44_ForReadOnly(locations, true);
+                return valDataContext41.ValueType___Expr41Get();
             }
             return null;
         }
@@ -812,33 +824,39 @@ namespace UppProject81 {
                 return true;
             }
             if (((isReference == true) 
-                        && ((expressionText == "BrojSprecenihClanovaKomisijeVar") 
+                        && ((expressionText == "PotrebnaIzmenaKomisijeVar") 
                         && (UppProcess_TypedDataContext39.Validate(locations, true, 0) == true)))) {
                 expressionId = 36;
+                return true;
+            }
+            if (((isReference == true) 
+                        && ((expressionText == "BrojSprecenihClanovaKomisijeVar") 
+                        && (UppProcess_TypedDataContext39.Validate(locations, true, 0) == true)))) {
+                expressionId = 37;
                 return true;
             }
             if (((isReference == false) 
                         && ((expressionText == "PotrebnaIzmenaKomisijeVar") 
                         && (UppProcess_TypedDataContext39_ForReadOnly.Validate(locations, true, 0) == true)))) {
-                expressionId = 37;
+                expressionId = 38;
                 return true;
             }
             if (((isReference == false) 
                         && ((expressionText == "!PotrebnaIzmenaKomisijeVar") 
                         && (UppProcess_TypedDataContext39_ForReadOnly.Validate(locations, true, 0) == true)))) {
-                expressionId = 38;
+                expressionId = 39;
                 return true;
             }
             if (((isReference == false) 
                         && ((expressionText == "!OdlozenaOdbranaVar") 
                         && (UppProcess_TypedDataContext44_ForReadOnly.Validate(locations, true, 0) == true)))) {
-                expressionId = 39;
+                expressionId = 40;
                 return true;
             }
             if (((isReference == false) 
                         && ((expressionText == "OdlozenaOdbranaVar") 
                         && (UppProcess_TypedDataContext44_ForReadOnly.Validate(locations, true, 0) == true)))) {
-                expressionId = 40;
+                expressionId = 41;
                 return true;
             }
             expressionId = -1;
@@ -968,16 +986,19 @@ namespace UppProject81 {
                 return new UppProcess_TypedDataContext39(locationReferences).@__Expr36GetTree();
             }
             if ((expressionId == 37)) {
-                return new UppProcess_TypedDataContext39_ForReadOnly(locationReferences).@__Expr37GetTree();
+                return new UppProcess_TypedDataContext39(locationReferences).@__Expr37GetTree();
             }
             if ((expressionId == 38)) {
                 return new UppProcess_TypedDataContext39_ForReadOnly(locationReferences).@__Expr38GetTree();
             }
             if ((expressionId == 39)) {
-                return new UppProcess_TypedDataContext44_ForReadOnly(locationReferences).@__Expr39GetTree();
+                return new UppProcess_TypedDataContext39_ForReadOnly(locationReferences).@__Expr39GetTree();
             }
             if ((expressionId == 40)) {
                 return new UppProcess_TypedDataContext44_ForReadOnly(locationReferences).@__Expr40GetTree();
+            }
+            if ((expressionId == 41)) {
+                return new UppProcess_TypedDataContext44_ForReadOnly(locationReferences).@__Expr41GetTree();
             }
             return null;
         }
@@ -2733,7 +2754,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr8GetTree() {
                 
-                #line 504 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                #line 509 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                                                               !OdobrenIzvestajUniverzitetVar;
                 
@@ -2745,7 +2766,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr8Get() {
                 
-                #line 504 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                #line 509 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
                 return 
                                                               !OdobrenIzvestajUniverzitetVar;
                 
@@ -3054,7 +3075,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr11GetTree() {
                 
-                #line 464 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                #line 469 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                                                                       PotrebnoProduzenjeRokaZaIstrazivanjaVar;
                 
@@ -3066,7 +3087,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr11Get() {
                 
-                #line 464 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                #line 469 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
                 return 
                                                                       PotrebnoProduzenjeRokaZaIstrazivanjaVar;
                 
@@ -3239,7 +3260,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr12GetTree() {
                 
-                #line 472 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                #line 477 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                                                                                 OdobrenaDodatnaIstrazivanjaVar;
                 
@@ -3251,7 +3272,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr12Get() {
                 
-                #line 472 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                #line 477 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
                 return 
                                                                                 OdobrenaDodatnaIstrazivanjaVar;
                 
@@ -3267,7 +3288,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public void @__Expr12Set(bool value) {
                 
-                #line 472 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                #line 477 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
                 
                                                                                 OdobrenaDodatnaIstrazivanjaVar = value;
                 
@@ -3348,7 +3369,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr13GetTree() {
                 
-                #line 480 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                #line 485 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                                                                               !OdobrenaDodatnaIstrazivanjaVar;
                 
@@ -3360,7 +3381,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr13Get() {
                 
-                #line 480 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                #line 485 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
                 return 
                                                                               !OdobrenaDodatnaIstrazivanjaVar;
                 
@@ -3375,7 +3396,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr14GetTree() {
                 
-                #line 485 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                #line 490 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                                                                               OdobrenaDodatnaIstrazivanjaVar;
                 
@@ -3387,7 +3408,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr14Get() {
                 
-                #line 485 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                #line 490 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
                 return 
                                                                               OdobrenaDodatnaIstrazivanjaVar;
                 
@@ -3875,7 +3896,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr19GetTree() {
                 
-                #line 447 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                #line 452 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                                                                                       PotrebnaDopunaIstrazivanjaVar && !ZavrsenElaboratVar;
                 
@@ -3887,7 +3908,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr19Get() {
                 
-                #line 447 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                #line 452 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
                 return 
                                                                                       PotrebnaDopunaIstrazivanjaVar && !ZavrsenElaboratVar;
                 
@@ -5181,7 +5202,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr26GetTree() {
                 
-                #line 390 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                #line 395 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                                                                                                                                       PrihvacenePrimedbeVar || OcenaDoktorataVar < 6;
                 
@@ -5193,7 +5214,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr26Get() {
                 
-                #line 390 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                #line 395 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
                 return 
                                                                                                                                       PrihvacenePrimedbeVar || OcenaDoktorataVar < 6;
                 
@@ -5431,7 +5452,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr27GetTree() {
                 
-                #line 400 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                #line 405 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                                                                                                                                               !MoguceUklanjanjeNedostatakaVar;
                 
@@ -5443,7 +5464,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr27Get() {
                 
-                #line 400 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                #line 405 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
                 return 
                                                                                                                                               !MoguceUklanjanjeNedostatakaVar;
                 
@@ -5458,7 +5479,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr28GetTree() {
                 
-                #line 405 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                #line 410 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                                                                                                                                               MoguceUklanjanjeNedostatakaVar;
                 
@@ -5470,7 +5491,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr28Get() {
                 
-                #line 405 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                #line 410 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
                 return 
                                                                                                                                               MoguceUklanjanjeNedostatakaVar;
                 
@@ -6427,6 +6448,50 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr36GetTree() {
                 
+                #line 314 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
+                                                                                                                                                                PotrebnaIzmenaKomisijeVar;
+                
+                #line default
+                #line hidden
+                return base.RewriteExpressionTree(expression);
+            }
+            
+            [System.Diagnostics.DebuggerHiddenAttribute()]
+            public bool @__Expr36Get() {
+                
+                #line 314 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                return 
+                                                                                                                                                                PotrebnaIzmenaKomisijeVar;
+                
+                #line default
+                #line hidden
+            }
+            
+            public bool ValueType___Expr36Get() {
+                this.GetValueTypeValues();
+                return this.@__Expr36Get();
+            }
+            
+            [System.Diagnostics.DebuggerHiddenAttribute()]
+            public void @__Expr36Set(bool value) {
+                
+                #line 314 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                
+                                                                                                                                                                PotrebnaIzmenaKomisijeVar = value;
+                
+                #line default
+                #line hidden
+            }
+            
+            public void ValueType___Expr36Set(bool value) {
+                this.GetValueTypeValues();
+                this.@__Expr36Set(value);
+                this.SetValueTypeValues();
+            }
+            
+            internal System.Linq.Expressions.Expression @__Expr37GetTree() {
+                
                 #line 304 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
                 System.Linq.Expressions.Expression<System.Func<int>> expression = () => 
                                                                                                                                                                 BrojSprecenihClanovaKomisijeVar;
@@ -6437,7 +6502,7 @@ namespace UppProject81 {
             }
             
             [System.Diagnostics.DebuggerHiddenAttribute()]
-            public int @__Expr36Get() {
+            public int @__Expr37Get() {
                 
                 #line 304 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
                 return 
@@ -6447,13 +6512,13 @@ namespace UppProject81 {
                 #line hidden
             }
             
-            public int ValueType___Expr36Get() {
+            public int ValueType___Expr37Get() {
                 this.GetValueTypeValues();
-                return this.@__Expr36Get();
+                return this.@__Expr37Get();
             }
             
             [System.Diagnostics.DebuggerHiddenAttribute()]
-            public void @__Expr36Set(int value) {
+            public void @__Expr37Set(int value) {
                 
                 #line 304 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
                 
@@ -6463,9 +6528,9 @@ namespace UppProject81 {
                 #line hidden
             }
             
-            public void ValueType___Expr36Set(int value) {
+            public void ValueType___Expr37Set(int value) {
                 this.GetValueTypeValues();
-                this.@__Expr36Set(value);
+                this.@__Expr37Set(value);
                 this.SetValueTypeValues();
             }
             
@@ -6534,38 +6599,11 @@ namespace UppProject81 {
                 base.SetLocationsOffset(locationsOffset);
             }
             
-            internal System.Linq.Expressions.Expression @__Expr37GetTree() {
-                
-                #line 317 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
-                System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
-                                                                                                                                                              PotrebnaIzmenaKomisijeVar;
-                
-                #line default
-                #line hidden
-                return base.RewriteExpressionTree(expression);
-            }
-            
-            [System.Diagnostics.DebuggerHiddenAttribute()]
-            public bool @__Expr37Get() {
-                
-                #line 317 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
-                return 
-                                                                                                                                                              PotrebnaIzmenaKomisijeVar;
-                
-                #line default
-                #line hidden
-            }
-            
-            public bool ValueType___Expr37Get() {
-                this.GetValueTypeValues();
-                return this.@__Expr37Get();
-            }
-            
             internal System.Linq.Expressions.Expression @__Expr38GetTree() {
                 
                 #line 322 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
-                                                                                                                                                              !PotrebnaIzmenaKomisijeVar;
+                                                                                                                                                              PotrebnaIzmenaKomisijeVar;
                 
                 #line default
                 #line hidden
@@ -6577,7 +6615,7 @@ namespace UppProject81 {
                 
                 #line 322 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
                 return 
-                                                                                                                                                              !PotrebnaIzmenaKomisijeVar;
+                                                                                                                                                              PotrebnaIzmenaKomisijeVar;
                 
                 #line default
                 #line hidden
@@ -6586,6 +6624,33 @@ namespace UppProject81 {
             public bool ValueType___Expr38Get() {
                 this.GetValueTypeValues();
                 return this.@__Expr38Get();
+            }
+            
+            internal System.Linq.Expressions.Expression @__Expr39GetTree() {
+                
+                #line 327 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
+                                                                                                                                                              !PotrebnaIzmenaKomisijeVar;
+                
+                #line default
+                #line hidden
+                return base.RewriteExpressionTree(expression);
+            }
+            
+            [System.Diagnostics.DebuggerHiddenAttribute()]
+            public bool @__Expr39Get() {
+                
+                #line 327 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                return 
+                                                                                                                                                              !PotrebnaIzmenaKomisijeVar;
+                
+                #line default
+                #line hidden
+            }
+            
+            public bool ValueType___Expr39Get() {
+                this.GetValueTypeValues();
+                return this.@__Expr39Get();
             }
             
             protected override void GetValueTypeValues() {
@@ -7105,38 +7170,11 @@ namespace UppProject81 {
                 base.SetLocationsOffset(locationsOffset);
             }
             
-            internal System.Linq.Expressions.Expression @__Expr39GetTree() {
-                
-                #line 329 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
-                System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
-                                                                                                                                                                      !OdlozenaOdbranaVar;
-                
-                #line default
-                #line hidden
-                return base.RewriteExpressionTree(expression);
-            }
-            
-            [System.Diagnostics.DebuggerHiddenAttribute()]
-            public bool @__Expr39Get() {
-                
-                #line 329 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
-                return 
-                                                                                                                                                                      !OdlozenaOdbranaVar;
-                
-                #line default
-                #line hidden
-            }
-            
-            public bool ValueType___Expr39Get() {
-                this.GetValueTypeValues();
-                return this.@__Expr39Get();
-            }
-            
             internal System.Linq.Expressions.Expression @__Expr40GetTree() {
                 
-                #line 357 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                #line 334 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
-                                                                                                                                                                      OdlozenaOdbranaVar;
+                                                                                                                                                                      !OdlozenaOdbranaVar;
                 
                 #line default
                 #line hidden
@@ -7146,9 +7184,9 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr40Get() {
                 
-                #line 357 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                #line 334 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
                 return 
-                                                                                                                                                                      OdlozenaOdbranaVar;
+                                                                                                                                                                      !OdlozenaOdbranaVar;
                 
                 #line default
                 #line hidden
@@ -7157,6 +7195,33 @@ namespace UppProject81 {
             public bool ValueType___Expr40Get() {
                 this.GetValueTypeValues();
                 return this.@__Expr40Get();
+            }
+            
+            internal System.Linq.Expressions.Expression @__Expr41GetTree() {
+                
+                #line 362 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
+                                                                                                                                                                      OdlozenaOdbranaVar;
+                
+                #line default
+                #line hidden
+                return base.RewriteExpressionTree(expression);
+            }
+            
+            [System.Diagnostics.DebuggerHiddenAttribute()]
+            public bool @__Expr41Get() {
+                
+                #line 362 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                return 
+                                                                                                                                                                      OdlozenaOdbranaVar;
+                
+                #line default
+                #line hidden
+            }
+            
+            public bool ValueType___Expr41Get() {
+                this.GetValueTypeValues();
+                return this.@__Expr41Get();
             }
             
             protected override void GetValueTypeValues() {
