@@ -46,11 +46,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Custom\DokumentacijaActivity.cs" />
+    <Compile Include="Custom\DonosenjeOdlukeOKomisijiActivity.cs" />
     <Compile Include="Custom\IstrazivanjaActivity.cs" />
+    <Compile Include="Custom\KreiranjeIzvestajaOOceniActivity.cs" />
+    <Compile Include="Custom\ObavestavanjeClanaKomisije.cs" />
     <Compile Include="Custom\OdobravanjeDodatnihIstrazivanjaActivity.cs" />
     <Compile Include="Custom\OdobravanjeIzvestajaNNVeceActivity.cs" />
     <Compile Include="Custom\OdobravanjeIzvestajaUniverzitetActivity.cs" />
+    <Compile Include="Custom\PredlaganjaSastavaKomisijeZaOcenuActivity.cs" />
     <Compile Include="Custom\PregledanjeElaborataActivity.cs" />
+    <Compile Include="Custom\PribavljanjeSaglasnostiUniverzitetaActivity.cs" />
+    <Compile Include="Custom\PrikupljanjePrimedbiActivity.cs" />
+    <Compile Include="Custom\RazmatranjeIzvestajaOOceniActivity.cs" />
+    <Compile Include="Custom\UklanjanjeNedostatakaActivity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
