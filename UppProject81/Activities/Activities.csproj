@@ -47,8 +47,10 @@
   <ItemGroup>
     <Compile Include="Custom\DokumentacijaActivity.cs" />
     <Compile Include="Custom\IstrazivanjaActivity.cs" />
+    <Compile Include="Custom\OdobravanjeDodatnihIstrazivanjaActivity.cs" />
     <Compile Include="Custom\OdobravanjeIzvestajaNNVeceActivity.cs" />
     <Compile Include="Custom\OdobravanjeIzvestajaUniverzitetActivity.cs" />
+    <Compile Include="Custom\PregledanjeElaborataActivity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

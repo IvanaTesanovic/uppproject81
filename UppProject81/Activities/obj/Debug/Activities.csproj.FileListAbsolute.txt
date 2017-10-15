@@ -15,3 +15,4 @@ E:\Faks\GitRepos\uppproject81\UppProject81\Activities\bin\Debug\Activities.dll
 E:\Faks\GitRepos\uppproject81\UppProject81\Activities\bin\Debug\Activities.pdb
 E:\Faks\GitRepos\uppproject81\UppProject81\Activities\obj\Debug\Activities.dll
 E:\Faks\GitRepos\uppproject81\UppProject81\Activities\obj\Debug\Activities.pdb
+E:\Faks\GitRepos\uppproject81\UppProject81\Activities\obj\Debug\Activities.csprojResolveAssemblyReference.cache

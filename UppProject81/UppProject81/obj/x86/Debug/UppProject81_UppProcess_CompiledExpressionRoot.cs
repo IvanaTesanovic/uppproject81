@@ -87,7 +87,7 @@ namespace UppProject81 {
                 this.dataContextActivities = UppProcess_TypedDataContext3.GetDataContextActivitiesHelper(this.rootActivity, this.forImplementation);
             }
             if ((expressionId == 0)) {
-                System.Activities.XamlIntegration.CompiledDataContext[] cachedCompiledDataContext = UppProcess_TypedDataContext3.GetCompiledDataContextCacheHelper(this.dataContextActivities, activityContext, this.rootActivity, this.forImplementation, 6);
+                System.Activities.XamlIntegration.CompiledDataContext[] cachedCompiledDataContext = UppProcess_TypedDataContext3.GetCompiledDataContextCacheHelper(this.dataContextActivities, activityContext, this.rootActivity, this.forImplementation, 11);
                 if ((cachedCompiledDataContext[0] == null)) {
                     cachedCompiledDataContext[0] = new UppProcess_TypedDataContext3(locations, activityContext, true);
                 }
@@ -95,7 +95,7 @@ namespace UppProject81 {
                 return refDataContext0.GetLocation<bool>(refDataContext0.ValueType___Expr0Get, refDataContext0.ValueType___Expr0Set, expressionId, this.rootActivity, activityContext);
             }
             if ((expressionId == 1)) {
-                System.Activities.XamlIntegration.CompiledDataContext[] cachedCompiledDataContext = UppProcess_TypedDataContext3_ForReadOnly.GetCompiledDataContextCacheHelper(this.dataContextActivities, activityContext, this.rootActivity, this.forImplementation, 6);
+                System.Activities.XamlIntegration.CompiledDataContext[] cachedCompiledDataContext = UppProcess_TypedDataContext3_ForReadOnly.GetCompiledDataContextCacheHelper(this.dataContextActivities, activityContext, this.rootActivity, this.forImplementation, 11);
                 if ((cachedCompiledDataContext[1] == null)) {
                     cachedCompiledDataContext[1] = new UppProcess_TypedDataContext3_ForReadOnly(locations, activityContext, true);
                 }
@@ -103,7 +103,7 @@ namespace UppProject81 {
                 return valDataContext1.ValueType___Expr1Get();
             }
             if ((expressionId == 2)) {
-                System.Activities.XamlIntegration.CompiledDataContext[] cachedCompiledDataContext = UppProcess_TypedDataContext3_ForReadOnly.GetCompiledDataContextCacheHelper(this.dataContextActivities, activityContext, this.rootActivity, this.forImplementation, 6);
+                System.Activities.XamlIntegration.CompiledDataContext[] cachedCompiledDataContext = UppProcess_TypedDataContext3_ForReadOnly.GetCompiledDataContextCacheHelper(this.dataContextActivities, activityContext, this.rootActivity, this.forImplementation, 11);
                 if ((cachedCompiledDataContext[1] == null)) {
                     cachedCompiledDataContext[1] = new UppProcess_TypedDataContext3_ForReadOnly(locations, activityContext, true);
                 }
@@ -111,7 +111,7 @@ namespace UppProject81 {
                 return valDataContext2.ValueType___Expr2Get();
             }
             if ((expressionId == 3)) {
-                System.Activities.XamlIntegration.CompiledDataContext[] cachedCompiledDataContext = UppProcess_TypedDataContext10.GetCompiledDataContextCacheHelper(this.dataContextActivities, activityContext, this.rootActivity, this.forImplementation, 6);
+                System.Activities.XamlIntegration.CompiledDataContext[] cachedCompiledDataContext = UppProcess_TypedDataContext10.GetCompiledDataContextCacheHelper(this.dataContextActivities, activityContext, this.rootActivity, this.forImplementation, 11);
                 if ((cachedCompiledDataContext[2] == null)) {
                     cachedCompiledDataContext[2] = new UppProcess_TypedDataContext10(locations, activityContext, true);
                 }
@@ -119,7 +119,7 @@ namespace UppProject81 {
                 return refDataContext3.GetLocation<bool>(refDataContext3.ValueType___Expr3Get, refDataContext3.ValueType___Expr3Set, expressionId, this.rootActivity, activityContext);
             }
             if ((expressionId == 4)) {
-                System.Activities.XamlIntegration.CompiledDataContext[] cachedCompiledDataContext = UppProcess_TypedDataContext10_ForReadOnly.GetCompiledDataContextCacheHelper(this.dataContextActivities, activityContext, this.rootActivity, this.forImplementation, 6);
+                System.Activities.XamlIntegration.CompiledDataContext[] cachedCompiledDataContext = UppProcess_TypedDataContext10_ForReadOnly.GetCompiledDataContextCacheHelper(this.dataContextActivities, activityContext, this.rootActivity, this.forImplementation, 11);
                 if ((cachedCompiledDataContext[3] == null)) {
                     cachedCompiledDataContext[3] = new UppProcess_TypedDataContext10_ForReadOnly(locations, activityContext, true);
                 }
@@ -127,7 +127,7 @@ namespace UppProject81 {
                 return valDataContext4.ValueType___Expr4Get();
             }
             if ((expressionId == 5)) {
-                System.Activities.XamlIntegration.CompiledDataContext[] cachedCompiledDataContext = UppProcess_TypedDataContext10_ForReadOnly.GetCompiledDataContextCacheHelper(this.dataContextActivities, activityContext, this.rootActivity, this.forImplementation, 6);
+                System.Activities.XamlIntegration.CompiledDataContext[] cachedCompiledDataContext = UppProcess_TypedDataContext10_ForReadOnly.GetCompiledDataContextCacheHelper(this.dataContextActivities, activityContext, this.rootActivity, this.forImplementation, 11);
                 if ((cachedCompiledDataContext[3] == null)) {
                     cachedCompiledDataContext[3] = new UppProcess_TypedDataContext10_ForReadOnly(locations, activityContext, true);
                 }
@@ -135,7 +135,7 @@ namespace UppProject81 {
                 return valDataContext5.ValueType___Expr5Get();
             }
             if ((expressionId == 6)) {
-                System.Activities.XamlIntegration.CompiledDataContext[] cachedCompiledDataContext = UppProcess_TypedDataContext12.GetCompiledDataContextCacheHelper(this.dataContextActivities, activityContext, this.rootActivity, this.forImplementation, 6);
+                System.Activities.XamlIntegration.CompiledDataContext[] cachedCompiledDataContext = UppProcess_TypedDataContext12.GetCompiledDataContextCacheHelper(this.dataContextActivities, activityContext, this.rootActivity, this.forImplementation, 11);
                 if ((cachedCompiledDataContext[4] == null)) {
                     cachedCompiledDataContext[4] = new UppProcess_TypedDataContext12(locations, activityContext, true);
                 }
@@ -143,7 +143,7 @@ namespace UppProject81 {
                 return refDataContext6.GetLocation<bool>(refDataContext6.ValueType___Expr6Get, refDataContext6.ValueType___Expr6Set, expressionId, this.rootActivity, activityContext);
             }
             if ((expressionId == 7)) {
-                System.Activities.XamlIntegration.CompiledDataContext[] cachedCompiledDataContext = UppProcess_TypedDataContext12_ForReadOnly.GetCompiledDataContextCacheHelper(this.dataContextActivities, activityContext, this.rootActivity, this.forImplementation, 6);
+                System.Activities.XamlIntegration.CompiledDataContext[] cachedCompiledDataContext = UppProcess_TypedDataContext12_ForReadOnly.GetCompiledDataContextCacheHelper(this.dataContextActivities, activityContext, this.rootActivity, this.forImplementation, 11);
                 if ((cachedCompiledDataContext[5] == null)) {
                     cachedCompiledDataContext[5] = new UppProcess_TypedDataContext12_ForReadOnly(locations, activityContext, true);
                 }
@@ -151,12 +151,68 @@ namespace UppProject81 {
                 return valDataContext7.ValueType___Expr7Get();
             }
             if ((expressionId == 8)) {
-                System.Activities.XamlIntegration.CompiledDataContext[] cachedCompiledDataContext = UppProcess_TypedDataContext12_ForReadOnly.GetCompiledDataContextCacheHelper(this.dataContextActivities, activityContext, this.rootActivity, this.forImplementation, 6);
+                System.Activities.XamlIntegration.CompiledDataContext[] cachedCompiledDataContext = UppProcess_TypedDataContext12_ForReadOnly.GetCompiledDataContextCacheHelper(this.dataContextActivities, activityContext, this.rootActivity, this.forImplementation, 11);
                 if ((cachedCompiledDataContext[5] == null)) {
                     cachedCompiledDataContext[5] = new UppProcess_TypedDataContext12_ForReadOnly(locations, activityContext, true);
                 }
                 UppProcess_TypedDataContext12_ForReadOnly valDataContext8 = ((UppProcess_TypedDataContext12_ForReadOnly)(cachedCompiledDataContext[5]));
                 return valDataContext8.ValueType___Expr8Get();
+            }
+            if ((expressionId == 9)) {
+                System.Activities.XamlIntegration.CompiledDataContext[] cachedCompiledDataContext = UppProcess_TypedDataContext14.GetCompiledDataContextCacheHelper(this.dataContextActivities, activityContext, this.rootActivity, this.forImplementation, 11);
+                if ((cachedCompiledDataContext[6] == null)) {
+                    cachedCompiledDataContext[6] = new UppProcess_TypedDataContext14(locations, activityContext, true);
+                }
+                UppProcess_TypedDataContext14 refDataContext9 = ((UppProcess_TypedDataContext14)(cachedCompiledDataContext[6]));
+                return refDataContext9.GetLocation<bool>(refDataContext9.ValueType___Expr9Get, refDataContext9.ValueType___Expr9Set, expressionId, this.rootActivity, activityContext);
+            }
+            if ((expressionId == 10)) {
+                System.Activities.XamlIntegration.CompiledDataContext[] cachedCompiledDataContext = UppProcess_TypedDataContext14_ForReadOnly.GetCompiledDataContextCacheHelper(this.dataContextActivities, activityContext, this.rootActivity, this.forImplementation, 11);
+                if ((cachedCompiledDataContext[7] == null)) {
+                    cachedCompiledDataContext[7] = new UppProcess_TypedDataContext14_ForReadOnly(locations, activityContext, true);
+                }
+                UppProcess_TypedDataContext14_ForReadOnly valDataContext10 = ((UppProcess_TypedDataContext14_ForReadOnly)(cachedCompiledDataContext[7]));
+                return valDataContext10.ValueType___Expr10Get();
+            }
+            if ((expressionId == 11)) {
+                System.Activities.XamlIntegration.CompiledDataContext[] cachedCompiledDataContext = UppProcess_TypedDataContext14_ForReadOnly.GetCompiledDataContextCacheHelper(this.dataContextActivities, activityContext, this.rootActivity, this.forImplementation, 11);
+                if ((cachedCompiledDataContext[7] == null)) {
+                    cachedCompiledDataContext[7] = new UppProcess_TypedDataContext14_ForReadOnly(locations, activityContext, true);
+                }
+                UppProcess_TypedDataContext14_ForReadOnly valDataContext11 = ((UppProcess_TypedDataContext14_ForReadOnly)(cachedCompiledDataContext[7]));
+                return valDataContext11.ValueType___Expr11Get();
+            }
+            if ((expressionId == 12)) {
+                System.Activities.XamlIntegration.CompiledDataContext[] cachedCompiledDataContext = UppProcess_TypedDataContext16.GetCompiledDataContextCacheHelper(this.dataContextActivities, activityContext, this.rootActivity, this.forImplementation, 11);
+                if ((cachedCompiledDataContext[8] == null)) {
+                    cachedCompiledDataContext[8] = new UppProcess_TypedDataContext16(locations, activityContext, true);
+                }
+                UppProcess_TypedDataContext16 refDataContext12 = ((UppProcess_TypedDataContext16)(cachedCompiledDataContext[8]));
+                return refDataContext12.GetLocation<bool>(refDataContext12.ValueType___Expr12Get, refDataContext12.ValueType___Expr12Set, expressionId, this.rootActivity, activityContext);
+            }
+            if ((expressionId == 13)) {
+                System.Activities.XamlIntegration.CompiledDataContext[] cachedCompiledDataContext = UppProcess_TypedDataContext16_ForReadOnly.GetCompiledDataContextCacheHelper(this.dataContextActivities, activityContext, this.rootActivity, this.forImplementation, 11);
+                if ((cachedCompiledDataContext[9] == null)) {
+                    cachedCompiledDataContext[9] = new UppProcess_TypedDataContext16_ForReadOnly(locations, activityContext, true);
+                }
+                UppProcess_TypedDataContext16_ForReadOnly valDataContext13 = ((UppProcess_TypedDataContext16_ForReadOnly)(cachedCompiledDataContext[9]));
+                return valDataContext13.ValueType___Expr13Get();
+            }
+            if ((expressionId == 14)) {
+                System.Activities.XamlIntegration.CompiledDataContext[] cachedCompiledDataContext = UppProcess_TypedDataContext16_ForReadOnly.GetCompiledDataContextCacheHelper(this.dataContextActivities, activityContext, this.rootActivity, this.forImplementation, 11);
+                if ((cachedCompiledDataContext[9] == null)) {
+                    cachedCompiledDataContext[9] = new UppProcess_TypedDataContext16_ForReadOnly(locations, activityContext, true);
+                }
+                UppProcess_TypedDataContext16_ForReadOnly valDataContext14 = ((UppProcess_TypedDataContext16_ForReadOnly)(cachedCompiledDataContext[9]));
+                return valDataContext14.ValueType___Expr14Get();
+            }
+            if ((expressionId == 15)) {
+                System.Activities.XamlIntegration.CompiledDataContext[] cachedCompiledDataContext = UppProcess_TypedDataContext19_ForReadOnly.GetCompiledDataContextCacheHelper(this.dataContextActivities, activityContext, this.rootActivity, this.forImplementation, 11);
+                if ((cachedCompiledDataContext[10] == null)) {
+                    cachedCompiledDataContext[10] = new UppProcess_TypedDataContext19_ForReadOnly(locations, activityContext, true);
+                }
+                UppProcess_TypedDataContext19_ForReadOnly valDataContext15 = ((UppProcess_TypedDataContext19_ForReadOnly)(cachedCompiledDataContext[10]));
+                return valDataContext15.ValueType___Expr15Get();
             }
             return null;
         }
@@ -203,6 +259,34 @@ namespace UppProject81 {
             if ((expressionId == 8)) {
                 UppProcess_TypedDataContext12_ForReadOnly valDataContext8 = new UppProcess_TypedDataContext12_ForReadOnly(locations, true);
                 return valDataContext8.ValueType___Expr8Get();
+            }
+            if ((expressionId == 9)) {
+                UppProcess_TypedDataContext14 refDataContext9 = new UppProcess_TypedDataContext14(locations, true);
+                return refDataContext9.GetLocation<bool>(refDataContext9.ValueType___Expr9Get, refDataContext9.ValueType___Expr9Set);
+            }
+            if ((expressionId == 10)) {
+                UppProcess_TypedDataContext14_ForReadOnly valDataContext10 = new UppProcess_TypedDataContext14_ForReadOnly(locations, true);
+                return valDataContext10.ValueType___Expr10Get();
+            }
+            if ((expressionId == 11)) {
+                UppProcess_TypedDataContext14_ForReadOnly valDataContext11 = new UppProcess_TypedDataContext14_ForReadOnly(locations, true);
+                return valDataContext11.ValueType___Expr11Get();
+            }
+            if ((expressionId == 12)) {
+                UppProcess_TypedDataContext16 refDataContext12 = new UppProcess_TypedDataContext16(locations, true);
+                return refDataContext12.GetLocation<bool>(refDataContext12.ValueType___Expr12Get, refDataContext12.ValueType___Expr12Set);
+            }
+            if ((expressionId == 13)) {
+                UppProcess_TypedDataContext16_ForReadOnly valDataContext13 = new UppProcess_TypedDataContext16_ForReadOnly(locations, true);
+                return valDataContext13.ValueType___Expr13Get();
+            }
+            if ((expressionId == 14)) {
+                UppProcess_TypedDataContext16_ForReadOnly valDataContext14 = new UppProcess_TypedDataContext16_ForReadOnly(locations, true);
+                return valDataContext14.ValueType___Expr14Get();
+            }
+            if ((expressionId == 15)) {
+                UppProcess_TypedDataContext19_ForReadOnly valDataContext15 = new UppProcess_TypedDataContext19_ForReadOnly(locations, true);
+                return valDataContext15.ValueType___Expr15Get();
             }
             return null;
         }
@@ -265,6 +349,48 @@ namespace UppProject81 {
                 expressionId = 8;
                 return true;
             }
+            if (((isReference == true) 
+                        && ((expressionText == "PotrebnoProduzenjeRokaZaIstrazivanjaVar") 
+                        && (UppProcess_TypedDataContext14.Validate(locations, true, 0) == true)))) {
+                expressionId = 9;
+                return true;
+            }
+            if (((isReference == false) 
+                        && ((expressionText == "!PotrebnoProduzenjeRokaZaIstrazivanjaVar") 
+                        && (UppProcess_TypedDataContext14_ForReadOnly.Validate(locations, true, 0) == true)))) {
+                expressionId = 10;
+                return true;
+            }
+            if (((isReference == false) 
+                        && ((expressionText == "PotrebnoProduzenjeRokaZaIstrazivanjaVar") 
+                        && (UppProcess_TypedDataContext14_ForReadOnly.Validate(locations, true, 0) == true)))) {
+                expressionId = 11;
+                return true;
+            }
+            if (((isReference == true) 
+                        && ((expressionText == "OdobrenaDodatnaIstrazivanjaVar") 
+                        && (UppProcess_TypedDataContext16.Validate(locations, true, 0) == true)))) {
+                expressionId = 12;
+                return true;
+            }
+            if (((isReference == false) 
+                        && ((expressionText == "!OdobrenaDodatnaIstrazivanjaVar") 
+                        && (UppProcess_TypedDataContext16_ForReadOnly.Validate(locations, true, 0) == true)))) {
+                expressionId = 13;
+                return true;
+            }
+            if (((isReference == false) 
+                        && ((expressionText == "OdobrenaDodatnaIstrazivanjaVar") 
+                        && (UppProcess_TypedDataContext16_ForReadOnly.Validate(locations, true, 0) == true)))) {
+                expressionId = 14;
+                return true;
+            }
+            if (((isReference == false) 
+                        && ((expressionText == "ZavrsenElaboratVar && !OdobrenaDopunaIstrazivanjaVar") 
+                        && (UppProcess_TypedDataContext19_ForReadOnly.Validate(locations, true, 0) == true)))) {
+                expressionId = 15;
+                return true;
+            }
             expressionId = -1;
             return false;
         }
@@ -306,6 +432,27 @@ namespace UppProject81 {
             }
             if ((expressionId == 8)) {
                 return new UppProcess_TypedDataContext12_ForReadOnly(locationReferences).@__Expr8GetTree();
+            }
+            if ((expressionId == 9)) {
+                return new UppProcess_TypedDataContext14(locationReferences).@__Expr9GetTree();
+            }
+            if ((expressionId == 10)) {
+                return new UppProcess_TypedDataContext14_ForReadOnly(locationReferences).@__Expr10GetTree();
+            }
+            if ((expressionId == 11)) {
+                return new UppProcess_TypedDataContext14_ForReadOnly(locationReferences).@__Expr11GetTree();
+            }
+            if ((expressionId == 12)) {
+                return new UppProcess_TypedDataContext16(locationReferences).@__Expr12GetTree();
+            }
+            if ((expressionId == 13)) {
+                return new UppProcess_TypedDataContext16_ForReadOnly(locationReferences).@__Expr13GetTree();
+            }
+            if ((expressionId == 14)) {
+                return new UppProcess_TypedDataContext16_ForReadOnly(locationReferences).@__Expr14GetTree();
+            }
+            if ((expressionId == 15)) {
+                return new UppProcess_TypedDataContext19_ForReadOnly(locationReferences).@__Expr15GetTree();
             }
             return null;
         }
@@ -1858,7 +2005,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr8GetTree() {
                 
-                #line 297 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                #line 342 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                                                               !OdobrenIzvestajUniverzitetVar;
                 
@@ -1870,7 +2017,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr8Get() {
                 
-                #line 297 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                #line 342 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
                 return 
                                                               !OdobrenIzvestajUniverzitetVar;
                 
@@ -2000,11 +2147,13 @@ namespace UppProject81 {
         [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Activities", "4.0.0.0")]
         [System.ComponentModel.BrowsableAttribute(false)]
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
-        private class UppProcess_TypedDataContext14 : UppProcess_TypedDataContext1 {
+        private class UppProcess_TypedDataContext14 : UppProcess_TypedDataContext13 {
             
             private int locationsOffset;
             
             private static int expectedLocationsCount;
+            
+            protected bool PotrebnoProduzenjeRokaZaIstrazivanjaVar;
             
             public UppProcess_TypedDataContext14(System.Collections.Generic.IList<System.Activities.LocationReference> locations, System.Activities.ActivityContext activityContext, bool computelocationsOffset) : 
                     base(locations, activityContext, false) {
@@ -2033,24 +2182,87 @@ namespace UppProject81 {
                 base.SetLocationsOffset(locationsOffset);
             }
             
+            internal System.Linq.Expressions.Expression @__Expr9GetTree() {
+                
+                #line 128 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
+                                                                        PotrebnoProduzenjeRokaZaIstrazivanjaVar;
+                
+                #line default
+                #line hidden
+                return base.RewriteExpressionTree(expression);
+            }
+            
+            [System.Diagnostics.DebuggerHiddenAttribute()]
+            public bool @__Expr9Get() {
+                
+                #line 128 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                return 
+                                                                        PotrebnoProduzenjeRokaZaIstrazivanjaVar;
+                
+                #line default
+                #line hidden
+            }
+            
+            public bool ValueType___Expr9Get() {
+                this.GetValueTypeValues();
+                return this.@__Expr9Get();
+            }
+            
+            [System.Diagnostics.DebuggerHiddenAttribute()]
+            public void @__Expr9Set(bool value) {
+                
+                #line 128 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                
+                                                                        PotrebnoProduzenjeRokaZaIstrazivanjaVar = value;
+                
+                #line default
+                #line hidden
+            }
+            
+            public void ValueType___Expr9Set(bool value) {
+                this.GetValueTypeValues();
+                this.@__Expr9Set(value);
+                this.SetValueTypeValues();
+            }
+            
+            protected override void GetValueTypeValues() {
+                this.PotrebnoProduzenjeRokaZaIstrazivanjaVar = ((bool)(this.GetVariableValue((0 + locationsOffset))));
+                base.GetValueTypeValues();
+            }
+            
+            protected override void SetValueTypeValues() {
+                this.SetVariableValue((0 + locationsOffset), this.PotrebnoProduzenjeRokaZaIstrazivanjaVar);
+                base.SetValueTypeValues();
+            }
+            
             public new static bool Validate(System.Collections.Generic.IList<System.Activities.LocationReference> locationReferences, bool validateLocationCount, int offset) {
                 if (((validateLocationCount == true) 
-                            && (locationReferences.Count < 0))) {
+                            && (locationReferences.Count < 1))) {
                     return false;
                 }
-                expectedLocationsCount = 0;
-                return UppProcess_TypedDataContext1.Validate(locationReferences, false, offset);
+                if ((validateLocationCount == true)) {
+                    offset = (locationReferences.Count - 1);
+                }
+                expectedLocationsCount = 1;
+                if (((locationReferences[(offset + 0)].Name != "PotrebnoProduzenjeRokaZaIstrazivanjaVar") 
+                            || (locationReferences[(offset + 0)].Type != typeof(bool)))) {
+                    return false;
+                }
+                return UppProcess_TypedDataContext13.Validate(locationReferences, false, offset);
             }
         }
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Activities", "4.0.0.0")]
         [System.ComponentModel.BrowsableAttribute(false)]
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
-        private class UppProcess_TypedDataContext14_ForReadOnly : UppProcess_TypedDataContext1_ForReadOnly {
+        private class UppProcess_TypedDataContext14_ForReadOnly : UppProcess_TypedDataContext13_ForReadOnly {
             
             private int locationsOffset;
             
             private static int expectedLocationsCount;
+            
+            protected bool PotrebnoProduzenjeRokaZaIstrazivanjaVar;
             
             public UppProcess_TypedDataContext14_ForReadOnly(System.Collections.Generic.IList<System.Activities.LocationReference> locations, System.Activities.ActivityContext activityContext, bool computelocationsOffset) : 
                     base(locations, activityContext, false) {
@@ -2079,13 +2291,79 @@ namespace UppProject81 {
                 base.SetLocationsOffset(locationsOffset);
             }
             
+            internal System.Linq.Expressions.Expression @__Expr10GetTree() {
+                
+                #line 136 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
+                                                                      !PotrebnoProduzenjeRokaZaIstrazivanjaVar;
+                
+                #line default
+                #line hidden
+                return base.RewriteExpressionTree(expression);
+            }
+            
+            [System.Diagnostics.DebuggerHiddenAttribute()]
+            public bool @__Expr10Get() {
+                
+                #line 136 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                return 
+                                                                      !PotrebnoProduzenjeRokaZaIstrazivanjaVar;
+                
+                #line default
+                #line hidden
+            }
+            
+            public bool ValueType___Expr10Get() {
+                this.GetValueTypeValues();
+                return this.@__Expr10Get();
+            }
+            
+            internal System.Linq.Expressions.Expression @__Expr11GetTree() {
+                
+                #line 302 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
+                                                                      PotrebnoProduzenjeRokaZaIstrazivanjaVar;
+                
+                #line default
+                #line hidden
+                return base.RewriteExpressionTree(expression);
+            }
+            
+            [System.Diagnostics.DebuggerHiddenAttribute()]
+            public bool @__Expr11Get() {
+                
+                #line 302 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                return 
+                                                                      PotrebnoProduzenjeRokaZaIstrazivanjaVar;
+                
+                #line default
+                #line hidden
+            }
+            
+            public bool ValueType___Expr11Get() {
+                this.GetValueTypeValues();
+                return this.@__Expr11Get();
+            }
+            
+            protected override void GetValueTypeValues() {
+                this.PotrebnoProduzenjeRokaZaIstrazivanjaVar = ((bool)(this.GetVariableValue((0 + locationsOffset))));
+                base.GetValueTypeValues();
+            }
+            
             public new static bool Validate(System.Collections.Generic.IList<System.Activities.LocationReference> locationReferences, bool validateLocationCount, int offset) {
                 if (((validateLocationCount == true) 
-                            && (locationReferences.Count < 0))) {
+                            && (locationReferences.Count < 1))) {
                     return false;
                 }
-                expectedLocationsCount = 0;
-                return UppProcess_TypedDataContext1_ForReadOnly.Validate(locationReferences, false, offset);
+                if ((validateLocationCount == true)) {
+                    offset = (locationReferences.Count - 1);
+                }
+                expectedLocationsCount = 1;
+                if (((locationReferences[(offset + 0)].Name != "PotrebnoProduzenjeRokaZaIstrazivanjaVar") 
+                            || (locationReferences[(offset + 0)].Type != typeof(bool)))) {
+                    return false;
+                }
+                return UppProcess_TypedDataContext13_ForReadOnly.Validate(locationReferences, false, offset);
             }
         }
         
@@ -2184,11 +2462,13 @@ namespace UppProject81 {
         [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Activities", "4.0.0.0")]
         [System.ComponentModel.BrowsableAttribute(false)]
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
-        private class UppProcess_TypedDataContext16 : UppProcess_TypedDataContext1 {
+        private class UppProcess_TypedDataContext16 : UppProcess_TypedDataContext15 {
             
             private int locationsOffset;
             
             private static int expectedLocationsCount;
+            
+            protected bool OdobrenaDodatnaIstrazivanjaVar;
             
             public UppProcess_TypedDataContext16(System.Collections.Generic.IList<System.Activities.LocationReference> locations, System.Activities.ActivityContext activityContext, bool computelocationsOffset) : 
                     base(locations, activityContext, false) {
@@ -2217,24 +2497,87 @@ namespace UppProject81 {
                 base.SetLocationsOffset(locationsOffset);
             }
             
+            internal System.Linq.Expressions.Expression @__Expr12GetTree() {
+                
+                #line 310 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
+                                                                                OdobrenaDodatnaIstrazivanjaVar;
+                
+                #line default
+                #line hidden
+                return base.RewriteExpressionTree(expression);
+            }
+            
+            [System.Diagnostics.DebuggerHiddenAttribute()]
+            public bool @__Expr12Get() {
+                
+                #line 310 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                return 
+                                                                                OdobrenaDodatnaIstrazivanjaVar;
+                
+                #line default
+                #line hidden
+            }
+            
+            public bool ValueType___Expr12Get() {
+                this.GetValueTypeValues();
+                return this.@__Expr12Get();
+            }
+            
+            [System.Diagnostics.DebuggerHiddenAttribute()]
+            public void @__Expr12Set(bool value) {
+                
+                #line 310 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                
+                                                                                OdobrenaDodatnaIstrazivanjaVar = value;
+                
+                #line default
+                #line hidden
+            }
+            
+            public void ValueType___Expr12Set(bool value) {
+                this.GetValueTypeValues();
+                this.@__Expr12Set(value);
+                this.SetValueTypeValues();
+            }
+            
+            protected override void GetValueTypeValues() {
+                this.OdobrenaDodatnaIstrazivanjaVar = ((bool)(this.GetVariableValue((0 + locationsOffset))));
+                base.GetValueTypeValues();
+            }
+            
+            protected override void SetValueTypeValues() {
+                this.SetVariableValue((0 + locationsOffset), this.OdobrenaDodatnaIstrazivanjaVar);
+                base.SetValueTypeValues();
+            }
+            
             public new static bool Validate(System.Collections.Generic.IList<System.Activities.LocationReference> locationReferences, bool validateLocationCount, int offset) {
                 if (((validateLocationCount == true) 
-                            && (locationReferences.Count < 0))) {
+                            && (locationReferences.Count < 1))) {
                     return false;
                 }
-                expectedLocationsCount = 0;
-                return UppProcess_TypedDataContext1.Validate(locationReferences, false, offset);
+                if ((validateLocationCount == true)) {
+                    offset = (locationReferences.Count - 1);
+                }
+                expectedLocationsCount = 1;
+                if (((locationReferences[(offset + 0)].Name != "OdobrenaDodatnaIstrazivanjaVar") 
+                            || (locationReferences[(offset + 0)].Type != typeof(bool)))) {
+                    return false;
+                }
+                return UppProcess_TypedDataContext15.Validate(locationReferences, false, offset);
             }
         }
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Activities", "4.0.0.0")]
         [System.ComponentModel.BrowsableAttribute(false)]
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
-        private class UppProcess_TypedDataContext16_ForReadOnly : UppProcess_TypedDataContext1_ForReadOnly {
+        private class UppProcess_TypedDataContext16_ForReadOnly : UppProcess_TypedDataContext15_ForReadOnly {
             
             private int locationsOffset;
             
             private static int expectedLocationsCount;
+            
+            protected bool OdobrenaDodatnaIstrazivanjaVar;
             
             public UppProcess_TypedDataContext16_ForReadOnly(System.Collections.Generic.IList<System.Activities.LocationReference> locations, System.Activities.ActivityContext activityContext, bool computelocationsOffset) : 
                     base(locations, activityContext, false) {
@@ -2263,13 +2606,79 @@ namespace UppProject81 {
                 base.SetLocationsOffset(locationsOffset);
             }
             
+            internal System.Linq.Expressions.Expression @__Expr13GetTree() {
+                
+                #line 318 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
+                                                                              !OdobrenaDodatnaIstrazivanjaVar;
+                
+                #line default
+                #line hidden
+                return base.RewriteExpressionTree(expression);
+            }
+            
+            [System.Diagnostics.DebuggerHiddenAttribute()]
+            public bool @__Expr13Get() {
+                
+                #line 318 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                return 
+                                                                              !OdobrenaDodatnaIstrazivanjaVar;
+                
+                #line default
+                #line hidden
+            }
+            
+            public bool ValueType___Expr13Get() {
+                this.GetValueTypeValues();
+                return this.@__Expr13Get();
+            }
+            
+            internal System.Linq.Expressions.Expression @__Expr14GetTree() {
+                
+                #line 323 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
+                                                                              OdobrenaDodatnaIstrazivanjaVar;
+                
+                #line default
+                #line hidden
+                return base.RewriteExpressionTree(expression);
+            }
+            
+            [System.Diagnostics.DebuggerHiddenAttribute()]
+            public bool @__Expr14Get() {
+                
+                #line 323 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                return 
+                                                                              OdobrenaDodatnaIstrazivanjaVar;
+                
+                #line default
+                #line hidden
+            }
+            
+            public bool ValueType___Expr14Get() {
+                this.GetValueTypeValues();
+                return this.@__Expr14Get();
+            }
+            
+            protected override void GetValueTypeValues() {
+                this.OdobrenaDodatnaIstrazivanjaVar = ((bool)(this.GetVariableValue((0 + locationsOffset))));
+                base.GetValueTypeValues();
+            }
+            
             public new static bool Validate(System.Collections.Generic.IList<System.Activities.LocationReference> locationReferences, bool validateLocationCount, int offset) {
                 if (((validateLocationCount == true) 
-                            && (locationReferences.Count < 0))) {
+                            && (locationReferences.Count < 1))) {
                     return false;
                 }
-                expectedLocationsCount = 0;
-                return UppProcess_TypedDataContext1_ForReadOnly.Validate(locationReferences, false, offset);
+                if ((validateLocationCount == true)) {
+                    offset = (locationReferences.Count - 1);
+                }
+                expectedLocationsCount = 1;
+                if (((locationReferences[(offset + 0)].Name != "OdobrenaDodatnaIstrazivanjaVar") 
+                            || (locationReferences[(offset + 0)].Type != typeof(bool)))) {
+                    return false;
+                }
+                return UppProcess_TypedDataContext15_ForReadOnly.Validate(locationReferences, false, offset);
             }
         }
         
@@ -2460,11 +2869,15 @@ namespace UppProject81 {
         [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Activities", "4.0.0.0")]
         [System.ComponentModel.BrowsableAttribute(false)]
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
-        private class UppProcess_TypedDataContext19 : UppProcess_TypedDataContext1 {
+        private class UppProcess_TypedDataContext19 : UppProcess_TypedDataContext18 {
             
             private int locationsOffset;
             
             private static int expectedLocationsCount;
+            
+            protected bool OdobrenaDopunaIstrazivanjaVar;
+            
+            protected bool ZavrsenElaboratVar;
             
             public UppProcess_TypedDataContext19(System.Collections.Generic.IList<System.Activities.LocationReference> locations, System.Activities.ActivityContext activityContext, bool computelocationsOffset) : 
                     base(locations, activityContext, false) {
@@ -2493,24 +2906,51 @@ namespace UppProject81 {
                 base.SetLocationsOffset(locationsOffset);
             }
             
+            protected override void GetValueTypeValues() {
+                this.OdobrenaDopunaIstrazivanjaVar = ((bool)(this.GetVariableValue((0 + locationsOffset))));
+                this.ZavrsenElaboratVar = ((bool)(this.GetVariableValue((1 + locationsOffset))));
+                base.GetValueTypeValues();
+            }
+            
+            protected override void SetValueTypeValues() {
+                this.SetVariableValue((0 + locationsOffset), this.OdobrenaDopunaIstrazivanjaVar);
+                this.SetVariableValue((1 + locationsOffset), this.ZavrsenElaboratVar);
+                base.SetValueTypeValues();
+            }
+            
             public new static bool Validate(System.Collections.Generic.IList<System.Activities.LocationReference> locationReferences, bool validateLocationCount, int offset) {
                 if (((validateLocationCount == true) 
-                            && (locationReferences.Count < 0))) {
+                            && (locationReferences.Count < 2))) {
                     return false;
                 }
-                expectedLocationsCount = 0;
-                return UppProcess_TypedDataContext1.Validate(locationReferences, false, offset);
+                if ((validateLocationCount == true)) {
+                    offset = (locationReferences.Count - 2);
+                }
+                expectedLocationsCount = 2;
+                if (((locationReferences[(offset + 0)].Name != "OdobrenaDopunaIstrazivanjaVar") 
+                            || (locationReferences[(offset + 0)].Type != typeof(bool)))) {
+                    return false;
+                }
+                if (((locationReferences[(offset + 1)].Name != "ZavrsenElaboratVar") 
+                            || (locationReferences[(offset + 1)].Type != typeof(bool)))) {
+                    return false;
+                }
+                return UppProcess_TypedDataContext18.Validate(locationReferences, false, offset);
             }
         }
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Activities", "4.0.0.0")]
         [System.ComponentModel.BrowsableAttribute(false)]
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
-        private class UppProcess_TypedDataContext19_ForReadOnly : UppProcess_TypedDataContext1_ForReadOnly {
+        private class UppProcess_TypedDataContext19_ForReadOnly : UppProcess_TypedDataContext18_ForReadOnly {
             
             private int locationsOffset;
             
             private static int expectedLocationsCount;
+            
+            protected bool OdobrenaDopunaIstrazivanjaVar;
+            
+            protected bool ZavrsenElaboratVar;
             
             public UppProcess_TypedDataContext19_ForReadOnly(System.Collections.Generic.IList<System.Activities.LocationReference> locations, System.Activities.ActivityContext activityContext, bool computelocationsOffset) : 
                     base(locations, activityContext, false) {
@@ -2539,13 +2979,57 @@ namespace UppProject81 {
                 base.SetLocationsOffset(locationsOffset);
             }
             
+            internal System.Linq.Expressions.Expression @__Expr15GetTree() {
+                
+                #line 156 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
+                                                                                      ZavrsenElaboratVar && !OdobrenaDopunaIstrazivanjaVar;
+                
+                #line default
+                #line hidden
+                return base.RewriteExpressionTree(expression);
+            }
+            
+            [System.Diagnostics.DebuggerHiddenAttribute()]
+            public bool @__Expr15Get() {
+                
+                #line 156 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\UPPPROCESS.XAML"
+                return 
+                                                                                      ZavrsenElaboratVar && !OdobrenaDopunaIstrazivanjaVar;
+                
+                #line default
+                #line hidden
+            }
+            
+            public bool ValueType___Expr15Get() {
+                this.GetValueTypeValues();
+                return this.@__Expr15Get();
+            }
+            
+            protected override void GetValueTypeValues() {
+                this.OdobrenaDopunaIstrazivanjaVar = ((bool)(this.GetVariableValue((0 + locationsOffset))));
+                this.ZavrsenElaboratVar = ((bool)(this.GetVariableValue((1 + locationsOffset))));
+                base.GetValueTypeValues();
+            }
+            
             public new static bool Validate(System.Collections.Generic.IList<System.Activities.LocationReference> locationReferences, bool validateLocationCount, int offset) {
                 if (((validateLocationCount == true) 
-                            && (locationReferences.Count < 0))) {
+                            && (locationReferences.Count < 2))) {
                     return false;
                 }
-                expectedLocationsCount = 0;
-                return UppProcess_TypedDataContext1_ForReadOnly.Validate(locationReferences, false, offset);
+                if ((validateLocationCount == true)) {
+                    offset = (locationReferences.Count - 2);
+                }
+                expectedLocationsCount = 2;
+                if (((locationReferences[(offset + 0)].Name != "OdobrenaDopunaIstrazivanjaVar") 
+                            || (locationReferences[(offset + 0)].Type != typeof(bool)))) {
+                    return false;
+                }
+                if (((locationReferences[(offset + 1)].Name != "ZavrsenElaboratVar") 
+                            || (locationReferences[(offset + 1)].Type != typeof(bool)))) {
+                    return false;
+                }
+                return UppProcess_TypedDataContext18_ForReadOnly.Validate(locationReferences, false, offset);
             }
         }
         
@@ -3723,6 +4207,282 @@ namespace UppProject81 {
             }
             
             public UppProcess_TypedDataContext32_ForReadOnly(System.Collections.Generic.IList<System.Activities.LocationReference> locationReferences) : 
+                    base(locationReferences) {
+            }
+            
+            internal new static System.Activities.XamlIntegration.CompiledDataContext[] GetCompiledDataContextCacheHelper(object dataContextActivities, System.Activities.ActivityContext activityContext, System.Activities.Activity compiledRoot, bool forImplementation, int compiledDataContextCount) {
+                return System.Activities.XamlIntegration.CompiledDataContext.GetCompiledDataContextCache(dataContextActivities, activityContext, compiledRoot, forImplementation, compiledDataContextCount);
+            }
+            
+            public new virtual void SetLocationsOffset(int locationsOffsetValue) {
+                locationsOffset = locationsOffsetValue;
+                base.SetLocationsOffset(locationsOffset);
+            }
+            
+            public new static bool Validate(System.Collections.Generic.IList<System.Activities.LocationReference> locationReferences, bool validateLocationCount, int offset) {
+                if (((validateLocationCount == true) 
+                            && (locationReferences.Count < 0))) {
+                    return false;
+                }
+                expectedLocationsCount = 0;
+                return UppProcess_TypedDataContext1_ForReadOnly.Validate(locationReferences, false, offset);
+            }
+        }
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Activities", "4.0.0.0")]
+        [System.ComponentModel.BrowsableAttribute(false)]
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
+        private class UppProcess_TypedDataContext33 : UppProcess_TypedDataContext1 {
+            
+            private int locationsOffset;
+            
+            private static int expectedLocationsCount;
+            
+            public UppProcess_TypedDataContext33(System.Collections.Generic.IList<System.Activities.LocationReference> locations, System.Activities.ActivityContext activityContext, bool computelocationsOffset) : 
+                    base(locations, activityContext, false) {
+                if ((computelocationsOffset == true)) {
+                    this.SetLocationsOffset((locations.Count - expectedLocationsCount));
+                }
+            }
+            
+            public UppProcess_TypedDataContext33(System.Collections.Generic.IList<System.Activities.Location> locations, bool computelocationsOffset) : 
+                    base(locations, false) {
+                if ((computelocationsOffset == true)) {
+                    this.SetLocationsOffset((locations.Count - expectedLocationsCount));
+                }
+            }
+            
+            public UppProcess_TypedDataContext33(System.Collections.Generic.IList<System.Activities.LocationReference> locationReferences) : 
+                    base(locationReferences) {
+            }
+            
+            internal new static System.Activities.XamlIntegration.CompiledDataContext[] GetCompiledDataContextCacheHelper(object dataContextActivities, System.Activities.ActivityContext activityContext, System.Activities.Activity compiledRoot, bool forImplementation, int compiledDataContextCount) {
+                return System.Activities.XamlIntegration.CompiledDataContext.GetCompiledDataContextCache(dataContextActivities, activityContext, compiledRoot, forImplementation, compiledDataContextCount);
+            }
+            
+            public new virtual void SetLocationsOffset(int locationsOffsetValue) {
+                locationsOffset = locationsOffsetValue;
+                base.SetLocationsOffset(locationsOffset);
+            }
+            
+            public new static bool Validate(System.Collections.Generic.IList<System.Activities.LocationReference> locationReferences, bool validateLocationCount, int offset) {
+                if (((validateLocationCount == true) 
+                            && (locationReferences.Count < 0))) {
+                    return false;
+                }
+                expectedLocationsCount = 0;
+                return UppProcess_TypedDataContext1.Validate(locationReferences, false, offset);
+            }
+        }
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Activities", "4.0.0.0")]
+        [System.ComponentModel.BrowsableAttribute(false)]
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
+        private class UppProcess_TypedDataContext33_ForReadOnly : UppProcess_TypedDataContext1_ForReadOnly {
+            
+            private int locationsOffset;
+            
+            private static int expectedLocationsCount;
+            
+            public UppProcess_TypedDataContext33_ForReadOnly(System.Collections.Generic.IList<System.Activities.LocationReference> locations, System.Activities.ActivityContext activityContext, bool computelocationsOffset) : 
+                    base(locations, activityContext, false) {
+                if ((computelocationsOffset == true)) {
+                    this.SetLocationsOffset((locations.Count - expectedLocationsCount));
+                }
+            }
+            
+            public UppProcess_TypedDataContext33_ForReadOnly(System.Collections.Generic.IList<System.Activities.Location> locations, bool computelocationsOffset) : 
+                    base(locations, false) {
+                if ((computelocationsOffset == true)) {
+                    this.SetLocationsOffset((locations.Count - expectedLocationsCount));
+                }
+            }
+            
+            public UppProcess_TypedDataContext33_ForReadOnly(System.Collections.Generic.IList<System.Activities.LocationReference> locationReferences) : 
+                    base(locationReferences) {
+            }
+            
+            internal new static System.Activities.XamlIntegration.CompiledDataContext[] GetCompiledDataContextCacheHelper(object dataContextActivities, System.Activities.ActivityContext activityContext, System.Activities.Activity compiledRoot, bool forImplementation, int compiledDataContextCount) {
+                return System.Activities.XamlIntegration.CompiledDataContext.GetCompiledDataContextCache(dataContextActivities, activityContext, compiledRoot, forImplementation, compiledDataContextCount);
+            }
+            
+            public new virtual void SetLocationsOffset(int locationsOffsetValue) {
+                locationsOffset = locationsOffsetValue;
+                base.SetLocationsOffset(locationsOffset);
+            }
+            
+            public new static bool Validate(System.Collections.Generic.IList<System.Activities.LocationReference> locationReferences, bool validateLocationCount, int offset) {
+                if (((validateLocationCount == true) 
+                            && (locationReferences.Count < 0))) {
+                    return false;
+                }
+                expectedLocationsCount = 0;
+                return UppProcess_TypedDataContext1_ForReadOnly.Validate(locationReferences, false, offset);
+            }
+        }
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Activities", "4.0.0.0")]
+        [System.ComponentModel.BrowsableAttribute(false)]
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
+        private class UppProcess_TypedDataContext34 : UppProcess_TypedDataContext1 {
+            
+            private int locationsOffset;
+            
+            private static int expectedLocationsCount;
+            
+            public UppProcess_TypedDataContext34(System.Collections.Generic.IList<System.Activities.LocationReference> locations, System.Activities.ActivityContext activityContext, bool computelocationsOffset) : 
+                    base(locations, activityContext, false) {
+                if ((computelocationsOffset == true)) {
+                    this.SetLocationsOffset((locations.Count - expectedLocationsCount));
+                }
+            }
+            
+            public UppProcess_TypedDataContext34(System.Collections.Generic.IList<System.Activities.Location> locations, bool computelocationsOffset) : 
+                    base(locations, false) {
+                if ((computelocationsOffset == true)) {
+                    this.SetLocationsOffset((locations.Count - expectedLocationsCount));
+                }
+            }
+            
+            public UppProcess_TypedDataContext34(System.Collections.Generic.IList<System.Activities.LocationReference> locationReferences) : 
+                    base(locationReferences) {
+            }
+            
+            internal new static System.Activities.XamlIntegration.CompiledDataContext[] GetCompiledDataContextCacheHelper(object dataContextActivities, System.Activities.ActivityContext activityContext, System.Activities.Activity compiledRoot, bool forImplementation, int compiledDataContextCount) {
+                return System.Activities.XamlIntegration.CompiledDataContext.GetCompiledDataContextCache(dataContextActivities, activityContext, compiledRoot, forImplementation, compiledDataContextCount);
+            }
+            
+            public new virtual void SetLocationsOffset(int locationsOffsetValue) {
+                locationsOffset = locationsOffsetValue;
+                base.SetLocationsOffset(locationsOffset);
+            }
+            
+            public new static bool Validate(System.Collections.Generic.IList<System.Activities.LocationReference> locationReferences, bool validateLocationCount, int offset) {
+                if (((validateLocationCount == true) 
+                            && (locationReferences.Count < 0))) {
+                    return false;
+                }
+                expectedLocationsCount = 0;
+                return UppProcess_TypedDataContext1.Validate(locationReferences, false, offset);
+            }
+        }
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Activities", "4.0.0.0")]
+        [System.ComponentModel.BrowsableAttribute(false)]
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
+        private class UppProcess_TypedDataContext34_ForReadOnly : UppProcess_TypedDataContext1_ForReadOnly {
+            
+            private int locationsOffset;
+            
+            private static int expectedLocationsCount;
+            
+            public UppProcess_TypedDataContext34_ForReadOnly(System.Collections.Generic.IList<System.Activities.LocationReference> locations, System.Activities.ActivityContext activityContext, bool computelocationsOffset) : 
+                    base(locations, activityContext, false) {
+                if ((computelocationsOffset == true)) {
+                    this.SetLocationsOffset((locations.Count - expectedLocationsCount));
+                }
+            }
+            
+            public UppProcess_TypedDataContext34_ForReadOnly(System.Collections.Generic.IList<System.Activities.Location> locations, bool computelocationsOffset) : 
+                    base(locations, false) {
+                if ((computelocationsOffset == true)) {
+                    this.SetLocationsOffset((locations.Count - expectedLocationsCount));
+                }
+            }
+            
+            public UppProcess_TypedDataContext34_ForReadOnly(System.Collections.Generic.IList<System.Activities.LocationReference> locationReferences) : 
+                    base(locationReferences) {
+            }
+            
+            internal new static System.Activities.XamlIntegration.CompiledDataContext[] GetCompiledDataContextCacheHelper(object dataContextActivities, System.Activities.ActivityContext activityContext, System.Activities.Activity compiledRoot, bool forImplementation, int compiledDataContextCount) {
+                return System.Activities.XamlIntegration.CompiledDataContext.GetCompiledDataContextCache(dataContextActivities, activityContext, compiledRoot, forImplementation, compiledDataContextCount);
+            }
+            
+            public new virtual void SetLocationsOffset(int locationsOffsetValue) {
+                locationsOffset = locationsOffsetValue;
+                base.SetLocationsOffset(locationsOffset);
+            }
+            
+            public new static bool Validate(System.Collections.Generic.IList<System.Activities.LocationReference> locationReferences, bool validateLocationCount, int offset) {
+                if (((validateLocationCount == true) 
+                            && (locationReferences.Count < 0))) {
+                    return false;
+                }
+                expectedLocationsCount = 0;
+                return UppProcess_TypedDataContext1_ForReadOnly.Validate(locationReferences, false, offset);
+            }
+        }
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Activities", "4.0.0.0")]
+        [System.ComponentModel.BrowsableAttribute(false)]
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
+        private class UppProcess_TypedDataContext35 : UppProcess_TypedDataContext1 {
+            
+            private int locationsOffset;
+            
+            private static int expectedLocationsCount;
+            
+            public UppProcess_TypedDataContext35(System.Collections.Generic.IList<System.Activities.LocationReference> locations, System.Activities.ActivityContext activityContext, bool computelocationsOffset) : 
+                    base(locations, activityContext, false) {
+                if ((computelocationsOffset == true)) {
+                    this.SetLocationsOffset((locations.Count - expectedLocationsCount));
+                }
+            }
+            
+            public UppProcess_TypedDataContext35(System.Collections.Generic.IList<System.Activities.Location> locations, bool computelocationsOffset) : 
+                    base(locations, false) {
+                if ((computelocationsOffset == true)) {
+                    this.SetLocationsOffset((locations.Count - expectedLocationsCount));
+                }
+            }
+            
+            public UppProcess_TypedDataContext35(System.Collections.Generic.IList<System.Activities.LocationReference> locationReferences) : 
+                    base(locationReferences) {
+            }
+            
+            internal new static System.Activities.XamlIntegration.CompiledDataContext[] GetCompiledDataContextCacheHelper(object dataContextActivities, System.Activities.ActivityContext activityContext, System.Activities.Activity compiledRoot, bool forImplementation, int compiledDataContextCount) {
+                return System.Activities.XamlIntegration.CompiledDataContext.GetCompiledDataContextCache(dataContextActivities, activityContext, compiledRoot, forImplementation, compiledDataContextCount);
+            }
+            
+            public new virtual void SetLocationsOffset(int locationsOffsetValue) {
+                locationsOffset = locationsOffsetValue;
+                base.SetLocationsOffset(locationsOffset);
+            }
+            
+            public new static bool Validate(System.Collections.Generic.IList<System.Activities.LocationReference> locationReferences, bool validateLocationCount, int offset) {
+                if (((validateLocationCount == true) 
+                            && (locationReferences.Count < 0))) {
+                    return false;
+                }
+                expectedLocationsCount = 0;
+                return UppProcess_TypedDataContext1.Validate(locationReferences, false, offset);
+            }
+        }
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Activities", "4.0.0.0")]
+        [System.ComponentModel.BrowsableAttribute(false)]
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
+        private class UppProcess_TypedDataContext35_ForReadOnly : UppProcess_TypedDataContext1_ForReadOnly {
+            
+            private int locationsOffset;
+            
+            private static int expectedLocationsCount;
+            
+            public UppProcess_TypedDataContext35_ForReadOnly(System.Collections.Generic.IList<System.Activities.LocationReference> locations, System.Activities.ActivityContext activityContext, bool computelocationsOffset) : 
+                    base(locations, activityContext, false) {
+                if ((computelocationsOffset == true)) {
+                    this.SetLocationsOffset((locations.Count - expectedLocationsCount));
+                }
+            }
+            
+            public UppProcess_TypedDataContext35_ForReadOnly(System.Collections.Generic.IList<System.Activities.Location> locations, bool computelocationsOffset) : 
+                    base(locations, false) {
+                if ((computelocationsOffset == true)) {
+                    this.SetLocationsOffset((locations.Count - expectedLocationsCount));
+                }
+            }
+            
+            public UppProcess_TypedDataContext35_ForReadOnly(System.Collections.Generic.IList<System.Activities.LocationReference> locationReferences) : 
                     base(locationReferences) {
             }
             
