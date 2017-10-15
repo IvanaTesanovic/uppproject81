@@ -112,100 +112,91 @@
                                                                 <mca:CSharpValue x:TypeArguments="x:Boolean">OdobrenIzvestajUniverzitetVar</mca:CSharpValue>
                                                               </Transition.Condition>
                                                               <Transition.To>
-                                                                <State x:Name="__ReferenceID1" DisplayName="Istrazivanja">
+                                                                <State x:Name="__ReferenceID4" DisplayName="Istrazivanja">
                                                                   <State.Transitions>
                                                                     <Transition DisplayName="">
                                                                       <Transition.To>
-                                                                        <State x:Name="__ReferenceID13" DisplayName="Zahtevanje produzenja roka za istrazivanja">
+                                                                        <State x:Name="__ReferenceID5" DisplayName="Podnosenje Elaborata">
                                                                           <State.Transitions>
-                                                                            <Transition DisplayName="" To="{x:Reference __ReferenceID1}" />
                                                                             <Transition DisplayName="">
                                                                               <Transition.To>
-                                                                                <State x:Name="__ReferenceID5" DisplayName="Podnosenje Elaborata">
+                                                                                <State x:Name="__ReferenceID14" DisplayName="Pregledanje elaborata">
                                                                                   <State.Transitions>
                                                                                     <Transition DisplayName="">
                                                                                       <Transition.To>
-                                                                                        <State x:Name="__ReferenceID14" DisplayName="Pregledanje elaborata">
+                                                                                        <State x:Name="__ReferenceID15" DisplayName="Javljanje NN vecu o obustavljanju doktorata">
+                                                                                          <State.Transitions>
+                                                                                            <Transition DisplayName="" To="{x:Reference __ReferenceID0}" />
+                                                                                          </State.Transitions>
+                                                                                        </State>
+                                                                                      </Transition.To>
+                                                                                    </Transition>
+                                                                                    <Transition DisplayName="">
+                                                                                      <Transition.To>
+                                                                                        <State x:Name="__ReferenceID16" DisplayName="Obrada i predaja Elaborata">
                                                                                           <State.Transitions>
                                                                                             <Transition DisplayName="">
                                                                                               <Transition.To>
-                                                                                                <State x:Name="__ReferenceID15" DisplayName="Javljanje NN vecu o obustavljanju doktorata">
-                                                                                                  <State.Transitions>
-                                                                                                    <Transition DisplayName="" To="{x:Reference __ReferenceID0}" />
-                                                                                                  </State.Transitions>
-                                                                                                </State>
-                                                                                              </Transition.To>
-                                                                                            </Transition>
-                                                                                            <Transition DisplayName="">
-                                                                                              <Transition.To>
-                                                                                                <State x:Name="__ReferenceID16" DisplayName="Obrada i predaja Elaborata">
+                                                                                                <State x:Name="__ReferenceID2" DisplayName="Predlaganje sastava Komisije za ocenu">
                                                                                                   <State.Transitions>
                                                                                                     <Transition DisplayName="">
                                                                                                       <Transition.To>
-                                                                                                        <State x:Name="__ReferenceID3" DisplayName="Predlaganje sastava Komisije za ocenu">
+                                                                                                        <State x:Name="__ReferenceID17" DisplayName="Donosenje odluke o Komisiji i dopuna">
                                                                                                           <State.Transitions>
                                                                                                             <Transition DisplayName="">
                                                                                                               <Transition.To>
-                                                                                                                <State x:Name="__ReferenceID17" DisplayName="Donosenje odluke o Komisiji i dopuna">
+                                                                                                                <State x:Name="__ReferenceID18" DisplayName="Obavestavanje clanova komisije">
                                                                                                                   <State.Transitions>
-                                                                                                                    <Transition DisplayName="">
+                                                                                                                    <Transition DisplayName="T22">
                                                                                                                       <Transition.To>
-                                                                                                                        <State x:Name="__ReferenceID18" DisplayName="Obavestavanje clanova komisije">
+                                                                                                                        <State x:Name="__ReferenceID19" DisplayName="Kreiranje izvestaja o oceni">
+                                                                                                                          <State.Exit>
+                                                                                                                            <Delay Duration="00:00:05" />
+                                                                                                                          </State.Exit>
                                                                                                                           <State.Transitions>
-                                                                                                                            <Transition DisplayName="T22">
+                                                                                                                            <Transition DisplayName="T2">
                                                                                                                               <Transition.To>
-                                                                                                                                <State x:Name="__ReferenceID19" DisplayName="Kreiranje izvestaja o oceni">
-                                                                                                                                  <State.Exit>
-                                                                                                                                    <Delay Duration="00:00:05" />
-                                                                                                                                  </State.Exit>
+                                                                                                                                <State x:Name="__ReferenceID20" DisplayName="Dostavljanje doktorata na uvid javnosti i prikupljanje primedbi">
+                                                                                                                                  <State.Entry>
+                                                                                                                                    <Delay Duration="00:00:10" />
+                                                                                                                                  </State.Entry>
                                                                                                                                   <State.Transitions>
-                                                                                                                                    <Transition DisplayName="T2">
+                                                                                                                                    <Transition DisplayName="">
                                                                                                                                       <Transition.To>
-                                                                                                                                        <State x:Name="__ReferenceID20" DisplayName="Dostavljanje doktorata na uvid javnosti i prikupljanje primedbi">
-                                                                                                                                          <State.Entry>
-                                                                                                                                            <Delay Duration="00:00:10" />
-                                                                                                                                          </State.Entry>
+                                                                                                                                        <State x:Name="__ReferenceID22" DisplayName="Razmatranje izvestaja o oceni">
                                                                                                                                           <State.Transitions>
                                                                                                                                             <Transition DisplayName="">
                                                                                                                                               <Transition.To>
-                                                                                                                                                <State x:Name="__ReferenceID22" DisplayName="Razmatranje izvestaja o oceni">
+                                                                                                                                                <State x:Name="__ReferenceID1" DisplayName="FinalState" IsFinal="True" />
+                                                                                                                                              </Transition.To>
+                                                                                                                                            </Transition>
+                                                                                                                                            <Transition DisplayName="">
+                                                                                                                                              <Transition.To>
+                                                                                                                                                <State x:Name="__ReferenceID23" DisplayName="Pribavljanje saglasnosti Univerziteta">
                                                                                                                                                   <State.Transitions>
-                                                                                                                                                    <Transition DisplayName="">
+                                                                                                                                                    <Transition DisplayName="" To="{x:Reference __ReferenceID1}" />
+                                                                                                                                                    <Transition DisplayName="T30">
                                                                                                                                                       <Transition.To>
-                                                                                                                                                        <State x:Name="__ReferenceID2" DisplayName="FinalState" IsFinal="True" />
-                                                                                                                                                      </Transition.To>
-                                                                                                                                                    </Transition>
-                                                                                                                                                    <Transition DisplayName="">
-                                                                                                                                                      <Transition.To>
-                                                                                                                                                        <State x:Name="__ReferenceID23" DisplayName="Pribavljanje saglasnosti Univerziteta">
+                                                                                                                                                        <State x:Name="__ReferenceID3" DisplayName="Dobavljanje komisije">
                                                                                                                                                           <State.Transitions>
                                                                                                                                                             <Transition DisplayName="" To="{x:Reference __ReferenceID2}" />
-                                                                                                                                                            <Transition DisplayName="T30">
+                                                                                                                                                            <Transition DisplayName="">
                                                                                                                                                               <Transition.To>
-                                                                                                                                                                <State x:Name="__ReferenceID4" DisplayName="Dobavljanje komisije">
+                                                                                                                                                                <State x:Name="__ReferenceID27" DisplayName="Odlucivanje o odbrani">
                                                                                                                                                                   <State.Transitions>
-                                                                                                                                                                    <Transition DisplayName="" To="{x:Reference __ReferenceID3}" />
                                                                                                                                                                     <Transition DisplayName="">
                                                                                                                                                                       <Transition.To>
-                                                                                                                                                                        <State x:Name="__ReferenceID27" DisplayName="Odlucivanje o odbrani">
+                                                                                                                                                                        <State x:Name="__ReferenceID24" DisplayName="Pripremanje odbrane">
                                                                                                                                                                           <State.Transitions>
-                                                                                                                                                                            <Transition DisplayName="">
+                                                                                                                                                                            <Transition DisplayName="T32">
                                                                                                                                                                               <Transition.To>
-                                                                                                                                                                                <State x:Name="__ReferenceID24" DisplayName="Pripremanje odbrane">
+                                                                                                                                                                                <State x:Name="__ReferenceID25" DisplayName="Odbrana">
                                                                                                                                                                                   <State.Transitions>
-                                                                                                                                                                                    <Transition DisplayName="T32">
+                                                                                                                                                                                    <Transition DisplayName="T34">
                                                                                                                                                                                       <Transition.To>
-                                                                                                                                                                                        <State x:Name="__ReferenceID25" DisplayName="Odbrana">
+                                                                                                                                                                                        <State x:Name="__ReferenceID26" DisplayName="Zakljucak">
                                                                                                                                                                                           <State.Transitions>
-                                                                                                                                                                                            <Transition DisplayName="T34">
-                                                                                                                                                                                              <Transition.To>
-                                                                                                                                                                                                <State x:Name="__ReferenceID26" DisplayName="Zakljucak">
-                                                                                                                                                                                                  <State.Transitions>
-                                                                                                                                                                                                    <Transition DisplayName="" To="{x:Reference __ReferenceID0}" />
-                                                                                                                                                                                                  </State.Transitions>
-                                                                                                                                                                                                </State>
-                                                                                                                                                                                              </Transition.To>
-                                                                                                                                                                                            </Transition>
+                                                                                                                                                                                            <Transition DisplayName="" To="{x:Reference __ReferenceID0}" />
                                                                                                                                                                                           </State.Transitions>
                                                                                                                                                                                         </State>
                                                                                                                                                                                       </Transition.To>
@@ -214,11 +205,11 @@
                                                                                                                                                                                 </State>
                                                                                                                                                                               </Transition.To>
                                                                                                                                                                             </Transition>
-                                                                                                                                                                            <Transition DisplayName="" To="{x:Reference __ReferenceID4}" />
                                                                                                                                                                           </State.Transitions>
                                                                                                                                                                         </State>
                                                                                                                                                                       </Transition.To>
                                                                                                                                                                     </Transition>
+                                                                                                                                                                    <Transition DisplayName="" To="{x:Reference __ReferenceID3}" />
                                                                                                                                                                   </State.Transitions>
                                                                                                                                                                 </State>
                                                                                                                                                               </Transition.To>
@@ -231,16 +222,16 @@
                                                                                                                                                 </State>
                                                                                                                                               </Transition.To>
                                                                                                                                             </Transition>
-                                                                                                                                            <Transition DisplayName="T26">
-                                                                                                                                              <Transition.To>
-                                                                                                                                                <State x:Name="__ReferenceID21" DisplayName="Odlucivanje o uklanjanju nedostataka">
-                                                                                                                                                  <State.Transitions>
-                                                                                                                                                    <Transition DisplayName="" To="{x:Reference __ReferenceID1}" />
-                                                                                                                                                    <Transition DisplayName="" To="{x:Reference __ReferenceID2}" />
-                                                                                                                                                  </State.Transitions>
-                                                                                                                                                </State>
-                                                                                                                                              </Transition.To>
-                                                                                                                                            </Transition>
+                                                                                                                                          </State.Transitions>
+                                                                                                                                        </State>
+                                                                                                                                      </Transition.To>
+                                                                                                                                    </Transition>
+                                                                                                                                    <Transition DisplayName="T26">
+                                                                                                                                      <Transition.To>
+                                                                                                                                        <State x:Name="__ReferenceID21" DisplayName="Odlucivanje o uklanjanju nedostataka">
+                                                                                                                                          <State.Transitions>
+                                                                                                                                            <Transition DisplayName="" To="{x:Reference __ReferenceID4}" />
+                                                                                                                                            <Transition DisplayName="" To="{x:Reference __ReferenceID1}" />
                                                                                                                                           </State.Transitions>
                                                                                                                                         </State>
                                                                                                                                       </Transition.To>
@@ -253,11 +244,11 @@
                                                                                                                         </State>
                                                                                                                       </Transition.To>
                                                                                                                     </Transition>
-                                                                                                                    <Transition DisplayName="" To="{x:Reference __ReferenceID3}" />
                                                                                                                   </State.Transitions>
                                                                                                                 </State>
                                                                                                               </Transition.To>
                                                                                                             </Transition>
+                                                                                                            <Transition DisplayName="" To="{x:Reference __ReferenceID2}" />
                                                                                                           </State.Transitions>
                                                                                                         </State>
                                                                                                       </Transition.To>
@@ -270,6 +261,7 @@
                                                                                         </State>
                                                                                       </Transition.To>
                                                                                     </Transition>
+                                                                                    <Transition DisplayName="" To="{x:Reference __ReferenceID4}" />
                                                                                   </State.Transitions>
                                                                                 </State>
                                                                               </Transition.To>
@@ -278,7 +270,16 @@
                                                                         </State>
                                                                       </Transition.To>
                                                                     </Transition>
-                                                                    <Transition DisplayName="" To="{x:Reference __ReferenceID5}" />
+                                                                    <Transition DisplayName="">
+                                                                      <Transition.To>
+                                                                        <State x:Name="__ReferenceID13" DisplayName="Odobrenje dodatnih istrazivanja">
+                                                                          <State.Transitions>
+                                                                            <Transition DisplayName="" To="{x:Reference __ReferenceID5}" />
+                                                                            <Transition DisplayName="" To="{x:Reference __ReferenceID4}" />
+                                                                          </State.Transitions>
+                                                                        </State>
+                                                                      </Transition.To>
+                                                                    </Transition>
                                                                   </State.Transitions>
                                                                 </State>
                                                               </Transition.To>
@@ -332,27 +333,27 @@
       <x:Reference>__ReferenceID10</x:Reference>
       <x:Reference>__ReferenceID11</x:Reference>
       <x:Reference>__ReferenceID12</x:Reference>
-      <x:Reference>__ReferenceID1</x:Reference>
+      <x:Reference>__ReferenceID4</x:Reference>
       <x:Reference>__ReferenceID13</x:Reference>
       <x:Reference>__ReferenceID5</x:Reference>
       <x:Reference>__ReferenceID14</x:Reference>
       <x:Reference>__ReferenceID15</x:Reference>
       <x:Reference>__ReferenceID16</x:Reference>
-      <x:Reference>__ReferenceID3</x:Reference>
+      <x:Reference>__ReferenceID2</x:Reference>
       <x:Reference>__ReferenceID17</x:Reference>
       <x:Reference>__ReferenceID18</x:Reference>
       <x:Reference>__ReferenceID19</x:Reference>
       <x:Reference>__ReferenceID20</x:Reference>
       <x:Reference>__ReferenceID21</x:Reference>
       <x:Reference>__ReferenceID22</x:Reference>
-      <x:Reference>__ReferenceID2</x:Reference>
+      <x:Reference>__ReferenceID1</x:Reference>
       <x:Reference>__ReferenceID23</x:Reference>
-      <x:Reference>__ReferenceID4</x:Reference>
+      <x:Reference>__ReferenceID3</x:Reference>
       <x:Reference>__ReferenceID24</x:Reference>
       <x:Reference>__ReferenceID25</x:Reference>
       <x:Reference>__ReferenceID26</x:Reference>
       <x:Reference>__ReferenceID27</x:Reference>
-      <sads:DebugSymbol.Symbol>d0dFOlxGYWtzXEdpdFJlcG9zXHVwcHByb2plY3Q4MVxVcHBQcm9qZWN0ODFcVXBwUHJvamVjdDgxXFVwcFByb2Nlc3MueGFtbC8pA+0CEgIBASsHzgIPAgFlRw/HAhcCAWI7Dz8XAgFeSxfDAh8CAVtPH78CJwIBWFMnuwIvAgFVVy+3AjcCAUtsN7ACPwIBQXw/pAJHAgE+gAFHnwJPAgE7hQFPmwJXAgE4iQFXlwJfAgE1jQFfkQFnAgEylgFfkwJnAgEvmgFnjwJvAgEsngFviwJ3AgEpogF3hgJ/AgEmpgF/ggKHAQIBIa0BhwH+AY8BAgEc9QGPAfoBlwECARm0AY8B8AGXAQIBFrgBlwG4AYsCAgEUvQGXAewBnwECARHCAZ8B6AGnAQIBDssBrwHfAbcBAgELzwG3AdsBvwECAQjTAb8B1wHHAQIBBccBpwHkAa8BAgECLQszJgIBbDgPOGgCAWlED0RnAgFnPRM9bAIBYFkzX1MCAVJkN2SPAQIBT2k3aY4BAgFNbjt0YAIBSHk/eZsBAgFFqQI/qQKcAQIBQ6gBgwGoAcoBAgEkrwGLAa8B0gECAR8wETBxAgFtPVE9aQIBYVw5XJgBAgFTcUFxpQECAUmoAZMBqAGdAQIBJa8BmwGvAaUBAgEg</sads:DebugSymbol.Symbol>
+      <sads:DebugSymbol.Symbol>d0dFOlxGYWtzXEdpdFJlcG9zXHVwcHByb2plY3Q4MVxVcHBQcm9qZWN0ODFcVXBwUHJvamVjdDgxXFVwcFByb2Nlc3MueGFtbC8pA+4CEgIBASsHzwIPAgFlRw/IAhcCAWI7Dz8XAgFeSxfEAh8CAVtPH8ACJwIBWFMnvAIvAgFVVy+4AjcCAUtsN7ECPwIBQXw/pQJHAgE+nAJHoQJPAgE7gAFHlwJPAgE4hAFPkwJXAgE1iAFXjAFfAgEykQFXjgJfAgEvlQFfigJnAgEsmQFnhgJvAgEpnQFvgQJ3AgEmoQF3/QF/AgEhqAF/+QGHAQIBHPABhwH1AY8BAgEZrwGHAesBjwECARazAY8BswGDAgIBFLgBjwHnAZcBAgERvQGXAeMBnwECAQ7GAacB2gGvAQIBC8oBrwHWAbcBAgEIzgG3AdIBvwECAQXCAZ8B3wGnAQIBAi0LMyYCAWw4DzhoAgFpRA9EZwIBZz0TPWwCAWBZM19TAgFSZDdkjwECAU9pN2mOAQIBTW47dGACAUh5P3mbAQIBRaoCP6oCnAECAUOjAXujAcIBAgEkqgGDAaoBygECAR8wETBxAgFtPVE9aQIBYVw5XJgBAgFTcUFxpQECAUmjAYsBowGVAQIBJaoBkwGqAZ0BAgEg</sads:DebugSymbol.Symbol>
     </StateMachine>
   </u:UppProcess.Implementation>
 </u:UppProcess>

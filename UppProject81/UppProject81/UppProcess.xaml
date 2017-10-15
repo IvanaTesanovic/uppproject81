@@ -121,100 +121,91 @@
                                                               <mca:CSharpValue x:TypeArguments="x:Boolean">OdobrenIzvestajUniverzitetVar</mca:CSharpValue>
                                                             </Transition.Condition>
                                                             <Transition.To>
-                                                              <State x:Name="__ReferenceID1" DisplayName="Istrazivanja" sap2010:WorkflowViewState.IdRef="State_16">
+                                                              <State x:Name="__ReferenceID4" DisplayName="Istrazivanja" sap2010:WorkflowViewState.IdRef="State_16">
                                                                 <State.Transitions>
-                                                                  <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_13">
+                                                                  <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_14">
                                                                     <Transition.To>
-                                                                      <State x:Name="__ReferenceID13" DisplayName="Zahtevanje produzenja roka za istrazivanja" sap2010:WorkflowViewState.IdRef="State_15">
+                                                                      <State x:Name="__ReferenceID5" DisplayName="Podnosenje Elaborata" sap2010:WorkflowViewState.IdRef="State_14">
                                                                         <State.Transitions>
-                                                                          <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_6" To="{x:Reference __ReferenceID1}" />
-                                                                          <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_12">
+                                                                          <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_11">
                                                                             <Transition.To>
-                                                                              <State x:Name="__ReferenceID5" DisplayName="Podnosenje Elaborata" sap2010:WorkflowViewState.IdRef="State_14">
+                                                                              <State x:Name="__ReferenceID14" DisplayName="Pregledanje elaborata" sap2010:WorkflowViewState.IdRef="State_13">
                                                                                 <State.Transitions>
-                                                                                  <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_11">
+                                                                                  <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_8">
                                                                                     <Transition.To>
-                                                                                      <State x:Name="__ReferenceID14" DisplayName="Pregledanje elaborata" sap2010:WorkflowViewState.IdRef="State_13">
+                                                                                      <State x:Name="__ReferenceID15" DisplayName="Javljanje NN vecu o obustavljanju doktorata" sap2010:WorkflowViewState.IdRef="State_10">
                                                                                         <State.Transitions>
-                                                                                          <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_8">
+                                                                                          <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_7" To="{x:Reference __ReferenceID0}" />
+                                                                                        </State.Transitions>
+                                                                                      </State>
+                                                                                    </Transition.To>
+                                                                                  </Transition>
+                                                                                  <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_10">
+                                                                                    <Transition.To>
+                                                                                      <State x:Name="__ReferenceID16" DisplayName="Obrada i predaja Elaborata" sap2010:WorkflowViewState.IdRef="State_12">
+                                                                                        <State.Transitions>
+                                                                                          <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_9">
                                                                                             <Transition.To>
-                                                                                              <State x:Name="__ReferenceID15" DisplayName="Javljanje NN vecu o obustavljanju doktorata" sap2010:WorkflowViewState.IdRef="State_10">
+                                                                                              <State x:Name="__ReferenceID2" DisplayName="Predlaganje sastava Komisije za ocenu" sap2010:WorkflowViewState.IdRef="State_11">
                                                                                                 <State.Transitions>
-                                                                                                  <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_7" To="{x:Reference __ReferenceID0}" />
-                                                                                                </State.Transitions>
-                                                                                              </State>
-                                                                                            </Transition.To>
-                                                                                          </Transition>
-                                                                                          <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_10">
-                                                                                            <Transition.To>
-                                                                                              <State x:Name="__ReferenceID16" DisplayName="Obrada i predaja Elaborata" sap2010:WorkflowViewState.IdRef="State_12">
-                                                                                                <State.Transitions>
-                                                                                                  <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_9">
+                                                                                                  <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_23">
                                                                                                     <Transition.To>
-                                                                                                      <State x:Name="__ReferenceID3" DisplayName="Predlaganje sastava Komisije za ocenu" sap2010:WorkflowViewState.IdRef="State_11">
+                                                                                                      <State x:Name="__ReferenceID17" DisplayName="Donosenje odluke o Komisiji i dopuna" sap2010:WorkflowViewState.IdRef="State_18">
                                                                                                         <State.Transitions>
-                                                                                                          <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_23">
+                                                                                                          <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_24">
                                                                                                             <Transition.To>
-                                                                                                              <State x:Name="__ReferenceID17" DisplayName="Donosenje odluke o Komisiji i dopuna" sap2010:WorkflowViewState.IdRef="State_18">
+                                                                                                              <State x:Name="__ReferenceID18" DisplayName="Obavestavanje clanova komisije" sap2010:WorkflowViewState.IdRef="State_19">
                                                                                                                 <State.Transitions>
-                                                                                                                  <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_24">
+                                                                                                                  <Transition DisplayName="T22" sap2010:WorkflowViewState.IdRef="Transition_25">
                                                                                                                     <Transition.To>
-                                                                                                                      <State x:Name="__ReferenceID18" DisplayName="Obavestavanje clanova komisije" sap2010:WorkflowViewState.IdRef="State_19">
+                                                                                                                      <State x:Name="__ReferenceID19" DisplayName="Kreiranje izvestaja o oceni" sap2010:WorkflowViewState.IdRef="State_20">
+                                                                                                                        <State.Exit>
+                                                                                                                          <Delay Duration="00:00:05" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                                                                                                                        </State.Exit>
                                                                                                                         <State.Transitions>
-                                                                                                                          <Transition DisplayName="T22" sap2010:WorkflowViewState.IdRef="Transition_25">
+                                                                                                                          <Transition DisplayName="T2" sap2010:WorkflowViewState.IdRef="Transition_26">
                                                                                                                             <Transition.To>
-                                                                                                                              <State x:Name="__ReferenceID19" DisplayName="Kreiranje izvestaja o oceni" sap2010:WorkflowViewState.IdRef="State_20">
-                                                                                                                                <State.Exit>
-                                                                                                                                  <Delay Duration="00:00:05" sap2010:WorkflowViewState.IdRef="Delay_1" />
-                                                                                                                                </State.Exit>
+                                                                                                                              <State x:Name="__ReferenceID20" DisplayName="Dostavljanje doktorata na uvid javnosti i prikupljanje primedbi" sap2010:WorkflowViewState.IdRef="State_21">
+                                                                                                                                <State.Entry>
+                                                                                                                                  <Delay Duration="00:00:10" sap2010:WorkflowViewState.IdRef="Delay_2" />
+                                                                                                                                </State.Entry>
                                                                                                                                 <State.Transitions>
-                                                                                                                                  <Transition DisplayName="T2" sap2010:WorkflowViewState.IdRef="Transition_26">
+                                                                                                                                  <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_28">
                                                                                                                                     <Transition.To>
-                                                                                                                                      <State x:Name="__ReferenceID20" DisplayName="Dostavljanje doktorata na uvid javnosti i prikupljanje primedbi" sap2010:WorkflowViewState.IdRef="State_21">
-                                                                                                                                        <State.Entry>
-                                                                                                                                          <Delay Duration="00:00:10" sap2010:WorkflowViewState.IdRef="Delay_2" />
-                                                                                                                                        </State.Entry>
+                                                                                                                                      <State x:Name="__ReferenceID22" DisplayName="Razmatranje izvestaja o oceni" sap2010:WorkflowViewState.IdRef="State_23">
                                                                                                                                         <State.Transitions>
-                                                                                                                                          <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_28">
+                                                                                                                                          <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_31">
                                                                                                                                             <Transition.To>
-                                                                                                                                              <State x:Name="__ReferenceID22" DisplayName="Razmatranje izvestaja o oceni" sap2010:WorkflowViewState.IdRef="State_23">
+                                                                                                                                              <State x:Name="__ReferenceID1" DisplayName="FinalState" sap2010:WorkflowViewState.IdRef="State_24" IsFinal="True" />
+                                                                                                                                            </Transition.To>
+                                                                                                                                          </Transition>
+                                                                                                                                          <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_34">
+                                                                                                                                            <Transition.To>
+                                                                                                                                              <State x:Name="__ReferenceID23" DisplayName="Pribavljanje saglasnosti Univerziteta" sap2010:WorkflowViewState.IdRef="State_25">
                                                                                                                                                 <State.Transitions>
-                                                                                                                                                  <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_31">
+                                                                                                                                                  <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_35" To="{x:Reference __ReferenceID1}" />
+                                                                                                                                                  <Transition DisplayName="T30" sap2010:WorkflowViewState.IdRef="Transition_41">
                                                                                                                                                     <Transition.To>
-                                                                                                                                                      <State x:Name="__ReferenceID2" DisplayName="FinalState" sap2010:WorkflowViewState.IdRef="State_24" IsFinal="True" />
-                                                                                                                                                    </Transition.To>
-                                                                                                                                                  </Transition>
-                                                                                                                                                  <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_34">
-                                                                                                                                                    <Transition.To>
-                                                                                                                                                      <State x:Name="__ReferenceID23" DisplayName="Pribavljanje saglasnosti Univerziteta" sap2010:WorkflowViewState.IdRef="State_25">
+                                                                                                                                                      <State x:Name="__ReferenceID3" DisplayName="Dobavljanje komisije" sap2010:WorkflowViewState.IdRef="State_29">
                                                                                                                                                         <State.Transitions>
-                                                                                                                                                          <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_35" To="{x:Reference __ReferenceID2}" />
-                                                                                                                                                          <Transition DisplayName="T30" sap2010:WorkflowViewState.IdRef="Transition_41">
+                                                                                                                                                          <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_36" To="{x:Reference __ReferenceID2}" />
+                                                                                                                                                          <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_47">
                                                                                                                                                             <Transition.To>
-                                                                                                                                                              <State x:Name="__ReferenceID4" DisplayName="Dobavljanje komisije" sap2010:WorkflowViewState.IdRef="State_29">
+                                                                                                                                                              <State x:Name="__ReferenceID27" DisplayName="Odlucivanje o odbrani" sap2010:WorkflowViewState.IdRef="State_30">
                                                                                                                                                                 <State.Transitions>
-                                                                                                                                                                  <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_36" To="{x:Reference __ReferenceID3}" />
-                                                                                                                                                                  <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_47">
+                                                                                                                                                                  <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_45">
                                                                                                                                                                     <Transition.To>
-                                                                                                                                                                      <State x:Name="__ReferenceID27" DisplayName="Odlucivanje o odbrani" sap2010:WorkflowViewState.IdRef="State_30">
+                                                                                                                                                                      <State x:Name="__ReferenceID24" DisplayName="Pripremanje odbrane" sap2010:WorkflowViewState.IdRef="State_28">
                                                                                                                                                                         <State.Transitions>
-                                                                                                                                                                          <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_45">
+                                                                                                                                                                          <Transition DisplayName="T32" sap2010:WorkflowViewState.IdRef="Transition_44">
                                                                                                                                                                             <Transition.To>
-                                                                                                                                                                              <State x:Name="__ReferenceID24" DisplayName="Pripremanje odbrane" sap2010:WorkflowViewState.IdRef="State_28">
+                                                                                                                                                                              <State x:Name="__ReferenceID25" DisplayName="Odbrana" sap2010:WorkflowViewState.IdRef="State_27">
                                                                                                                                                                                 <State.Transitions>
-                                                                                                                                                                                  <Transition DisplayName="T32" sap2010:WorkflowViewState.IdRef="Transition_44">
+                                                                                                                                                                                  <Transition DisplayName="T34" sap2010:WorkflowViewState.IdRef="Transition_43">
                                                                                                                                                                                     <Transition.To>
-                                                                                                                                                                                      <State x:Name="__ReferenceID25" DisplayName="Odbrana" sap2010:WorkflowViewState.IdRef="State_27">
+                                                                                                                                                                                      <State x:Name="__ReferenceID26" DisplayName="Zakljucak" sap2010:WorkflowViewState.IdRef="State_26">
                                                                                                                                                                                         <State.Transitions>
-                                                                                                                                                                                          <Transition DisplayName="T34" sap2010:WorkflowViewState.IdRef="Transition_43">
-                                                                                                                                                                                            <Transition.To>
-                                                                                                                                                                                              <State x:Name="__ReferenceID26" DisplayName="Zakljucak" sap2010:WorkflowViewState.IdRef="State_26">
-                                                                                                                                                                                                <State.Transitions>
-                                                                                                                                                                                                  <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_42" To="{x:Reference __ReferenceID0}" />
-                                                                                                                                                                                                </State.Transitions>
-                                                                                                                                                                                              </State>
-                                                                                                                                                                                            </Transition.To>
-                                                                                                                                                                                          </Transition>
+                                                                                                                                                                                          <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_42" To="{x:Reference __ReferenceID0}" />
                                                                                                                                                                                         </State.Transitions>
                                                                                                                                                                                       </State>
                                                                                                                                                                                     </Transition.To>
@@ -223,11 +214,11 @@
                                                                                                                                                                               </State>
                                                                                                                                                                             </Transition.To>
                                                                                                                                                                           </Transition>
-                                                                                                                                                                          <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_46" To="{x:Reference __ReferenceID4}" />
                                                                                                                                                                         </State.Transitions>
                                                                                                                                                                       </State>
                                                                                                                                                                     </Transition.To>
                                                                                                                                                                   </Transition>
+                                                                                                                                                                  <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_46" To="{x:Reference __ReferenceID3}" />
                                                                                                                                                                 </State.Transitions>
                                                                                                                                                               </State>
                                                                                                                                                             </Transition.To>
@@ -240,16 +231,16 @@
                                                                                                                                               </State>
                                                                                                                                             </Transition.To>
                                                                                                                                           </Transition>
-                                                                                                                                          <Transition DisplayName="T26" sap2010:WorkflowViewState.IdRef="Transition_33">
-                                                                                                                                            <Transition.To>
-                                                                                                                                              <State x:Name="__ReferenceID21" DisplayName="Odlucivanje o uklanjanju nedostataka" sap2010:WorkflowViewState.IdRef="State_22">
-                                                                                                                                                <State.Transitions>
-                                                                                                                                                  <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_29" To="{x:Reference __ReferenceID1}" />
-                                                                                                                                                  <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_32" To="{x:Reference __ReferenceID2}" />
-                                                                                                                                                </State.Transitions>
-                                                                                                                                              </State>
-                                                                                                                                            </Transition.To>
-                                                                                                                                          </Transition>
+                                                                                                                                        </State.Transitions>
+                                                                                                                                      </State>
+                                                                                                                                    </Transition.To>
+                                                                                                                                  </Transition>
+                                                                                                                                  <Transition DisplayName="T26" sap2010:WorkflowViewState.IdRef="Transition_33">
+                                                                                                                                    <Transition.To>
+                                                                                                                                      <State x:Name="__ReferenceID21" DisplayName="Odlucivanje o uklanjanju nedostataka" sap2010:WorkflowViewState.IdRef="State_22">
+                                                                                                                                        <State.Transitions>
+                                                                                                                                          <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_29" To="{x:Reference __ReferenceID4}" />
+                                                                                                                                          <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_32" To="{x:Reference __ReferenceID1}" />
                                                                                                                                         </State.Transitions>
                                                                                                                                       </State>
                                                                                                                                     </Transition.To>
@@ -262,11 +253,11 @@
                                                                                                                       </State>
                                                                                                                     </Transition.To>
                                                                                                                   </Transition>
-                                                                                                                  <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_27" To="{x:Reference __ReferenceID3}" />
                                                                                                                 </State.Transitions>
                                                                                                               </State>
                                                                                                             </Transition.To>
                                                                                                           </Transition>
+                                                                                                          <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_27" To="{x:Reference __ReferenceID2}" />
                                                                                                         </State.Transitions>
                                                                                                       </State>
                                                                                                     </Transition.To>
@@ -279,6 +270,7 @@
                                                                                       </State>
                                                                                     </Transition.To>
                                                                                   </Transition>
+                                                                                  <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_48" To="{x:Reference __ReferenceID4}" />
                                                                                 </State.Transitions>
                                                                               </State>
                                                                             </Transition.To>
@@ -287,7 +279,16 @@
                                                                       </State>
                                                                     </Transition.To>
                                                                   </Transition>
-                                                                  <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_14" To="{x:Reference __ReferenceID5}" />
+                                                                  <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_49">
+                                                                    <Transition.To>
+                                                                      <State x:Name="__ReferenceID13" DisplayName="Odobrenje dodatnih istrazivanja" sap2010:WorkflowViewState.IdRef="State_15">
+                                                                        <State.Transitions>
+                                                                          <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_12" To="{x:Reference __ReferenceID5}" />
+                                                                          <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_6" To="{x:Reference __ReferenceID4}" />
+                                                                        </State.Transitions>
+                                                                      </State>
+                                                                    </Transition.To>
+                                                                  </Transition>
                                                                 </State.Transitions>
                                                               </State>
                                                             </Transition.To>
@@ -341,27 +342,27 @@
     <x:Reference>__ReferenceID10</x:Reference>
     <x:Reference>__ReferenceID11</x:Reference>
     <x:Reference>__ReferenceID12</x:Reference>
-    <x:Reference>__ReferenceID1</x:Reference>
+    <x:Reference>__ReferenceID4</x:Reference>
     <x:Reference>__ReferenceID13</x:Reference>
     <x:Reference>__ReferenceID5</x:Reference>
     <x:Reference>__ReferenceID14</x:Reference>
     <x:Reference>__ReferenceID15</x:Reference>
     <x:Reference>__ReferenceID16</x:Reference>
-    <x:Reference>__ReferenceID3</x:Reference>
+    <x:Reference>__ReferenceID2</x:Reference>
     <x:Reference>__ReferenceID17</x:Reference>
     <x:Reference>__ReferenceID18</x:Reference>
     <x:Reference>__ReferenceID19</x:Reference>
     <x:Reference>__ReferenceID20</x:Reference>
     <x:Reference>__ReferenceID21</x:Reference>
     <x:Reference>__ReferenceID22</x:Reference>
-    <x:Reference>__ReferenceID2</x:Reference>
+    <x:Reference>__ReferenceID1</x:Reference>
     <x:Reference>__ReferenceID23</x:Reference>
-    <x:Reference>__ReferenceID4</x:Reference>
+    <x:Reference>__ReferenceID3</x:Reference>
     <x:Reference>__ReferenceID24</x:Reference>
     <x:Reference>__ReferenceID25</x:Reference>
     <x:Reference>__ReferenceID26</x:Reference>
     <x:Reference>__ReferenceID27</x:Reference>
-    <sads:DebugSymbol.Symbol>d0dFOlxGYWtzXEdpdFJlcG9zXHVwcHByb2plY3Q4MVxVcHBQcm9qZWN0ODFcVXBwUHJvamVjdDgxXFVwcFByb2Nlc3MueGFtbC8pA+0CEgIBASsHzgIPAgFlRw/HAhcCAWI7Dz8XAgFeSxfDAh8CAVtPH78CJwIBWFMnuwIvAgFVVy+3AjcCAUtsN7ACPwIBQXw/pAJHAgE+gAFHnwJPAgE7hQFPmwJXAgE4iQFXlwJfAgE1jQFfkQFnAgEylgFfkwJnAgEvmgFnjwJvAgEsngFviwJ3AgEpogF3hgJ/AgEmpgF/ggKHAQIBIa0BhwH+AY8BAgEc9QGPAfoBlwECARm0AY8B8AGXAQIBFrgBlwG4AYsCAgEUvQGXAewBnwECARHCAZ8B6AGnAQIBDssBrwHfAbcBAgELzwG3AdsBvwECAQjTAb8B1wHHAQIBBccBpwHkAa8BAgECLQszJgIBbDgPOGgCAWlED0RnAgFnPRM9bAIBYFkzX1MCAVJkN2SPAQIBT2k3aY4BAgFNbjt0YAIBSHk/eZsBAgFFqQI/qQKcAQIBQ6gBgwGoAcoBAgEkrwGLAa8B0gECAR8wETBxAgFtPVE9aQIBYVw5XJgBAgFTcUFxpQECAUmoAZMBqAGdAQIBJa8BmwGvAaUBAgEg</sads:DebugSymbol.Symbol>
+    <sads:DebugSymbol.Symbol>d0dFOlxGYWtzXEdpdFJlcG9zXHVwcHByb2plY3Q4MVxVcHBQcm9qZWN0ODFcVXBwUHJvamVjdDgxXFVwcFByb2Nlc3MueGFtbC8pA+4CEgIBASsHzwIPAgFlRw/IAhcCAWI7Dz8XAgFeSxfEAh8CAVtPH8ACJwIBWFMnvAIvAgFVVy+4AjcCAUtsN7ECPwIBQXw/pQJHAgE+nAJHoQJPAgE7gAFHlwJPAgE4hAFPkwJXAgE1iAFXjAFfAgEykQFXjgJfAgEvlQFfigJnAgEsmQFnhgJvAgEpnQFvgQJ3AgEmoQF3/QF/AgEhqAF/+QGHAQIBHPABhwH1AY8BAgEZrwGHAesBjwECARazAY8BswGDAgIBFLgBjwHnAZcBAgERvQGXAeMBnwECAQ7GAacB2gGvAQIBC8oBrwHWAbcBAgEIzgG3AdIBvwECAQXCAZ8B3wGnAQIBAi0LMyYCAWw4DzhoAgFpRA9EZwIBZz0TPWwCAWBZM19TAgFSZDdkjwECAU9pN2mOAQIBTW47dGACAUh5P3mbAQIBRaoCP6oCnAECAUOjAXujAcIBAgEkqgGDAaoBygECAR8wETBxAgFtPVE9aQIBYVw5XJgBAgFTcUFxpQECAUmjAYsBowGVAQIBJaoBkwGqAZ0BAgEg</sads:DebugSymbol.Symbol>
   </StateMachine>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
@@ -396,15 +397,6 @@
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
       <sap2010:ViewStateData Id="OdobravanjeIzvestajaUniverzitet_1" sap:VirtualizedContainerService.HintSize="200,22" />
-      <sap2010:ViewStateData Id="Transition_6">
-        <sap:WorkflowViewStateService.ViewState>
-          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <av:PointCollection x:Key="ConnectorLocation">688.5,499.5 688.5,392.5 958.8,392.5 958.8,422.5</av:PointCollection>
-            <x:Int32 x:Key="SrcConnectionPointIndex">18</x:Int32>
-            <x:Int32 x:Key="DestConnectionPointIndex">14</x:Int32>
-          </scg:Dictionary>
-        </sap:WorkflowViewStateService.ViewState>
-      </sap2010:ViewStateData>
       <sap2010:ViewStateData Id="Transition_7">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -428,7 +420,7 @@
       <sap2010:ViewStateData Id="Transition_8">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <av:PointCollection x:Key="ConnectorLocation">524.5,633.05 388.8,633.05 388.8,282.5</av:PointCollection>
+            <av:PointCollection x:Key="ConnectorLocation">484.5,663.05 388.8,663.05 388.8,282.5</av:PointCollection>
             <x:Int32 x:Key="SrcConnectionPointIndex">41</x:Int32>
             <x:Int32 x:Key="DestConnectionPointIndex">47</x:Int32>
           </scg:Dictionary>
@@ -747,9 +739,9 @@
       <sap2010:ViewStateData Id="Transition_23">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <av:PointCollection x:Key="ConnectorLocation">724.8,900.5 781.5,900.5 781.5,929.5</av:PointCollection>
+            <av:PointCollection x:Key="ConnectorLocation">724.8,900.5 719.5,900.5 719.5,929.5</av:PointCollection>
             <x:Int32 x:Key="SrcConnectionPointIndex">43</x:Int32>
-            <x:Int32 x:Key="DestConnectionPointIndex">46</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">30</x:Int32>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
@@ -767,7 +759,7 @@
       <sap2010:ViewStateData Id="Transition_9">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <av:PointCollection x:Key="ConnectorLocation">640,790.5 640,820.5 710,820.5 710,839.5</av:PointCollection>
+            <av:PointCollection x:Key="ConnectorLocation">630,800.5 630,830.5 711,830.5 711,839.5</av:PointCollection>
             <x:Int32 x:Key="SrcConnectionPointIndex">39</x:Int32>
             <x:Int32 x:Key="DestConnectionPointIndex">38</x:Int32>
           </scg:Dictionary>
@@ -776,7 +768,7 @@
       <sap2010:ViewStateData Id="State_12" sap:VirtualizedContainerService.HintSize="203,61">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <av:Point x:Key="ShapeLocation">538.5,729.5</av:Point>
+            <av:Point x:Key="ShapeLocation">528.5,739.5</av:Point>
             <av:Size x:Key="ShapeSize">203,61</av:Size>
             <x:Boolean x:Key="IsPinned">False</x:Boolean>
             <x:Double x:Key="StateContainerWidth">189</x:Double>
@@ -787,16 +779,25 @@
       <sap2010:ViewStateData Id="Transition_10">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <av:PointCollection x:Key="ConnectorLocation">620,660.5 620,690.5 639,690.5 639,729.5</av:PointCollection>
+            <av:PointCollection x:Key="ConnectorLocation">580,690.5 580,720.5 630,720.5 630,739.5</av:PointCollection>
             <x:Int32 x:Key="SrcConnectionPointIndex">39</x:Int32>
             <x:Int32 x:Key="DestConnectionPointIndex">38</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_48">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">580,629.5 580,470.5 930,470.5</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">38</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">57</x:Int32>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
       <sap2010:ViewStateData Id="State_13" sap:VirtualizedContainerService.HintSize="191,61">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <av:Point x:Key="ShapeLocation">524.5,599.5</av:Point>
+            <av:Point x:Key="ShapeLocation">484.5,629.5</av:Point>
             <av:Size x:Key="ShapeSize">191,61</av:Size>
             <x:Boolean x:Key="IsPinned">False</x:Boolean>
             <x:Double x:Key="StateContainerWidth">177</x:Double>
@@ -807,7 +808,7 @@
       <sap2010:ViewStateData Id="Transition_11">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <av:PointCollection x:Key="ConnectorLocation">1033.45,670.5 1033.45,696.1 745.5,696.1 745.5,636.1 715.5,636.1</av:PointCollection>
+            <av:PointCollection x:Key="ConnectorLocation">999.95,740.5 999.95,771.623386663254 774,771.623386663254 774,666.1 675.5,666.1</av:PointCollection>
             <x:Int32 x:Key="SrcConnectionPointIndex">35</x:Int32>
             <x:Int32 x:Key="DestConnectionPointIndex">44</x:Int32>
           </scg:Dictionary>
@@ -816,7 +817,7 @@
       <sap2010:ViewStateData Id="State_14" sap:VirtualizedContainerService.HintSize="201,61">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <av:Point x:Key="ShapeLocation">943,609.5</av:Point>
+            <av:Point x:Key="ShapeLocation">909.5,679.5</av:Point>
             <av:Size x:Key="ShapeSize">201,61</av:Size>
             <x:Boolean x:Key="IsPinned">False</x:Boolean>
             <x:Double x:Key="StateContainerWidth">187</x:Double>
@@ -824,12 +825,30 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_14">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">1009.2,486.5 1009.2,516.5 1040.15,516.5 1040.15,679.5</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">43</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">50</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
       <sap2010:ViewStateData Id="Transition_12">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <av:PointCollection x:Key="ConnectorLocation">802.9,560.5 802.9,640 943,640</av:PointCollection>
+            <av:PointCollection x:Key="ConnectorLocation">802.9,560.5 802.9,590.5 949.7,590.5 949.7,679.5</av:PointCollection>
             <x:Int32 x:Key="SrcConnectionPointIndex">51</x:Int32>
-            <x:Int32 x:Key="DestConnectionPointIndex">37</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">14</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_6">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">688.5,499.5 688.5,448.1 930,448.1</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">18</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">29</x:Int32>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
@@ -844,21 +863,12 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Transition_13">
+      <sap2010:ViewStateData Id="Transition_49">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <av:PointCollection x:Key="ConnectorLocation">930,454.5 831.5,454.5 831.5,499.5</av:PointCollection>
-            <x:Int32 x:Key="SrcConnectionPointIndex">37</x:Int32>
-            <x:Int32 x:Key="DestConnectionPointIndex">58</x:Int32>
-          </scg:Dictionary>
-        </sap:WorkflowViewStateService.ViewState>
-      </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Transition_14">
-        <sap:WorkflowViewStateService.ViewState>
-          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <av:PointCollection x:Key="ConnectorLocation">1009.2,486.5 1009.2,516.5 1074.3,516.5 1074.3,609.5</av:PointCollection>
-            <x:Int32 x:Key="SrcConnectionPointIndex">43</x:Int32>
-            <x:Int32 x:Key="DestConnectionPointIndex">50</x:Int32>
+            <av:PointCollection x:Key="ConnectorLocation">966,486.5 966,526.95 903,526.95</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">19</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">32</x:Int32>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
