@@ -86,13 +86,13 @@
                                             <Transition.To>
                                               <State x:Name="__ReferenceID11" DisplayName="Odobravanje izvestaja od strane NN veca" sap2010:WorkflowViewState.IdRef="State_8">
                                                 <State.Entry>
-                                                  <ac:OdobravanjeIzvestajaNNVece sap2010:WorkflowViewState.IdRef="OdobravanjeIzvestajaNNVece_1">
-                                                    <ac:OdobravanjeIzvestajaNNVece.OdobrenIzvestajNNVece>
+                                                  <ac:OdobravanjeIzvestajaNNVeceActivity sap2010:WorkflowViewState.IdRef="OdobravanjeIzvestajaNNVeceActivity_1">
+                                                    <ac:OdobravanjeIzvestajaNNVeceActivity.OdobrenIzvestajNNVece>
                                                       <OutArgument x:TypeArguments="x:Boolean">
                                                         <mca:CSharpReference x:TypeArguments="x:Boolean">OdobrenIzvestajNNVeceVar</mca:CSharpReference>
                                                       </OutArgument>
-                                                    </ac:OdobravanjeIzvestajaNNVece.OdobrenIzvestajNNVece>
-                                                  </ac:OdobravanjeIzvestajaNNVece>
+                                                    </ac:OdobravanjeIzvestajaNNVeceActivity.OdobrenIzvestajNNVece>
+                                                  </ac:OdobravanjeIzvestajaNNVeceActivity>
                                                 </State.Entry>
                                                 <State.Transitions>
                                                   <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_4" To="{x:Reference __ReferenceID0}">
@@ -107,13 +107,13 @@
                                                     <Transition.To>
                                                       <State x:Name="__ReferenceID12" DisplayName="Odobravanje izvestaja od strane Univerziteta" sap2010:WorkflowViewState.IdRef="State_9">
                                                         <State.Entry>
-                                                          <ac:OdobravanjeIzvestajaUniverzitet sap2010:WorkflowViewState.IdRef="OdobravanjeIzvestajaUniverzitet_1">
-                                                            <ac:OdobravanjeIzvestajaUniverzitet.OdobrenIzvestajUniverzitet>
+                                                          <ac:OdobravanjeIzvestajaUniverzitetActivity sap2010:WorkflowViewState.IdRef="OdobravanjeIzvestajaUniverzitetActivity_1">
+                                                            <ac:OdobravanjeIzvestajaUniverzitetActivity.OdobrenIzvestajUniverzitet>
                                                               <OutArgument x:TypeArguments="x:Boolean">
                                                                 <mca:CSharpReference x:TypeArguments="x:Boolean">OdobrenIzvestajUniverzitetVar</mca:CSharpReference>
                                                               </OutArgument>
-                                                            </ac:OdobravanjeIzvestajaUniverzitet.OdobrenIzvestajUniverzitet>
-                                                          </ac:OdobravanjeIzvestajaUniverzitet>
+                                                            </ac:OdobravanjeIzvestajaUniverzitetActivity.OdobrenIzvestajUniverzitet>
+                                                          </ac:OdobravanjeIzvestajaUniverzitetActivity>
                                                         </State.Entry>
                                                         <State.Transitions>
                                                           <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_15">
@@ -386,7 +386,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="OdobravanjeIzvestajaNNVece_1" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="OdobravanjeIzvestajaNNVeceActivity_1" sap:VirtualizedContainerService.HintSize="200,22" />
       <sap2010:ViewStateData Id="Transition_4">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -396,7 +396,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="OdobravanjeIzvestajaUniverzitet_1" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="OdobravanjeIzvestajaUniverzitetActivity_1" sap:VirtualizedContainerService.HintSize="200,22" />
       <sap2010:ViewStateData Id="Transition_7">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">

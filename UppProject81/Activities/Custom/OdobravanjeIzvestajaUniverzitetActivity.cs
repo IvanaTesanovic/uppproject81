@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Activities.Custom
 {
-    public class OdobravanjeIzvestajaUniverzitet : CodeActivity
+    public class OdobravanjeIzvestajaUniverzitetActivity : CodeActivity
     {
         public OutArgument<bool> OdobrenIzvestajUniverzitet { get; set; }
 
