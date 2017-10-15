@@ -1,2 +1,0 @@
-obj\Debug\DocumentationAndReportActivity.g.xaml
-obj\Debug\Activities.Model_DocumentationAndReportActivity_BeforeInitializeComponentHelper.txt

@@ -2,7 +2,6 @@
 using System.Linq;
 using System.Activities;
 using System.Activities.Statements;
-using Activities.Model;
 
 namespace UppProject81
 {
@@ -11,10 +10,7 @@ namespace UppProject81
     {
         static void Main(string[] args)
         {
-            //Activity process = new UppProcess();
-            //WorkflowInvoker.Invoke(process);
-
-            Activity testing = new DocumentationAndReportActivity();
+            Activity testing = new UppProcess();
             WorkflowInvoker.Invoke(testing);
 
             Console.ReadLine();

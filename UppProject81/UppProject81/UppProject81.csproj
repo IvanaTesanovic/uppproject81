@@ -35,6 +35,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Activities.Extensions, Version=2.0.6.9, Culture=neutral, PublicKeyToken=23b0c89d0d5ad43f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Activities.Extensions.2.0.6.9\lib\Net45\Microsoft.Activities.Extensions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Activities" />
@@ -53,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <XamlAppDef Include="UppProcess.xaml">
