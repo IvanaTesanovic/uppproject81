@@ -45,11 +45,13 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Custom\DobavljanjeKomisijeActivity.cs" />
     <Compile Include="Custom\DokumentacijaActivity.cs" />
     <Compile Include="Custom\DonosenjeOdlukeOKomisijiActivity.cs" />
     <Compile Include="Custom\IstrazivanjaActivity.cs" />
     <Compile Include="Custom\KreiranjeIzvestajaOOceniActivity.cs" />
     <Compile Include="Custom\ObavestavanjeClanaKomisije.cs" />
+    <Compile Include="Custom\OdlucivanjeOOdbraniActivity.cs" />
     <Compile Include="Custom\OdobravanjeDodatnihIstrazivanjaActivity.cs" />
     <Compile Include="Custom\OdobravanjeIzvestajaNNVeceActivity.cs" />
     <Compile Include="Custom\OdobravanjeIzvestajaUniverzitetActivity.cs" />

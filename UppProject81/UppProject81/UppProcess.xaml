@@ -235,7 +235,7 @@
                                                                                                                             <Transition.To>
                                                                                                                               <State x:Name="__ReferenceID20" DisplayName="Dostavljanje doktorata na uvid javnosti i prikupljanje primedbi" sap2010:WorkflowViewState.IdRef="State_21">
                                                                                                                                 <State.Entry>
-                                                                                                                                  <Delay Duration="00:00:10" sap2010:WorkflowViewState.IdRef="Delay_2" />
+                                                                                                                                  <Delay DisplayName="DoktoratNaUviduJavnosti" Duration="00:00:10" sap2010:WorkflowViewState.IdRef="Delay_2" />
                                                                                                                                 </State.Entry>
                                                                                                                                 <State.Exit>
                                                                                                                                   <ac:PrikupljanjePrimedbiActivity sap2010:WorkflowViewState.IdRef="PrikupljanjePrimedbiActivity_1">
@@ -298,13 +298,42 @@
                                                                                                                                                     </Transition.Condition>
                                                                                                                                                     <Transition.To>
                                                                                                                                                       <State x:Name="__ReferenceID3" DisplayName="Dobavljanje komisije" sap2010:WorkflowViewState.IdRef="State_29">
+                                                                                                                                                        <State.Entry>
+                                                                                                                                                          <ac:DobavljanjeKomisijeActivity sap2010:WorkflowViewState.IdRef="DobavljanjeKomisijeActivity_1">
+                                                                                                                                                            <ac:DobavljanjeKomisijeActivity.BrojSprecenihClanovaKomisije>
+                                                                                                                                                              <OutArgument x:TypeArguments="x:Int32">
+                                                                                                                                                                <mca:CSharpReference x:TypeArguments="x:Int32">BrojSprecenihClanovaKomisijeVar</mca:CSharpReference>
+                                                                                                                                                              </OutArgument>
+                                                                                                                                                            </ac:DobavljanjeKomisijeActivity.BrojSprecenihClanovaKomisije>
+                                                                                                                                                            <ac:DobavljanjeKomisijeActivity.MentorSprecen>
+                                                                                                                                                              <OutArgument x:TypeArguments="x:Boolean">
+                                                                                                                                                                <mca:CSharpReference x:TypeArguments="x:Boolean">MentorSprecenVar</mca:CSharpReference>
+                                                                                                                                                              </OutArgument>
+                                                                                                                                                            </ac:DobavljanjeKomisijeActivity.MentorSprecen>
+                                                                                                                                                            <ac:DobavljanjeKomisijeActivity.PotrebnaIzmenaKomisije>
+                                                                                                                                                              <OutArgument x:TypeArguments="x:Boolean">
+                                                                                                                                                                <mca:CSharpReference x:TypeArguments="x:Boolean">PotrebnaIzmenaKomisijeVar</mca:CSharpReference>
+                                                                                                                                                              </OutArgument>
+                                                                                                                                                            </ac:DobavljanjeKomisijeActivity.PotrebnaIzmenaKomisije>
+                                                                                                                                                          </ac:DobavljanjeKomisijeActivity>
+                                                                                                                                                        </State.Entry>
                                                                                                                                                         <State.Transitions>
-                                                                                                                                                          <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_36" To="{x:Reference __ReferenceID1}" />
+                                                                                                                                                          <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_36" To="{x:Reference __ReferenceID1}">
+                                                                                                                                                            <Transition.Condition>
+                                                                                                                                                              <mca:CSharpValue x:TypeArguments="x:Boolean">PotrebnaIzmenaKomisijeVar</mca:CSharpValue>
+                                                                                                                                                            </Transition.Condition>
+                                                                                                                                                          </Transition>
                                                                                                                                                           <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_47">
+                                                                                                                                                            <Transition.Condition>
+                                                                                                                                                              <mca:CSharpValue x:TypeArguments="x:Boolean">!PotrebnaIzmenaKomisijeVar</mca:CSharpValue>
+                                                                                                                                                            </Transition.Condition>
                                                                                                                                                             <Transition.To>
                                                                                                                                                               <State x:Name="__ReferenceID27" DisplayName="Odlucivanje o odbrani" sap2010:WorkflowViewState.IdRef="State_30">
                                                                                                                                                                 <State.Transitions>
                                                                                                                                                                   <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_45">
+                                                                                                                                                                    <Transition.Condition>
+                                                                                                                                                                      <mca:CSharpValue x:TypeArguments="x:Boolean">!OdlozenaOdbranaVar</mca:CSharpValue>
+                                                                                                                                                                    </Transition.Condition>
                                                                                                                                                                     <Transition.To>
                                                                                                                                                                       <State x:Name="__ReferenceID24" DisplayName="Pripremanje odbrane" sap2010:WorkflowViewState.IdRef="State_28">
                                                                                                                                                                         <State.Transitions>
@@ -329,12 +358,22 @@
                                                                                                                                                                       </State>
                                                                                                                                                                     </Transition.To>
                                                                                                                                                                   </Transition>
-                                                                                                                                                                  <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_46" To="{x:Reference __ReferenceID3}" />
+                                                                                                                                                                  <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_46" To="{x:Reference __ReferenceID3}">
+                                                                                                                                                                    <Transition.Condition>
+                                                                                                                                                                      <mca:CSharpValue x:TypeArguments="x:Boolean">OdlozenaOdbranaVar</mca:CSharpValue>
+                                                                                                                                                                    </Transition.Condition>
+                                                                                                                                                                  </Transition>
                                                                                                                                                                 </State.Transitions>
+                                                                                                                                                                <State.Variables>
+                                                                                                                                                                  <Variable x:TypeArguments="x:Boolean" Name="OdlozenaOdbranaVar" />
+                                                                                                                                                                </State.Variables>
                                                                                                                                                               </State>
                                                                                                                                                             </Transition.To>
                                                                                                                                                           </Transition>
                                                                                                                                                         </State.Transitions>
+                                                                                                                                                        <State.Variables>
+                                                                                                                                                          <Variable x:TypeArguments="x:Boolean" Name="PotrebnaIzmenaKomisijeVar" />
+                                                                                                                                                        </State.Variables>
                                                                                                                                                       </State>
                                                                                                                                                     </Transition.To>
                                                                                                                                                   </Transition>
@@ -537,8 +576,10 @@
     <x:Reference>__ReferenceID27</x:Reference>
     <StateMachine.Variables>
       <Variable x:TypeArguments="x:Int32" Name="OcenaDoktorataVar" />
+      <Variable x:TypeArguments="x:Int32" Name="BrojSprecenihClanovaKomisijeVar" />
+      <Variable x:TypeArguments="x:Boolean" Name="MentorSprecenVar" />
     </StateMachine.Variables>
-    <sads:DebugSymbol.Symbol>d0dFOlxGYWtzXEdpdFJlcG9zXHVwcHByb2plY3Q4MVxVcHBQcm9qZWN0ODFcVXBwUHJvamVjdDgxXFVwcFByb2Nlc3MueGFtbFMpA54EEgIBASsH/AMPAwHHAUcP9QMXAwHEATsPPxcDAcABSxfxAx8DAb0BTx/tAycDAboBUyfpAy8DAbcBVy/lAzcDAaoBbDfeAz8DAZ0BfD/SA0cDAZABsgNHywNPAwGDAYwBR6oDTwMBgAGQAU+mA1cCAWilAVepAV8CAWWxAVeZA18CAWK1AV+VA2cCAV68AWeRA28CAVHRAW+KA3cCAUzfAXeGA38CAUbsAX+CA4cBAgE36AKHAfsCjwECAS3/AYcB4AKPAQIBII8CjwGPAoMCAgEelwKPAdkClwECARGsApcB0gKfAQIBDrUCpwHJAq8BAgELuQKvAcUCtwECAQi9ArcBwQK/AQIBBbECnwHOAqcBAgECLQszJgMB0AE4DzhoAwHMAUQPRGcDAckBPRM9bAMBwgFZM19bAwGzAWQ3ZI8BAwGvAWk3aY4BAwGsAW47dGgDAaYBeT95mwEDAaIB1wM/1wOcAQMBnwF+Q4QBXQMBmQGJAUeJAa4BAwGVAa8DR68DrQEDAZIBtANLugN4AwGMAb8DT78DrQEDAYgBxANPxAOsAQMBhQGSAVOdAXUCAXeiAVeiAdMBAgFyrgFXrgHSAQIBbp4DV54D0gECAWq3AWO3AeEBAgFhvgFrxAGRAQIBWskBb8kBwgECAVbOAW/OAcEBAgFT0wFz2gF9AgFP4QF75wGhAQIBSe4BgwHuAcoBAgFE8QGDAfcBpQECAUD8AYcB/AGAAgIBPOUChwHlAvcBAgE56gKLAeoCmAICATbvAo8B7wLtAQIBMvQCjwH0AuwBAgEvgQKLAYcCswECASmMAo8BjALhAQIBJZQCjwGUAuABAgEimQKTAZ8CxAECARqkApcBpALtAQIBFqkClwGpAuwBAgETMBEwcQMB0QE9UT1pAwHDAVw5XJgBAwG0AXFBcaUBAwGnAYEBSYEBtwEDAZoBtwNRtwO2AQMBjQGaAVmaAbIBAgF8lQFZlQG9AQIBeMEBccEBywECAVvYAXfYAdcBAgFQ5AGBAeQB1wECAUruAZMB7gGdAQIBRfQBiQH0AeUBAgFBhAKRAYQC6gECASqcApkBnAL2AQIBGw==</sads:DebugSymbol.Symbol>
+    <sads:DebugSymbol.Symbol>d0dFOlxGYWtzXEdpdFJlcG9zXHVwcHByb2plY3Q4MVxVcHBQcm9qZWN0ODFcVXBwUHJvamVjdDgxXFVwcFByb2Nlc3MueGFtbFspA8cEEgIBASsHowQPAwGrAkcPnAQXAwGoAjsPPxcDAaQCSxeYBB8DAaECTx+UBCcDAZ4CUyeQBC8DAZsCVy+MBDcDAYgCbDeFBD8DAfUBfD/5A0cDAeIB2QNH8gNPAwHPAYwBR9EDTwMBzAGQAU/NA1cDAaoBpQFXqQFfAwGnAbEBV8ADXwMBpAG1AV+8A2cDAaABvAFnuANvAwGNAdEBb7EDdwMBiAHfAXetA38DAYAB7AF/qQOHAQIBa48DhwGiA48BAgFd/wGHAYcDjwECAUqPAo8BjwKDAgIBSJcCjwGAA5cBAgE1rAKXAfkCnwECARjSAqcB5gKvAQIBFdYCrwHiArcBAgES2gK3Ad4CvwECAQ/LAp8B8gKnAQIBAi0LMyYDAbgCOA84aAMBsgJED0RnAwGtAj0TPWwDAaYCWTNfWwMBlQJkN2SPAQMBjwJpN2mOAQMBigJuO3RoAwGCAnk/eZsBAwH8Af4DP/4DnAEDAfcBfkOEAV0DAe8BiQFHiQGuAQMB6QHWA0fWA60BAwHkAdsDS+EDeAMB3AHmA0/mA60BAwHWAesDT+sDrAEDAdEBkgFTnQF1AwG/AaIBV6IB0wEDAbgBrgFXrgHSAQMBsgHFA1fFA9IBAwGsAbcBY7cB4QEDAaMBvgFrxAGRAQMBmgHJAW/JAcIBAwGUAc4Bb84BwQEDAY8B0wFz2gF9AwGLAeEBe+cBoQEDAYMB7gGDAe4B8AECAX7xAYMB9wGlAQIBePwBhwH8AYACAgFyjAOHAYwD9wECAW2RA4sBkQOYAgIBapYDjwGWA+0BAgFkmwOPAZsD7AECAV+BAosBhwKzAQIBV4wCjwGMAuEBAgFRlAKPAZQC4AECAUyZApMBnwLEAQIBQqQClwGkAu0BAgE8qQKXAakC7AECATeuApsBvgK8AQIBJcMCnwHDAvcBAgEfyAKfAcgC+AECARrPAqcBzwL5AQIBCesCpwHrAvgBAgEEMBEwcQMBuQI9UT1pAwGnAlw5XJgBAwGWAnFBcaUBAwGDAoEBSYEBtwEDAfAB3gNR3gO2AQMB3QGaAVmaAbIBAwHGAZUBWZUBvQEDAcABwQFxwQHLAQMBmwHYAXfYAdcBAwGMAeQBgQHkAdcBAwGEAe4BuQHuAcMBAgF/9AGJAfQB5QECAXmEApEBhALqAQIBWJwCmQGcAvYBAgFDtgKhAbYC+AECATC7AqEBuwKBAgIBK7ECoQGxAoUCAgEm</sads:DebugSymbol.Symbol>
   </StateMachine>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
@@ -649,6 +690,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="DobavljanjeKomisijeActivity_1" sap:VirtualizedContainerService.HintSize="200,22" />
       <sap2010:ViewStateData Id="Transition_36">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -752,7 +794,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="State_29" sap:VirtualizedContainerService.HintSize="308,64">
+      <sap2010:ViewStateData Id="State_29" sap:VirtualizedContainerService.HintSize="326,499">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">436,1548</av:Point>

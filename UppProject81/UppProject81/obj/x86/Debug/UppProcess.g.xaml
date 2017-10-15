@@ -226,7 +226,7 @@
                                                                                                                               <Transition.To>
                                                                                                                                 <State x:Name="__ReferenceID20" DisplayName="Dostavljanje doktorata na uvid javnosti i prikupljanje primedbi">
                                                                                                                                   <State.Entry>
-                                                                                                                                    <Delay Duration="00:00:10" />
+                                                                                                                                    <Delay DisplayName="DoktoratNaUviduJavnosti" Duration="00:00:10" />
                                                                                                                                   </State.Entry>
                                                                                                                                   <State.Exit>
                                                                                                                                     <ac:PrikupljanjePrimedbiActivity>
@@ -268,18 +268,58 @@
                                                                                                                                               </Transition.Condition>
                                                                                                                                               <Transition.To>
                                                                                                                                                 <State x:Name="__ReferenceID23" DisplayName="Pribavljanje saglasnosti Univerziteta">
+                                                                                                                                                  <State.Entry>
+                                                                                                                                                    <ac:PribavljanjeSaglasnostiUniverzitetaActivity>
+                                                                                                                                                      <ac:PribavljanjeSaglasnostiUniverzitetaActivity.SaglasanUniverzitet>
+                                                                                                                                                        <OutArgument x:TypeArguments="x:Boolean">
+                                                                                                                                                          <mca:CSharpReference x:TypeArguments="x:Boolean">SaglasanUniverzitetVar</mca:CSharpReference>
+                                                                                                                                                        </OutArgument>
+                                                                                                                                                      </ac:PribavljanjeSaglasnostiUniverzitetaActivity.SaglasanUniverzitet>
+                                                                                                                                                    </ac:PribavljanjeSaglasnostiUniverzitetaActivity>
+                                                                                                                                                  </State.Entry>
                                                                                                                                                   <State.Transitions>
-                                                                                                                                                    <Transition DisplayName="" To="{x:Reference __ReferenceID2}" />
+                                                                                                                                                    <Transition DisplayName="" To="{x:Reference __ReferenceID2}">
+                                                                                                                                                      <Transition.Condition>
+                                                                                                                                                        <mca:CSharpValue x:TypeArguments="x:Boolean">!SaglasanUniverzitetVar</mca:CSharpValue>
+                                                                                                                                                      </Transition.Condition>
+                                                                                                                                                    </Transition>
                                                                                                                                                     <Transition DisplayName="T30">
+                                                                                                                                                      <Transition.Condition>
+                                                                                                                                                        <mca:CSharpValue x:TypeArguments="x:Boolean">SaglasanUniverzitetVar</mca:CSharpValue>
+                                                                                                                                                      </Transition.Condition>
                                                                                                                                                       <Transition.To>
                                                                                                                                                         <State x:Name="__ReferenceID3" DisplayName="Dobavljanje komisije">
+                                                                                                                                                          <State.Entry>
+                                                                                                                                                            <ac:DobavljanjeKomisijeActivity>
+                                                                                                                                                              <ac:DobavljanjeKomisijeActivity.BrojSprecenihClanovaKomisije>
+                                                                                                                                                                <OutArgument x:TypeArguments="x:Int32">
+                                                                                                                                                                  <mca:CSharpReference x:TypeArguments="x:Int32">BrojSprecenihClanovaKomisijeVar</mca:CSharpReference>
+                                                                                                                                                                </OutArgument>
+                                                                                                                                                              </ac:DobavljanjeKomisijeActivity.BrojSprecenihClanovaKomisije>
+                                                                                                                                                              <ac:DobavljanjeKomisijeActivity.MentorSprecen>
+                                                                                                                                                                <OutArgument x:TypeArguments="x:Boolean">
+                                                                                                                                                                  <mca:CSharpReference x:TypeArguments="x:Boolean">MentorSprecenVar</mca:CSharpReference>
+                                                                                                                                                                </OutArgument>
+                                                                                                                                                              </ac:DobavljanjeKomisijeActivity.MentorSprecen>
+                                                                                                                                                            </ac:DobavljanjeKomisijeActivity>
+                                                                                                                                                          </State.Entry>
                                                                                                                                                           <State.Transitions>
-                                                                                                                                                            <Transition DisplayName="" To="{x:Reference __ReferenceID1}" />
+                                                                                                                                                            <Transition DisplayName="" To="{x:Reference __ReferenceID1}">
+                                                                                                                                                              <Transition.Condition>
+                                                                                                                                                                <mca:CSharpValue x:TypeArguments="x:Boolean">PotrebnaIzmenaKomisijeVar</mca:CSharpValue>
+                                                                                                                                                              </Transition.Condition>
+                                                                                                                                                            </Transition>
                                                                                                                                                             <Transition DisplayName="">
+                                                                                                                                                              <Transition.Condition>
+                                                                                                                                                                <mca:CSharpValue x:TypeArguments="x:Boolean">!PotrebnaIzmenaKomisijeVar</mca:CSharpValue>
+                                                                                                                                                              </Transition.Condition>
                                                                                                                                                               <Transition.To>
                                                                                                                                                                 <State x:Name="__ReferenceID27" DisplayName="Odlucivanje o odbrani">
                                                                                                                                                                   <State.Transitions>
                                                                                                                                                                     <Transition DisplayName="">
+                                                                                                                                                                      <Transition.Condition>
+                                                                                                                                                                        <mca:CSharpValue x:TypeArguments="x:Boolean">!OdlozenaOdbranaVar</mca:CSharpValue>
+                                                                                                                                                                      </Transition.Condition>
                                                                                                                                                                       <Transition.To>
                                                                                                                                                                         <State x:Name="__ReferenceID24" DisplayName="Pripremanje odbrane">
                                                                                                                                                                           <State.Transitions>
@@ -304,16 +344,29 @@
                                                                                                                                                                         </State>
                                                                                                                                                                       </Transition.To>
                                                                                                                                                                     </Transition>
-                                                                                                                                                                    <Transition DisplayName="" To="{x:Reference __ReferenceID3}" />
+                                                                                                                                                                    <Transition DisplayName="" To="{x:Reference __ReferenceID3}">
+                                                                                                                                                                      <Transition.Condition>
+                                                                                                                                                                        <mca:CSharpValue x:TypeArguments="x:Boolean">OdlozenaOdbranaVar</mca:CSharpValue>
+                                                                                                                                                                      </Transition.Condition>
+                                                                                                                                                                    </Transition>
                                                                                                                                                                   </State.Transitions>
+                                                                                                                                                                  <State.Variables>
+                                                                                                                                                                    <Variable x:TypeArguments="x:Boolean" Name="OdlozenaOdbranaVar" />
+                                                                                                                                                                  </State.Variables>
                                                                                                                                                                 </State>
                                                                                                                                                               </Transition.To>
                                                                                                                                                             </Transition>
                                                                                                                                                           </State.Transitions>
+                                                                                                                                                          <State.Variables>
+                                                                                                                                                            <Variable x:TypeArguments="x:Boolean" Name="PotrebnaIzmenaKomisijeVar" />
+                                                                                                                                                          </State.Variables>
                                                                                                                                                         </State>
                                                                                                                                                       </Transition.To>
                                                                                                                                                     </Transition>
                                                                                                                                                   </State.Transitions>
+                                                                                                                                                  <State.Variables>
+                                                                                                                                                    <Variable x:TypeArguments="x:Boolean" Name="SaglasanUniverzitetVar" />
+                                                                                                                                                  </State.Variables>
                                                                                                                                                 </State>
                                                                                                                                               </Transition.To>
                                                                                                                                             </Transition>
@@ -509,8 +562,10 @@
       <x:Reference>__ReferenceID27</x:Reference>
       <StateMachine.Variables>
         <Variable x:TypeArguments="x:Int32" Name="OcenaDoktorataVar" />
+        <Variable x:TypeArguments="x:Int32" Name="BrojSprecenihClanovaKomisijeVar" />
+        <Variable x:TypeArguments="x:Boolean" Name="MentorSprecenVar" />
       </StateMachine.Variables>
-      <sads:DebugSymbol.Symbol>9xA7dckZzcmkX2IqBWJvR/gpR0U6XEZha3NcR2l0UmVwb3NcdXBwcHJvamVjdDgxXFVwcFByb2plY3Q4MVxVcHBQcm9qZWN0ODFcVXBwUHJvY2Vzcy54YW1sTykDiwQSAgEBKwfpAw8DAb0BRw/iAxcDAboBOw8/FwMBtgFLF94DHwMBswFPH9oDJwMBsAFTJ9YDLwMBrQFXL9IDNwMBoAFsN8sDPwMBkwF8P78DRwMBhgGfA0e4A08CAXmMAUeXA08CAXaQAU+TA1cCAV6lAVepAV8CAVuxAVeGA18CAVi1AV+CA2cCAVS8AWf+Am8CAUfRAW/3AncCAULfAXfzAn8CATzsAX/vAocBAgEt1QKHAegCjwECASP/AYcBzQKPAQIBFo8CjwGPAoMCAgEUlwKPAcYClwECARGcApcBwgKfAQIBDqUCpwG5Aq8BAgELqQKvAbUCtwECAQitArcBsQK/AQIBBaECnwG+AqcBAgECLQszJgMBxgE4DzhoAwHCAUQPRGcDAb8BPRM9bAMBuAFZM19bAwGpAWQ3ZI8BAwGlAWk3aY4BAwGiAW47dGgDAZwBeT95mwEDAZgBxAM/xAOcAQMBlQF+Q4QBXQMBjwGJAUeJAa4BAwGLAZwDR5wDrQEDAYgBoQNLpwN4AwGCAawDT6wDrQECAX6xA0+xA6wBAgF7kgFTnQF1AgFtogFXogHTAQIBaK4BV64B0gECAWSLA1eLA9IBAgFgtwFjtwHhAQIBV74Ba8QBkQECAVDJAW/JAcIBAgFMzgFvzgHBAQIBSdMBc9oBfQIBReEBe+cBoQECAT/uAYMB7gHKAQIBOvEBgwH3AaUBAgE2/AGHAfwBgAICATLSAocB0gL3AQIBL9cCiwHXApgCAgEs3AKPAdwC7QECASjhAo8B4QLsAQIBJYECiwGHArMBAgEfjAKPAYwC4QECARuUAo8BlALgAQIBGDARMHEDAccBPVE9aQMBuQFcOVyYAQMBqgFxQXGlAQMBnQGBAUmBAbcBAwGQAaQDUaQDtgEDAYMBmgFZmgGyAQIBcpUBWZUBvQECAW7BAXHBAcsBAgFR2AF32AHXAQIBRuQBgQHkAdcBAgFA7gGTAe4BnQECATv0AYkB9AHlAQIBN4QCkQGEAuoBAgEg</sads:DebugSymbol.Symbol>
+      <sads:DebugSymbol.Symbol>9xBEJ/AJGfhmldowhr8wMhC3R0U6XEZha3NcR2l0UmVwb3NcdXBwcHJvamVjdDgxXFVwcFByb2plY3Q4MVxVcHBQcm9qZWN0ODFcVXBwUHJvY2Vzcy54YW1sWikDwgQSAgEBKweeBA8DAaYCRw+XBBcDAaMCOw8/FwMBnwJLF5MEHwMBnAJPH48EJwMBmQJTJ4sELwMBlgJXL4cENwMBgwJsN4AEPwMB8AF8P/QDRwMB3QHUA0ftA08DAcoBjAFHzANPAwHHAZABT8gDVwMBpQGlAVepAV8DAaIBsQFXuwNfAwGfAbUBX7cDZwMBmwG8AWezA28DAYgB0QFvrAN3AwGDAd8Bd6gDfwIBe+wBf6QDhwECAWaKA4cBnQOPAQIBWP8BhwGCA48BAgFFjwKPAY8CgwICAUOXAo8B+wKXAQIBMKwClwH0Ap8BAgEYzQKnAeECrwECARXRAq8B3QK3AQIBEtUCtwHZAr8BAgEPxgKfAe0CpwECAQItCzMmAwGzAjgPOGgDAa0CRA9EZwMBqAI9Ez1sAwGhAlkzX1sDAZACZDdkjwEDAYoCaTdpjgEDAYUCbjt0aAMB/QF5P3mbAQMB9wH5Az/5A5wBAwHyAX5DhAFdAwHqAYkBR4kBrgEDAeQB0QNH0QOtAQMB3wHWA0vcA3gDAdcB4QNP4QOtAQMB0QHmA0/mA6wBAwHMAZIBU50BdQMBugGiAVeiAdMBAwGzAa4BV64B0gEDAa0BwANXwAPSAQMBpwG3AWO3AeEBAwGeAb4Ba8QBkQEDAZUByQFvyQHCAQMBjwHOAW/OAcEBAwGKAdMBc9oBfQMBhgHhAXvnAaEBAgF+7gGDAe4B8AECAXnxAYMB9wGlAQIBc/wBhwH8AYACAgFthwOHAYcD9wECAWiMA4sBjAOYAgIBZZEDjwGRA+0BAgFflgOPAZYD7AECAVqBAosBhwKzAQIBUowCjwGMAuEBAgFMlAKPAZQC4AECAUeZApMBnwLEAQIBPaQClwGkAu0BAgE3qQKXAakC7AECATKuApsBuQK8AQIBJb4CnwG+AvcBAgEfwwKfAcMC+AECARrKAqcBygL5AQIBCeYCpwHmAvgBAgEEMBEwcQMBtAI9UT1pAwGiAlw5XJgBAwGRAnFBcaUBAwH+AYEBSYEBtwEDAesB2QNR2QO2AQMB2AGaAVmaAbIBAwHBAZUBWZUBvQEDAbsBwQFxwQHLAQMBlgHYAXfYAdcBAwGHAeQBgQHkAdcBAgF/7gG5Ae4BwwECAXr0AYkB9AHlAQIBdIQCkQGEAuoBAgFTnAKZAZwC9gECAT62AqEBtgL4AQIBK7ECoQGxAoUCAgEm</sads:DebugSymbol.Symbol>
     </StateMachine>
   </u:UppProcess.Implementation>
 </u:UppProcess>
