@@ -11,7 +11,7 @@
 namespace UppProject81 {
     
     
-    public partial class UppProcess {
+    public partial class Process81 {
         
     partial void BeforeInitializeComponent(ref bool isInitialized)
     {
@@ -20,7 +20,7 @@ namespace UppProject81 {
         }
 
         System.Activities.XamlIntegration.ActivityXamlServices.InitializeComponent(
-            typeof(UppProcess),
+            typeof(Process81),
             this
         );
 

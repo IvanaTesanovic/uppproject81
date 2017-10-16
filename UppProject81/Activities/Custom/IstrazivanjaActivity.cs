@@ -9,12 +9,12 @@ namespace Activities.Custom
 {
     public class IstrazivanjaActivity : CodeActivity
     {
-        public OutArgument<bool> PotrebnoProduzenjeRokaZaIstrazivanja { get; set; }
+        public OutArgument<string> PotrebnoProduzenjeRokaZaIstrazivanja { get; set; }
 
         protected override void Execute(CodeActivityContext context)
         {
             //doktorant ovde odlucuje da li mu treba produzenje roka za istrazivanja
-            PotrebnoProduzenjeRokaZaIstrazivanja.Set(context, true);
+            PotrebnoProduzenjeRokaZaIstrazivanja.Set(context, "Da");
         }
     }
 }

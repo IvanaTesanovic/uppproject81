@@ -13,7 +13,7 @@ namespace UppProject81 {
     
     
     [System.Runtime.InteropServices.ComVisible(false)]
-    public partial class UppProcess : System.Activities.Activity, System.ComponentModel.ISupportInitialize {
+    public partial class Activity1 : System.Activities.Activity, System.ComponentModel.ISupportInitialize {
         
         private bool _contentLoaded;
         
@@ -23,7 +23,7 @@ partial void AfterInitializeComponent();
 
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("XamlBuildTask", "4.0.0.0")]
-        public UppProcess() {
+        public Activity1() {
             this.InitializeComponent();
         }
         
@@ -44,7 +44,7 @@ partial void AfterInitializeComponent();
                 return;
             }
             string resourceName = this.FindResource();
-            System.IO.Stream initializeXaml = typeof(UppProcess).Assembly.GetManifestResourceStream(resourceName);
+            System.IO.Stream initializeXaml = typeof(Activity1).Assembly.GetManifestResourceStream(resourceName);
             System.Xml.XmlReader xmlReader = null;
             System.Xaml.XamlReader reader = null;
             System.Xaml.XamlObjectWriter objectWriter = null;
@@ -57,7 +57,7 @@ partial void AfterInitializeComponent();
                 reader = new System.Xaml.XamlXmlReader(xmlReader, schemaContext, readerSettings);
                 System.Xaml.XamlObjectWriterSettings writerSettings = new System.Xaml.XamlObjectWriterSettings();
                 writerSettings.RootObjectInstance = this;
-                writerSettings.AccessLevel = System.Xaml.Permissions.XamlAccessLevel.PrivateAccessTo(typeof(UppProcess));
+                writerSettings.AccessLevel = System.Xaml.Permissions.XamlAccessLevel.PrivateAccessTo(typeof(Activity1));
                 objectWriter = new System.Xaml.XamlObjectWriter(schemaContext, writerSettings);
                 System.Xaml.XamlServices.Transform(reader, objectWriter);
             }
@@ -77,10 +77,10 @@ partial void AfterInitializeComponent();
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("XamlBuildTask", "4.0.0.0")]
         private string FindResource() {
-            string[] resources = typeof(UppProcess).Assembly.GetManifestResourceNames();
+            string[] resources = typeof(Activity1).Assembly.GetManifestResourceNames();
             for (int i = 0; (i < resources.Length); i = (i + 1)) {
                 string resource = resources[i];
-                if ((resource.Contains(".UppProcess.g.xaml") || resource.Equals("UppProcess.g.xaml"))) {
+                if ((resource.Contains(".Activity1.g.xaml") || resource.Equals("Activity1.g.xaml"))) {
                     return resource;
                 }
             }

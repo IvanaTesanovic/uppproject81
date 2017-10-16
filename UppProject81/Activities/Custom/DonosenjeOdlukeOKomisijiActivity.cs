@@ -9,11 +9,11 @@ namespace Activities.Custom
 {
     public class DonosenjeOdlukeOKomisijiActivity : CodeActivity
     {
-        public OutArgument<bool> OdobrenaKomisija { get; set; }
+        public OutArgument<string> OdobrenaKomisija { get; set; }
 
         protected override void Execute(CodeActivityContext context)
         {
-            OdobrenaKomisija.Set(context, false);
+            OdobrenaKomisija.Set(context, "Ne");
         }
     }
 }

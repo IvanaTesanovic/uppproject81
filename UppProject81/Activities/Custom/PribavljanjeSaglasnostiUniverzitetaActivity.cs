@@ -9,11 +9,11 @@ namespace Activities.Custom
 {
     public class PribavljanjeSaglasnostiUniverzitetaActivity : CodeActivity
     {
-        public OutArgument<bool> SaglasanUniverzitet { get; set; }
+        public OutArgument<string> SaglasanUniverzitet { get; set; }
 
         protected override void Execute(CodeActivityContext context)
         {
-            SaglasanUniverzitet.Set(context, true);
+            SaglasanUniverzitet.Set(context, "Da");
         }
     }
 }

@@ -1,4 +1,4 @@
 obj\x86\Debug\_UppProject81.g.cs
-obj\x86\Debug\UppProcess.g.cs
-obj\x86\Debug\UppProject81_UppProcess_BeforeInitializeComponentHelper.cs
-E:\Faks\GitRepos\uppproject81\UppProject81\UppProject81\obj\x86\Debug\UppProject81_UppProcess_CompiledExpressionRoot.cs
+obj\x86\Debug\Process81.g.cs
+obj\x86\Debug\UppProject81_Process81_BeforeInitializeComponentHelper.cs
+E:\Faks\GitRepos\uppproject81\UppProject81\UppProject81\obj\x86\Debug\UppProject81_Process81_CompiledExpressionRoot.cs

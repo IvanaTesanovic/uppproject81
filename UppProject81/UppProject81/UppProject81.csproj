@@ -60,16 +60,16 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <XamlAppDef Include="UppProcess.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </XamlAppDef>
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\Activities\Activities.csproj">
       <Project>{85120C7E-8689-408F-8F66-5EED85A80E62}</Project>
       <Name>Activities</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <XamlAppDef Include="Process81.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </XamlAppDef>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

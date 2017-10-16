@@ -9,11 +9,11 @@ namespace Activities.Custom
 {
     public class PrikupljanjePrimedbiActivity : CodeActivity
     {
-        public OutArgument<bool> PrihvacenePrimedbe { get; set; }
+        public OutArgument<string> PrihvacenePrimedbe { get; set; }
 
         protected override void Execute(CodeActivityContext context)
         {
-            PrihvacenePrimedbe.Set(context, true);
+            PrihvacenePrimedbe.Set(context, "Da");
         }
     }
 }

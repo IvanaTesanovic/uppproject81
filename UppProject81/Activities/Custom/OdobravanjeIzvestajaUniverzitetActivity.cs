@@ -9,11 +9,11 @@ namespace Activities.Custom
 {
     public class OdobravanjeIzvestajaUniverzitetActivity : CodeActivity
     {
-        public OutArgument<bool> OdobrenIzvestajUniverzitet { get; set; }
+        public OutArgument<string> OdobrenIzvestajUniverzitet { get; set; }
 
         protected override void Execute(CodeActivityContext context)
         {
-            OdobrenIzvestajUniverzitet.Set(context, false);
+            OdobrenIzvestajUniverzitet.Set(context, "Ne");
         }
     }
 }

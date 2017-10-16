@@ -10,7 +10,7 @@ namespace UppProject81
     {
         static void Main(string[] args)
         {
-            Activity testing = new UppProcess();
+            Activity testing = new Process81();
             WorkflowInvoker.Invoke(testing);
 
             Console.ReadLine();

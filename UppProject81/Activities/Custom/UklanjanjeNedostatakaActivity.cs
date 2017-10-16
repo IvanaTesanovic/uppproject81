@@ -9,11 +9,11 @@ namespace Activities.Custom
 {
     public class UklanjanjeNedostatakaActivity : CodeActivity
     {
-        public OutArgument<bool> MoguceUklanjanjeNedostataka { get; set; }
+        public OutArgument<string> MoguceUklanjanjeNedostataka { get; set; }
 
         protected override void Execute(CodeActivityContext context)
         {
-            MoguceUklanjanjeNedostataka.Set(context, false);
+            MoguceUklanjanjeNedostataka.Set(context, "Ne");
         }
     }
 }

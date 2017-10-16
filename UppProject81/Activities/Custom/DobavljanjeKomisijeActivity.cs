@@ -9,14 +9,14 @@ namespace Activities.Custom
 {
     public class DobavljanjeKomisijeActivity : CodeActivity
     {
-        public OutArgument<bool> MentorSprecen { get; set; }
+        public OutArgument<string> MentorSprecen { get; set; }
         public OutArgument<int> BrojSprecenihClanovaKomisije { get; set; }
-        public OutArgument<bool> PotrebnaIzmenaKomisije { get; set; }
+        public OutArgument<string> PotrebnaIzmenaKomisije { get; set; }
 
         protected override void Execute(CodeActivityContext context)
         {
-            PotrebnaIzmenaKomisije.Set(context, false);
-            MentorSprecen.Set(context, false);
+            PotrebnaIzmenaKomisije.Set(context, "Ne");
+            MentorSprecen.Set(context, "Ne");
             BrojSprecenihClanovaKomisije.Set(context, 2);
         }
     }
