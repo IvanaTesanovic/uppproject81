@@ -163,6 +163,15 @@
                                                                                                     <Transition DisplayName="T13">
                                                                                                       <Transition.To>
                                                                                                         <State x:Name="__ReferenceID15" DisplayName="Donosenje odluke o Komisiji i dopuna">
+                                                                                                          <State.Entry>
+                                                                                                            <ac:DonosenjeOdlukeOKomisijiActivity>
+                                                                                                              <ac:DonosenjeOdlukeOKomisijiActivity.OdobrenaKomisija>
+                                                                                                                <OutArgument x:TypeArguments="x:String">
+                                                                                                                  <mca:CSharpReference x:TypeArguments="x:String">OdobrenaKomisijaVar</mca:CSharpReference>
+                                                                                                                </OutArgument>
+                                                                                                              </ac:DonosenjeOdlukeOKomisijiActivity.OdobrenaKomisija>
+                                                                                                            </ac:DonosenjeOdlukeOKomisijiActivity>
+                                                                                                          </State.Entry>
                                                                                                           <State.Transitions>
                                                                                                             <Transition DisplayName="" To="{x:Reference __ReferenceID2}">
                                                                                                               <Transition.Condition>
@@ -179,10 +188,31 @@
                                                                                                                     <Transition DisplayName="T16">
                                                                                                                       <Transition.To>
                                                                                                                         <State x:Name="__ReferenceID20" DisplayName="Kreiranje izvestaja o oceni">
+                                                                                                                          <State.Entry>
+                                                                                                                            <ac:KreiranjeIzvestajaOOceniActivity>
+                                                                                                                              <ac:KreiranjeIzvestajaOOceniActivity.OcenaDoktorata>
+                                                                                                                                <OutArgument x:TypeArguments="x:Int32">
+                                                                                                                                  <mca:CSharpReference x:TypeArguments="x:Int32">OcenaDoktorataVar</mca:CSharpReference>
+                                                                                                                                </OutArgument>
+                                                                                                                              </ac:KreiranjeIzvestajaOOceniActivity.OcenaDoktorata>
+                                                                                                                            </ac:KreiranjeIzvestajaOOceniActivity>
+                                                                                                                          </State.Entry>
                                                                                                                           <State.Transitions>
                                                                                                                             <Transition DisplayName="T17">
                                                                                                                               <Transition.To>
                                                                                                                                 <State x:Name="__ReferenceID21" DisplayName="Dostavljanje doktorata na uvid javnosti i prikupljanje primedbi">
+                                                                                                                                  <State.Entry>
+                                                                                                                                    <Delay DisplayName="DoktoratNaUviduJavnosti" Duration="00:00:05" />
+                                                                                                                                  </State.Entry>
+                                                                                                                                  <State.Exit>
+                                                                                                                                    <ac:PrikupljanjePrimedbiActivity>
+                                                                                                                                      <ac:PrikupljanjePrimedbiActivity.PrihvacenePrimedbe>
+                                                                                                                                        <OutArgument x:TypeArguments="x:String">
+                                                                                                                                          <mca:CSharpReference x:TypeArguments="x:String">PrihvacenePrimedbeVar</mca:CSharpReference>
+                                                                                                                                        </OutArgument>
+                                                                                                                                      </ac:PrikupljanjePrimedbiActivity.PrihvacenePrimedbe>
+                                                                                                                                    </ac:PrikupljanjePrimedbiActivity>
+                                                                                                                                  </State.Exit>
                                                                                                                                   <State.Transitions>
                                                                                                                                     <Transition DisplayName="">
                                                                                                                                       <Transition.Condition>
@@ -190,6 +220,15 @@
                                                                                                                                       </Transition.Condition>
                                                                                                                                       <Transition.To>
                                                                                                                                         <State x:Name="__ReferenceID22" DisplayName="Odlucivanje o uklanjanju nedostataka">
+                                                                                                                                          <State.Entry>
+                                                                                                                                            <ac:UklanjanjeNedostatakaActivity>
+                                                                                                                                              <ac:UklanjanjeNedostatakaActivity.MoguceUklanjanjeNedostataka>
+                                                                                                                                                <OutArgument x:TypeArguments="x:String">
+                                                                                                                                                  <mca:CSharpReference x:TypeArguments="x:String">MoguceUklanjanjeNedostatakaVar</mca:CSharpReference>
+                                                                                                                                                </OutArgument>
+                                                                                                                                              </ac:UklanjanjeNedostatakaActivity.MoguceUklanjanjeNedostataka>
+                                                                                                                                            </ac:UklanjanjeNedostatakaActivity>
+                                                                                                                                          </State.Entry>
                                                                                                                                           <State.Transitions>
                                                                                                                                             <Transition DisplayName="" To="{x:Reference __ReferenceID1}">
                                                                                                                                               <Transition.Condition>
@@ -217,6 +256,15 @@
                                                                                                                                       </Transition.Condition>
                                                                                                                                       <Transition.To>
                                                                                                                                         <State x:Name="__ReferenceID16" DisplayName="Razmatranje izvestaja o oceni">
+                                                                                                                                          <State.Entry>
+                                                                                                                                            <ac:RazmatranjeIzvestajaOOceniActivity>
+                                                                                                                                              <ac:RazmatranjeIzvestajaOOceniActivity.IzvestajUsvojen>
+                                                                                                                                                <OutArgument x:TypeArguments="x:String">
+                                                                                                                                                  <mca:CSharpReference x:TypeArguments="x:String">IzvestajUsvojenVar</mca:CSharpReference>
+                                                                                                                                                </OutArgument>
+                                                                                                                                              </ac:RazmatranjeIzvestajaOOceniActivity.IzvestajUsvojen>
+                                                                                                                                            </ac:RazmatranjeIzvestajaOOceniActivity>
+                                                                                                                                          </State.Entry>
                                                                                                                                           <State.Transitions>
                                                                                                                                             <Transition DisplayName="">
                                                                                                                                               <Transition.Condition>
@@ -224,6 +272,15 @@
                                                                                                                                               </Transition.Condition>
                                                                                                                                               <Transition.To>
                                                                                                                                                 <State x:Name="__ReferenceID23" DisplayName="Pribavljanje saglasnosti Univerziteta">
+                                                                                                                                                  <State.Entry>
+                                                                                                                                                    <ac:PribavljanjeSaglasnostiUniverzitetaActivity>
+                                                                                                                                                      <ac:PribavljanjeSaglasnostiUniverzitetaActivity.SaglasanUniverzitet>
+                                                                                                                                                        <OutArgument x:TypeArguments="x:String">
+                                                                                                                                                          <mca:CSharpReference x:TypeArguments="x:String">SaglasanUniverzitetVar</mca:CSharpReference>
+                                                                                                                                                        </OutArgument>
+                                                                                                                                                      </ac:PribavljanjeSaglasnostiUniverzitetaActivity.SaglasanUniverzitet>
+                                                                                                                                                    </ac:PribavljanjeSaglasnostiUniverzitetaActivity>
+                                                                                                                                                  </State.Entry>
                                                                                                                                                   <State.Transitions>
                                                                                                                                                     <Transition DisplayName="" To="{x:Reference __ReferenceID3}">
                                                                                                                                                       <Transition.Condition>
@@ -236,6 +293,25 @@
                                                                                                                                                       </Transition.Condition>
                                                                                                                                                       <Transition.To>
                                                                                                                                                         <State x:Name="__ReferenceID4" DisplayName="Dobavljanje komisije">
+                                                                                                                                                          <State.Entry>
+                                                                                                                                                            <ac:DobavljanjeKomisijeActivity>
+                                                                                                                                                              <ac:DobavljanjeKomisijeActivity.BrojSprecenihClanovaKomisije>
+                                                                                                                                                                <OutArgument x:TypeArguments="x:Int32">
+                                                                                                                                                                  <mca:CSharpReference x:TypeArguments="x:Int32">BrojSprecenihClanovaKomisijeVar</mca:CSharpReference>
+                                                                                                                                                                </OutArgument>
+                                                                                                                                                              </ac:DobavljanjeKomisijeActivity.BrojSprecenihClanovaKomisije>
+                                                                                                                                                              <ac:DobavljanjeKomisijeActivity.MentorSprecen>
+                                                                                                                                                                <OutArgument x:TypeArguments="x:String">
+                                                                                                                                                                  <mca:CSharpReference x:TypeArguments="x:String">MentorSprecenVar</mca:CSharpReference>
+                                                                                                                                                                </OutArgument>
+                                                                                                                                                              </ac:DobavljanjeKomisijeActivity.MentorSprecen>
+                                                                                                                                                              <ac:DobavljanjeKomisijeActivity.PotrebnaIzmenaKomisije>
+                                                                                                                                                                <OutArgument x:TypeArguments="x:String">
+                                                                                                                                                                  <mca:CSharpReference x:TypeArguments="x:String">PotrebnaIzmenaKomisijeVar</mca:CSharpReference>
+                                                                                                                                                                </OutArgument>
+                                                                                                                                                              </ac:DobavljanjeKomisijeActivity.PotrebnaIzmenaKomisije>
+                                                                                                                                                            </ac:DobavljanjeKomisijeActivity>
+                                                                                                                                                          </State.Entry>
                                                                                                                                                           <State.Transitions>
                                                                                                                                                             <Transition DisplayName="">
                                                                                                                                                               <Transition.Condition>
@@ -243,6 +319,57 @@
                                                                                                                                                               </Transition.Condition>
                                                                                                                                                               <Transition.To>
                                                                                                                                                                 <State x:Name="__ReferenceID24" DisplayName="Odlucivanje o odbrani">
+                                                                                                                                                                  <State.Entry>
+                                                                                                                                                                    <If>
+                                                                                                                                                                      <If.Condition>
+                                                                                                                                                                        <InArgument x:TypeArguments="x:Boolean">
+                                                                                                                                                                          <mca:CSharpValue x:TypeArguments="x:Boolean">MentorSprecenVar.ToLower() == "da"</mca:CSharpValue>
+                                                                                                                                                                        </InArgument>
+                                                                                                                                                                      </If.Condition>
+                                                                                                                                                                      <If.Then>
+                                                                                                                                                                        <Assign>
+                                                                                                                                                                          <Assign.To>
+                                                                                                                                                                            <OutArgument x:TypeArguments="x:String">
+                                                                                                                                                                              <mca:CSharpReference x:TypeArguments="x:String">OdlozenaOdbranaVar</mca:CSharpReference>
+                                                                                                                                                                            </OutArgument>
+                                                                                                                                                                          </Assign.To>
+                                                                                                                                                                          <Assign.Value>
+                                                                                                                                                                            <InArgument x:TypeArguments="x:String">da</InArgument>
+                                                                                                                                                                          </Assign.Value>
+                                                                                                                                                                        </Assign>
+                                                                                                                                                                      </If.Then>
+                                                                                                                                                                      <If.Else>
+                                                                                                                                                                        <If>
+                                                                                                                                                                          <If.Condition>
+                                                                                                                                                                            <InArgument x:TypeArguments="x:Boolean">
+                                                                                                                                                                              <mca:CSharpValue x:TypeArguments="x:Boolean">BrojSprecenihClanovaKomisijeVar &gt;=2</mca:CSharpValue>
+                                                                                                                                                                            </InArgument>
+                                                                                                                                                                          </If.Condition>
+                                                                                                                                                                          <If.Then>
+                                                                                                                                                                            <Assign>
+                                                                                                                                                                              <Assign.To>
+                                                                                                                                                                                <OutArgument x:TypeArguments="x:String">
+                                                                                                                                                                                  <mca:CSharpReference x:TypeArguments="x:String">OdlozenaOdbranaVar</mca:CSharpReference>
+                                                                                                                                                                                </OutArgument>
+                                                                                                                                                                              </Assign.To>
+                                                                                                                                                                              <Assign.Value>
+                                                                                                                                                                                <InArgument x:TypeArguments="x:String">da</InArgument>
+                                                                                                                                                                              </Assign.Value>
+                                                                                                                                                                            </Assign>
+                                                                                                                                                                          </If.Then>
+                                                                                                                                                                          <If.Else>
+                                                                                                                                                                            <ac:OdlucivanjeOOdbraniActivity>
+                                                                                                                                                                              <ac:OdlucivanjeOOdbraniActivity.OdlozenaOdbrana>
+                                                                                                                                                                                <OutArgument x:TypeArguments="x:String">
+                                                                                                                                                                                  <mca:CSharpReference x:TypeArguments="x:String">OdlozenaOdbranaVar</mca:CSharpReference>
+                                                                                                                                                                                </OutArgument>
+                                                                                                                                                                              </ac:OdlucivanjeOOdbraniActivity.OdlozenaOdbrana>
+                                                                                                                                                                            </ac:OdlucivanjeOOdbraniActivity>
+                                                                                                                                                                          </If.Else>
+                                                                                                                                                                        </If>
+                                                                                                                                                                      </If.Else>
+                                                                                                                                                                    </If>
+                                                                                                                                                                  </State.Entry>
                                                                                                                                                                   <State.Transitions>
                                                                                                                                                                     <Transition DisplayName="" To="{x:Reference __ReferenceID4}">
                                                                                                                                                                       <Transition.Condition>
@@ -488,7 +615,7 @@
         <Variable x:TypeArguments="x:String" Name="MentorSprecenVar" />
         <Variable x:TypeArguments="x:Int32" Name="BrojSprecenihClanovaKomisijeVar" />
       </StateMachine.Variables>
-      <sads:DebugSymbol.Symbol>9xC7J4PzBZE/rzb9F4/Wp73bRkU6XEZha3NcR2l0UmVwb3NcdXBwcHJvamVjdDgxXFVwcFByb2plY3Q4MVxVcHBQcm9qZWN0ODFcUHJvY2VzczgxLnhhbWxGKQP1AxICAQErB9EDDwMB+wFDD8oDFwMB+AFHF8YDHwMB9QFjN64DPwMB4gFLH8IDJwMB3wGmAVfnAl8DAdwBTye+Ay8DAdkBUy+6AzcDAcYBeD+nA0cDAbMBiAFH/wJPAwGwAa4BZ98CbwMBowHkAYcByQKPAQMBlgGqAV/jAmcDAZMBhwNHoANPAwGAAboBb9gCdwIBfYwBT/sCVwIBW9UBjwHVAYMCAgFZOw87gwECAVe+AXfUAn8CAVTCAX/QAocBAgFHyQGHAdwBjwECATrrAY8BvQKXAQIBLfcBlwG2Ap8BAgEb/gGfAaUCpwECAQ6KAqcBngKvAQIBC44CrwGaArcBAgEIkgK3AZYCvwECAQXvAlfzAl8CAQItCzMmAwGIAjgPOHkDAYICQA9AeQMB/QFlO2toAwHvAXA/cK0BAwHpAXU/da0BAwHkAVUzW1sDAdMBYDdgoAEDAc0BswM3swOgAQMByAF6Q4ABXQMBwAGFAUeFAb8BAwG6AYQDR4QDvwEDAbUBsgFvsgHTAQMBqgG3AW+3AdMBAwGlAegBjwHoAfIBAwGdAcICjwHCAvIBAwGYAYkDS48DeAMBjQGUA0+UA74BAwGHAZkDT5kDvgEDAYIBjgFTmQF1AgFwngFXngH1AQIBaaMBV6MB9QECAWPsAlfsAvUBAgFdxgGHAcYBiQICAU7hAYcB4QGQAgIBSc0BjwHNAf4BAgFB0gGPAdIB/gECATzvAZcB7wH+AQIBNPQBlwH0Af4BAgEv+wGfAfsBiQICASeqAp8BqgLnAgIBIq8CnwGvAokCAgEdggKnAYICigICARWHAqcBhwKKAgIBEDARMHADAYkCaEFopAEDAfABWDlYlwEDAdQBfUl9tgEDAcEBjANRjAO1AQMBjgGWAVmWAbEBAgF3kQFZkQG8AQIBcQ==</sads:DebugSymbol.Symbol>
+      <sads:DebugSymbol.Symbol>9xAWRAIUV7ziLhZBVSJw7DQ7RkU6XEZha3NcR2l0UmVwb3NcdXBwcHJvamVjdDgxXFVwcFByb2plY3Q4MVxVcHBQcm9qZWN0ODFcUHJvY2VzczgxLnhhbWxkKQP0BBICAQErB9AEDwMB0AJDD8kEFwMBzQJHF8UEHwMBygJjN60EPwMBtwJLH8EEJwMBtAKmAVfmA18DAbECTye9BC8DAa4CUy+5BDcDAZsCeD+mBEcDAYgCiAFH/gNPAwGFAq4BZ94DbwMB8gGLAocByAOPAQMB3wGqAV/iA2cDAdwBhgRHnwRPAwHJAcMBb9cDdwMBxgGMAU/6A1cDAaQB/AGPAfwBgwIDAaIBOw87gwEDAaABxwF30wN/AwGYAdQBf88DhwEDAYMB5wGHAYMCjwECAXCbAo8BvAOXAQIBXbAClwG1A58BAgE7ygKfAaQDpwECAQ6JA6cBnQOvAQIBC40DrwGZA7cBAgEIkQO3AZUDvwECAQXuA1fyA18CAQItCzMmAwHdAjgPOHkDAdcCQA9AeQMB0gJlO2toAwHEAnA/cK0BAwG+AnU/da0BAwG5AlUzW1sDAagCYDdgoAEDAaICsgQ3sgSgAQMBnQJ6Q4ABXQMBlQKFAUeFAb8BAwGPAoMER4MEvwEDAYoCsAFrtgGRAQMB/wG7AW+7AdMBAwH5AcABb8AB0wEDAfQBjQKLAZMCswEDAewBmAKPAZgC8gEDAeYBwQOPAcED8gEDAeEBiARLjgR4AwHWAZMET5MEvgEDAdABmARPmAS+AQMBywGOAVOZAXUDAbkBngFXngH1AQMBsgGjAVejAfUBAwGsAesDV+sD9QEDAaYByQF7zwGhAQMBmwHWAYMB1gHwAQMBlgHZAYMB3wGlAQMBkAHkAYcB5AGJAgMBigGIAocBiAKQAgMBhQHpAYsB7wGuAQIBffQBjwH0Af4BAgF3+QGPAfkB/gECAXKdApMBowLEAQIBaqgClwGoAv4BAgFkrQKXAa0C/gECAV+yApsBwgK8AQIBTccCnwHHAokCAgFHqQOfAakD5wICAUKuA58BrgOJAgIBPcwCowH8AqgBAgEbgQOnAYEDigICARWGA6cBhgOKAgIBEDARMHADAd4CaEFopAEDAcUCWDlYlwEDAakCfUl9tgEDAZYCswFxswHKAQMBgAKQApEBkALpAQMB7QGLBFGLBLUBAwHXAZYBWZYBsQEDAcABkQFZkQG8AQMBugHMAYEBzAHXAQMBnAHWAbkB1gHDAQMBlwHcAYkB3AHkAQMBkQHsAZEB7AH1AQIBfqACmQGgAvUBAgFrugKhAboC9wECAVi/AqEBvwKAAgIBU7UCoQG1AoUCAgFOzwKpAc8CigICARzTAqcB3AKwAQIBNN8CpwH6AqwBAgEh2gLSAdoC1AECATrWAq0B1gKFAgIBNeICrQHiApICAgEi5gKrAe8CtAECAS3yAqsB+ALMAQIBJ+0C1gHtAtgBAgEz6QKxAekCiQICAS71ArEB9QKJAgIBKA==</sads:DebugSymbol.Symbol>
     </StateMachine>
   </u:Process81.Implementation>
 </u:Process81>
