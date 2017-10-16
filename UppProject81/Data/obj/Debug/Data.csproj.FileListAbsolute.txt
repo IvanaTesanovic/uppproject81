@@ -1,0 +1,6 @@
+E:\Faks\GitRepos\uppproject81\UppProject81\Data\bin\Debug\Data.dll
+E:\Faks\GitRepos\uppproject81\UppProject81\Data\bin\Debug\Data.pdb
+E:\Faks\GitRepos\uppproject81\UppProject81\Data\obj\Debug\Data.dll
+E:\Faks\GitRepos\uppproject81\UppProject81\Data\obj\Debug\Data.pdb
+E:\Faks\GitRepos\uppproject81\UppProject81\Data\bin\Debug\NPoco.dll
+E:\Faks\GitRepos\uppproject81\UppProject81\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache

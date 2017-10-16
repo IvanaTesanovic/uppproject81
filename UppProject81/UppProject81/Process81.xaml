@@ -42,7 +42,7 @@
     <StateMachine.InitialState>
       <State x:Name="__ReferenceID7" DisplayName="Provera dokumentacije" sap2010:WorkflowViewState.IdRef="State_2">
         <State.Entry>
-          <ac:DokumentacijaActivity sap2010:WorkflowViewState.IdRef="DokumentacijaActivity_1">
+          <ac:DokumentacijaActivity sap2010:WorkflowViewState.IdRef="DokumentacijaActivity_2">
             <ac:DokumentacijaActivity.PodnesenaDokumentacija>
               <OutArgument x:TypeArguments="x:String">
                 <mca:CSharpReference x:TypeArguments="x:String">PodnesenaDokumentacijaVar</mca:CSharpReference>
@@ -56,7 +56,11 @@
               <mca:CSharpValue x:TypeArguments="x:Boolean">PodnesenaDokumentacijaVar.ToLower() == "ne"</mca:CSharpValue>
             </Transition.Condition>
             <Transition.To>
-              <State x:Name="__ReferenceID0" DisplayName="FinalState" sap2010:WorkflowViewState.IdRef="State_19" IsFinal="True" />
+              <State x:Name="__ReferenceID0" DisplayName="FinalState" sap2010:WorkflowViewState.IdRef="State_19" IsFinal="True">
+                <State.Entry>
+                  <WriteLine Text="Process has ended." sap2010:WorkflowViewState.IdRef="WriteLine_1" />
+                </State.Entry>
+              </State>
             </Transition.To>
           </Transition>
           <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_11">
@@ -633,12 +637,13 @@
       <Variable x:TypeArguments="x:String" Name="MentorSprecenVar" />
       <Variable x:TypeArguments="x:Int32" Name="BrojSprecenihClanovaKomisijeVar" />
     </StateMachine.Variables>
-    <sads:DebugSymbol.Symbol>d0ZFOlxGYWtzXEdpdFJlcG9zXHVwcHByb2plY3Q4MVxVcHBQcm9qZWN0ODFcVXBwUHJvamVjdDgxXFByb2Nlc3M4MS54YW1sbSkD/QQSAgEBKwfZBA8DAdkCQw/SBBcDAdYCRxfOBB8DAdMCYze2BD8DAcACSx/KBCcDAb0CpgFX7wNfAwG6Ak8nxgQvAwG3AlMvwgQ3AwGkAng/rwRHAwGRAogBR4cETwMBjgKuAWfnA28DAfsBiwKHAdEDjwEDAegBqgFf6wNnAwHlAY8ER6gETwMB0gHDAW/gA3cDAc8BjAFPgwRXAwGtAfwBjwH8AYMCAwGrATsPO4MBAwGpAccBd9wDfwMBoQHUAX/YA4cBAwGMAecBhwGDAo8BAgF5mwKPAcUDlwECAWawApcBvgOfAQIBRMoCnwGtA6cBAgEOkgOnAaYDrwECAQuWA68BogO3AQIBCJoDtwGeA78BAgEF9wNX+wNfAgECLQszJgMB5gI4Dzh5AwHgAkAPQHkDAdsCZTtraAMBzQJwP3CtAQMBxwJ1P3WtAQMBwgJVM1tbAwGxAmA3YKABAwGrArsEN7sEoAEDAaYCekOAAV0DAZ4ChQFHhQG/AQMBmAKMBEeMBL8BAwGTArABa7YBkQEDAYgCuwFvuwHTAQMBggLAAW/AAdMBAwH9AY0CiwGTArMBAwH1AZgCjwGYAvIBAwHvAcoDjwHKA/IBAwHqAZEES5cEeAMB3wGcBE+cBL4BAwHZAaEET6EEvgEDAdQBjgFTmQF1AwHCAZ4BV54B9QEDAbsBowFXowH1AQMBtQH0A1f0A/UBAwGvAckBe88BoQEDAaQB1gGDAdYB8AEDAZ8B2QGDAd8BpQEDAZkB5AGHAeQBiQIDAZMBiAKHAYgCkAIDAY4B6QGLAe8BrgEDAYYB9AGPAfQB/gEDAYAB+QGPAfkB/gECAXudApMBowLEAQIBc6gClwGoAv4BAgFtrQKXAa0C/gECAWiyApsBwgK8AQIBVscCnwHHAokCAgFQsgOfAbID5wICAUu3A58BtwOJAgIBRswCowGFA6gBAgEbigOnAYoDigICARWPA6cBjwOKAgIBEDARMHADAecCaEFopAEDAc4CWDlYlwEDAbICfUl9tgEDAZ8CswFxswHKAQMBiQKQApEBkALpAQMB9gGUBFGUBLUBAwHgAZYBWZYBsQEDAckBkQFZkQG8AQMBwwHMAYEBzAHXAQMBpQHWAbkB1gHDAQMBoAHcAYkB3AHkAQMBmgHsAZEB7AH1AQMBhwGgApkBoAL1AQIBdLoCoQG6AvcBAgFhvwKhAb8CgAICAVy1AqEBtQKFAgIBV88CqQHPAooCAgEc0wKnAd8CsgECATriAqcBgwOsAQIBIdQCqQHdArIBAgE93gKpAd4CjwICATvlAq0B5QKSAgIBIukCqwH1ArYBAgEw+AKrAYEDtgECASfbAtQB2wLWAQIBQ9cCrwHXAocCAgE+3gLYAd4C4gECATzqAq0B8wK2AQIBM/QCrQH0ApMCAgEx+QKtAf8CzgECASqAA60BgAOTAgIBKPEC2AHxAtoBAgE57QKzAe0CiwICATT0AtwB9ALmAQIBMvwCswH8AosCAgErgAPcAYAD5gECASk=</sads:DebugSymbol.Symbol>
+    <sads:DebugSymbol.Symbol>d0ZFOlxGYWtzXEdpdFJlcG9zXHVwcHByb2plY3Q4MVxVcHBQcm9qZWN0ODFcVXBwUHJvamVjdDgxXFByb2Nlc3M4MS54YW1sbykDgQUSAgEBKwfdBA8DAdsCRw/WBBcDAdgCSxfSBB8DAdUCZze6BD8DAcICTx/OBCcDAb8CqgFX8wNfAwG8AlMnygQvAwG5AlcvxgQ3AwGmAnw/swRHAwGTAowBR4sETwMBkAKyAWfrA28DAf0BjwKHAdUDjwEDAeoBrgFf7wNnAwHnAZMER6wETwMB1AHHAW/kA3cDAdEBkAFPhwRXAwGvAYACjwGAAoMCAwGtATsPPxcDAakBywF34AN/AwGhAdgBf9wDhwEDAYwB6wGHAYcCjwECAXmfAo8ByQOXAQIBZrQClwHCA58BAgFEzgKfAbEDpwECAQ6WA6cBqgOvAQIBC5oDrwGmA7cBAgEIngO3AaIDvwECAQX7A1f/A18CAQItCzMmAwHoAjgPOHkDAeICRA9EeQMB3QJpO29oAwHPAnQ/dK0BAwHJAnk/ea0BAwHEAlkzX1sDAbMCZDdkoAEDAa0CvwQ3vwSgAQMBqAJ+Q4QBXQMBoAKJAUeJAb8BAwGaApAER5AEvwEDAZUCtAFrugGRAQMBigK/AW+/AdMBAwGEAsQBb8QB0wEDAf8BkQKLAZcCswEDAfcBnAKPAZwC8gEDAfEBzgOPAc4D8gEDAewBlQRLmwR4AwHhAaAET6AEvgEDAdsBpQRPpQS+AQMB1gGSAVOdAXUDAcQBogFXogH1AQMBvQGnAVenAfUBAwG3AfgDV/gD9QEDAbEBPRM9aAMBqwHNAXvTAaEBAwGkAdoBgwHaAfABAwGfAd0BgwHjAaUBAwGZAegBhwHoAYkCAwGTAYwChwGMApACAwGOAe0BiwHzAa4BAwGGAfgBjwH4Af4BAwGAAf0BjwH9Af4BAgF7oQKTAacCxAECAXOsApcBrAL+AQIBbbEClwGxAv4BAgFotgKbAcYCvAECAVbLAp8BywKJAgIBULYDnwG2A+cCAgFLuwOfAbsDiQICAUbQAqMBiQOoAQIBG44DpwGOA4oCAgEVkwOnAZMDigICARAwETBwAwHpAmxBbKQBAwHQAlw5XJcBAwG0AoEBSYEBtgEDAaECtwFxtwHKAQMBiwKUApEBlALpAQMB+AGYBFGYBLUBAwHiAZoBWZoBsQEDAcsBlQFZlQG8AQMBxQE9Iz03AwGsAdABgQHQAdcBAwGlAdoBuQHaAcMBAwGgAeABiQHgAeQBAwGaAfABkQHwAfUBAwGHAaQCmQGkAvUBAgF0vgKhAb4C9wECAWHDAqEBwwKAAgIBXLkCoQG5AoUCAgFX0wKpAdMCigICARzXAqcB4wKyAQIBOuYCpwGHA6wBAgEh2AKpAeECsgECAT3iAqkB4gKPAgIBO+kCrQHpApICAgEi7QKrAfkCtgECATD8AqsBhQO2AQIBJ98C1AHfAtYBAgFD2wKvAdsChwICAT7iAtgB4gLiAQIBPO4CrQH3ArYBAgEz+AKtAfgCkwICATH9Aq0BgwPOAQIBKoQDrQGEA5MCAgEo9QLYAfUC2gECATnxArMB8QKLAgIBNPgC3AH4AuYBAgEygAOzAYADiwICASuEA9wBhAPmAQIBKQ==</sads:DebugSymbol.Symbol>
   </StateMachine>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
-      <sap2010:ViewStateData Id="DokumentacijaActivity_1" sap:VirtualizedContainerService.HintSize="200,22" />
-      <sap2010:ViewStateData Id="State_19" sap:VirtualizedContainerService.HintSize="114,61">
+      <sap2010:ViewStateData Id="DokumentacijaActivity_2" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="WriteLine_1" sap:VirtualizedContainerService.HintSize="211,62" />
+      <sap2010:ViewStateData Id="State_19" sap:VirtualizedContainerService.HintSize="326,223">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">73,129.5</av:Point>
@@ -854,7 +859,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="State_25" sap:VirtualizedContainerService.HintSize="826,937">
+      <sap2010:ViewStateData Id="State_25" sap:VirtualizedContainerService.HintSize="260,61">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">420,1569.5</av:Point>

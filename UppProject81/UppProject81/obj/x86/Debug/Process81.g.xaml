@@ -47,7 +47,11 @@
                 <mca:CSharpValue x:TypeArguments="x:Boolean">PodnesenaDokumentacijaVar.ToLower() == "ne"</mca:CSharpValue>
               </Transition.Condition>
               <Transition.To>
-                <State x:Name="__ReferenceID0" DisplayName="FinalState" IsFinal="True" />
+                <State x:Name="__ReferenceID0" DisplayName="FinalState" IsFinal="True">
+                  <State.Entry>
+                    <WriteLine Text="Process has ended." />
+                  </State.Entry>
+                </State>
               </Transition.To>
             </Transition>
             <Transition DisplayName="">
@@ -327,16 +331,19 @@
                                                                                                                                                                         </InArgument>
                                                                                                                                                                       </If.Condition>
                                                                                                                                                                       <If.Then>
-                                                                                                                                                                        <Assign>
-                                                                                                                                                                          <Assign.To>
-                                                                                                                                                                            <OutArgument x:TypeArguments="x:String">
-                                                                                                                                                                              <mca:CSharpReference x:TypeArguments="x:String">OdlozenaOdbranaVar</mca:CSharpReference>
-                                                                                                                                                                            </OutArgument>
-                                                                                                                                                                          </Assign.To>
-                                                                                                                                                                          <Assign.Value>
-                                                                                                                                                                            <InArgument x:TypeArguments="x:String">da</InArgument>
-                                                                                                                                                                          </Assign.Value>
-                                                                                                                                                                        </Assign>
+                                                                                                                                                                        <Sequence>
+                                                                                                                                                                          <Assign>
+                                                                                                                                                                            <Assign.To>
+                                                                                                                                                                              <OutArgument x:TypeArguments="x:String">
+                                                                                                                                                                                <mca:CSharpReference x:TypeArguments="x:String">OdlozenaOdbranaVar</mca:CSharpReference>
+                                                                                                                                                                              </OutArgument>
+                                                                                                                                                                            </Assign.To>
+                                                                                                                                                                            <Assign.Value>
+                                                                                                                                                                              <InArgument x:TypeArguments="x:String">da</InArgument>
+                                                                                                                                                                            </Assign.Value>
+                                                                                                                                                                          </Assign>
+                                                                                                                                                                          <Delay DisplayName="OdlaganjeOdbrane" Duration="00:00:05" />
+                                                                                                                                                                        </Sequence>
                                                                                                                                                                       </If.Then>
                                                                                                                                                                       <If.Else>
                                                                                                                                                                         <If>
@@ -346,25 +353,31 @@
                                                                                                                                                                             </InArgument>
                                                                                                                                                                           </If.Condition>
                                                                                                                                                                           <If.Then>
-                                                                                                                                                                            <Assign>
-                                                                                                                                                                              <Assign.To>
-                                                                                                                                                                                <OutArgument x:TypeArguments="x:String">
-                                                                                                                                                                                  <mca:CSharpReference x:TypeArguments="x:String">OdlozenaOdbranaVar</mca:CSharpReference>
-                                                                                                                                                                                </OutArgument>
-                                                                                                                                                                              </Assign.To>
-                                                                                                                                                                              <Assign.Value>
-                                                                                                                                                                                <InArgument x:TypeArguments="x:String">da</InArgument>
-                                                                                                                                                                              </Assign.Value>
-                                                                                                                                                                            </Assign>
+                                                                                                                                                                            <Sequence>
+                                                                                                                                                                              <Assign>
+                                                                                                                                                                                <Assign.To>
+                                                                                                                                                                                  <OutArgument x:TypeArguments="x:String">
+                                                                                                                                                                                    <mca:CSharpReference x:TypeArguments="x:String">OdlozenaOdbranaVar</mca:CSharpReference>
+                                                                                                                                                                                  </OutArgument>
+                                                                                                                                                                                </Assign.To>
+                                                                                                                                                                                <Assign.Value>
+                                                                                                                                                                                  <InArgument x:TypeArguments="x:String">da</InArgument>
+                                                                                                                                                                                </Assign.Value>
+                                                                                                                                                                              </Assign>
+                                                                                                                                                                              <Delay DisplayName="OdlaganjeOdbrane" Duration="00:00:05" />
+                                                                                                                                                                            </Sequence>
                                                                                                                                                                           </If.Then>
                                                                                                                                                                           <If.Else>
-                                                                                                                                                                            <ac:OdlucivanjeOOdbraniActivity>
-                                                                                                                                                                              <ac:OdlucivanjeOOdbraniActivity.OdlozenaOdbrana>
-                                                                                                                                                                                <OutArgument x:TypeArguments="x:String">
-                                                                                                                                                                                  <mca:CSharpReference x:TypeArguments="x:String">OdlozenaOdbranaVar</mca:CSharpReference>
-                                                                                                                                                                                </OutArgument>
-                                                                                                                                                                              </ac:OdlucivanjeOOdbraniActivity.OdlozenaOdbrana>
-                                                                                                                                                                            </ac:OdlucivanjeOOdbraniActivity>
+                                                                                                                                                                            <Sequence>
+                                                                                                                                                                              <ac:OdlucivanjeOOdbraniActivity>
+                                                                                                                                                                                <ac:OdlucivanjeOOdbraniActivity.OdlozenaOdbrana>
+                                                                                                                                                                                  <OutArgument x:TypeArguments="x:String">
+                                                                                                                                                                                    <mca:CSharpReference x:TypeArguments="x:String">OdlozenaOdbranaVar</mca:CSharpReference>
+                                                                                                                                                                                  </OutArgument>
+                                                                                                                                                                                </ac:OdlucivanjeOOdbraniActivity.OdlozenaOdbrana>
+                                                                                                                                                                              </ac:OdlucivanjeOOdbraniActivity>
+                                                                                                                                                                              <Delay DisplayName="OdlaganjeOdbrane" Duration="00:00:05" />
+                                                                                                                                                                            </Sequence>
                                                                                                                                                                           </If.Else>
                                                                                                                                                                         </If>
                                                                                                                                                                       </If.Else>
@@ -615,7 +628,7 @@
         <Variable x:TypeArguments="x:String" Name="MentorSprecenVar" />
         <Variable x:TypeArguments="x:Int32" Name="BrojSprecenihClanovaKomisijeVar" />
       </StateMachine.Variables>
-      <sads:DebugSymbol.Symbol>9xAWRAIUV7ziLhZBVSJw7DQ7RkU6XEZha3NcR2l0UmVwb3NcdXBwcHJvamVjdDgxXFVwcFByb2plY3Q4MVxVcHBQcm9qZWN0ODFcUHJvY2VzczgxLnhhbWxkKQP0BBICAQErB9AEDwMB0AJDD8kEFwMBzQJHF8UEHwMBygJjN60EPwMBtwJLH8EEJwMBtAKmAVfmA18DAbECTye9BC8DAa4CUy+5BDcDAZsCeD+mBEcDAYgCiAFH/gNPAwGFAq4BZ94DbwMB8gGLAocByAOPAQMB3wGqAV/iA2cDAdwBhgRHnwRPAwHJAcMBb9cDdwMBxgGMAU/6A1cDAaQB/AGPAfwBgwIDAaIBOw87gwEDAaABxwF30wN/AwGYAdQBf88DhwEDAYMB5wGHAYMCjwECAXCbAo8BvAOXAQIBXbAClwG1A58BAgE7ygKfAaQDpwECAQ6JA6cBnQOvAQIBC40DrwGZA7cBAgEIkQO3AZUDvwECAQXuA1fyA18CAQItCzMmAwHdAjgPOHkDAdcCQA9AeQMB0gJlO2toAwHEAnA/cK0BAwG+AnU/da0BAwG5AlUzW1sDAagCYDdgoAEDAaICsgQ3sgSgAQMBnQJ6Q4ABXQMBlQKFAUeFAb8BAwGPAoMER4MEvwEDAYoCsAFrtgGRAQMB/wG7AW+7AdMBAwH5AcABb8AB0wEDAfQBjQKLAZMCswEDAewBmAKPAZgC8gEDAeYBwQOPAcED8gEDAeEBiARLjgR4AwHWAZMET5MEvgEDAdABmARPmAS+AQMBywGOAVOZAXUDAbkBngFXngH1AQMBsgGjAVejAfUBAwGsAesDV+sD9QEDAaYByQF7zwGhAQMBmwHWAYMB1gHwAQMBlgHZAYMB3wGlAQMBkAHkAYcB5AGJAgMBigGIAocBiAKQAgMBhQHpAYsB7wGuAQIBffQBjwH0Af4BAgF3+QGPAfkB/gECAXKdApMBowLEAQIBaqgClwGoAv4BAgFkrQKXAa0C/gECAV+yApsBwgK8AQIBTccCnwHHAokCAgFHqQOfAakD5wICAUKuA58BrgOJAgIBPcwCowH8AqgBAgEbgQOnAYEDigICARWGA6cBhgOKAgIBEDARMHADAd4CaEFopAEDAcUCWDlYlwEDAakCfUl9tgEDAZYCswFxswHKAQMBgAKQApEBkALpAQMB7QGLBFGLBLUBAwHXAZYBWZYBsQEDAcABkQFZkQG8AQMBugHMAYEBzAHXAQMBnAHWAbkB1gHDAQMBlwHcAYkB3AHkAQMBkQHsAZEB7AH1AQIBfqACmQGgAvUBAgFrugKhAboC9wECAVi/AqEBvwKAAgIBU7UCoQG1AoUCAgFOzwKpAc8CigICARzTAqcB3AKwAQIBNN8CpwH6AqwBAgEh2gLSAdoC1AECATrWAq0B1gKFAgIBNeICrQHiApICAgEi5gKrAe8CtAECAS3yAqsB+ALMAQIBJ+0C1gHtAtgBAgEz6QKxAekCiQICAS71ArEB9QKJAgIBKA==</sads:DebugSymbol.Symbol>
+      <sads:DebugSymbol.Symbol>9xAe6w5wivVU/tEa3PtmvwUoRkU6XEZha3NcR2l0UmVwb3NcdXBwcHJvamVjdDgxXFVwcFByb2plY3Q4MVxVcHBQcm9qZWN0ODFcUHJvY2VzczgxLnhhbWxvKQOBBRICAQErB90EDwMB2wJHD9YEFwMB2AJLF9IEHwMB1QJnN7oEPwMBwgJPH84EJwMBvwKqAVfzA18DAbwCUyfKBC8DAbkCVy/GBDcDAaYCfD+zBEcDAZMCjAFHiwRPAwGQArIBZ+sDbwMB/QGPAocB1QOPAQMB6gGuAV/vA2cDAecBkwRHrARPAwHUAccBb+QDdwMB0QGQAU+HBFcDAa8BgAKPAYACgwIDAa0BOw8/FwMBqQHLAXfgA38DAaEB2AF/3AOHAQMBjAHrAYcBhwKPAQIBeZ8CjwHJA5cBAgFmtAKXAcIDnwECAUTOAp8BsQOnAQIBDpYDpwGqA68BAgELmgOvAaYDtwECAQieA7cBogO/AQIBBfsDV/8DXwIBAi0LMyYDAegCOA84eQMB4gJED0R5AwHdAmk7b2gDAc8CdD90rQEDAckCeT95rQEDAcQCWTNfWwMBswJkN2SgAQMBrQK/BDe/BKABAwGoAn5DhAFdAwGgAokBR4kBvwEDAZoCkARHkAS/AQMBlQK0AWu6AZEBAwGKAr8Bb78B0wEDAYQCxAFvxAHTAQMB/wGRAosBlwKzAQMB9wGcAo8BnALyAQMB8QHOA48BzgPyAQMB7AGVBEubBHgDAeEBoARPoAS+AQMB2wGlBE+lBL4BAwHWAZIBU50BdQMBxAGiAVeiAfUBAwG9AacBV6cB9QEDAbcB+ANX+AP1AQMBsQE9Ez1oAwGrAc0Be9MBoQEDAaQB2gGDAdoB8AEDAZ8B3QGDAeMBpQEDAZkB6AGHAegBiQIDAZMBjAKHAYwCkAIDAY4B7QGLAfMBrgEDAYYB+AGPAfgB/gEDAYAB/QGPAf0B/gECAXuhApMBpwLEAQIBc6wClwGsAv4BAgFtsQKXAbEC/gECAWi2ApsBxgK8AQIBVssCnwHLAokCAgFQtgOfAbYD5wICAUu7A58BuwOJAgIBRtACowGJA6gBAgEbjgOnAY4DigICARWTA6cBkwOKAgIBEDARMHADAekCbEFspAEDAdACXDlclwEDAbQCgQFJgQG2AQMBoQK3AXG3AcoBAwGLApQCkQGUAukBAwH4AZgEUZgEtQEDAeIBmgFZmgGxAQMBywGVAVmVAbwBAwHFAT0jPTcDAawB0AGBAdAB1wEDAaUB2gG5AdoBwwEDAaAB4AGJAeAB5AEDAZoB8AGRAfAB9QEDAYcBpAKZAaQC9QECAXS+AqEBvgL3AQIBYcMCoQHDAoACAgFcuQKhAbkChQICAVfTAqkB0wKKAgIBHNcCpwHjArIBAgE65gKnAYcDrAECASHYAqkB4QKyAQIBPeICqQHiAo8CAgE76QKtAekCkgICASLtAqsB+QK2AQIBMPwCqwGFA7YBAgEn3wLUAd8C1gECAUPbAq8B2wKHAgIBPuIC2AHiAuIBAgE87gKtAfcCtgECATP4Aq0B+AKTAgIBMf0CrQGDA84BAgEqhAOtAYQDkwICASj1AtgB9QLaAQIBOfECswHxAosCAgE0+ALcAfgC5gECATKAA7MBgAOLAgIBK4QD3AGEA+YBAgEp</sads:DebugSymbol.Symbol>
     </StateMachine>
   </u:Process81.Implementation>
 </u:Process81>

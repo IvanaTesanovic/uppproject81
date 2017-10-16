@@ -14,7 +14,7 @@ namespace Activities.Custom
         // and return the value from the Execute method.
         protected override void Execute(CodeActivityContext context)
         {
-            PodnesenaDokumentacija.Set(context, "Da");
+            PodnesenaDokumentacija.Set(context, "NE");
         }
     }
 }

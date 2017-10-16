@@ -35,5 +35,3 @@ E:\Faks\GitRepos\uppproject81\UppProject81\UppProject81\obj\x86\Debug\UppProject
 E:\Faks\GitRepos\uppproject81\UppProject81\UppProject81\obj\x86\Debug\UppProject81_Process81_CompiledExpressionRoot.cs
 E:\Faks\GitRepos\uppproject81\UppProject81\UppProject81\obj\x86\Debug\AC2C1ABA-CCF6-44D4-8127-588FD4D0A860-DeferredValidationErrors.xml
 E:\Faks\GitRepos\uppproject81\UppProject81\UppProject81\obj\x86\Debug\UppProject81.exe
-E:\Faks\GitRepos\uppproject81\UppProject81\UppProject81\obj\x86\Debug\InProcessTempFiles\Activity1.g.cs
-E:\Faks\GitRepos\uppproject81\UppProject81\UppProject81\obj\x86\Debug\InProcessTempFiles\Activity1.g.xaml
