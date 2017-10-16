@@ -15,3 +15,13 @@ E:\Faks\GitRepos\uppproject81\UppProject81\Activities\bin\Debug\Activities.dll
 E:\Faks\GitRepos\uppproject81\UppProject81\Activities\bin\Debug\Activities.pdb
 E:\Faks\GitRepos\uppproject81\UppProject81\Activities\obj\Debug\Activities.dll
 E:\Faks\GitRepos\uppproject81\UppProject81\Activities\obj\Debug\Activities.pdb
+D:\Ivana\FAKS\Master\UPP\GitRepo\uppproject81\UppProject81\Activities\obj\Debug\Activities.csprojResolveAssemblyReference.cache
+D:\Ivana\FAKS\Master\UPP\GitRepo\uppproject81\UppProject81\Activities\obj\Debug\Activities.dll
+D:\Ivana\FAKS\Master\UPP\GitRepo\uppproject81\UppProject81\Activities\obj\Debug\Activities.pdb
+D:\Ivana\FAKS\Master\UPP\GitRepo\uppproject81\UppProject81\Activities\bin\Debug\Activities.dll
+D:\Ivana\FAKS\Master\UPP\GitRepo\uppproject81\UppProject81\Activities\bin\Debug\Activities.pdb
+D:\Ivana\FAKS\Master\UPP\GitRepo\uppproject81\UppProject81\Activities\bin\Debug\UppApplication.exe
+D:\Ivana\FAKS\Master\UPP\GitRepo\uppproject81\UppProject81\Activities\bin\Debug\Data.dll
+D:\Ivana\FAKS\Master\UPP\GitRepo\uppproject81\UppProject81\Activities\bin\Debug\NPoco.dll
+D:\Ivana\FAKS\Master\UPP\GitRepo\uppproject81\UppProject81\Activities\bin\Debug\UppApplication.pdb
+D:\Ivana\FAKS\Master\UPP\GitRepo\uppproject81\UppProject81\Activities\bin\Debug\Data.pdb

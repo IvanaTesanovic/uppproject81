@@ -69,7 +69,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(23, 13);
             this.label1.TabIndex = 3;
-            this.label1.Text = "To:";
+            this.label1.Text = "Za:";
             // 
             // label2
             // 
@@ -78,7 +78,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(46, 13);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Subject:";
+            this.label2.Text = "Naslov:";
             // 
             // label3
             // 
@@ -87,7 +87,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(34, 13);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Body:";
+            this.label3.Text = "Tekst:";
             // 
             // btnSend
             // 
@@ -95,7 +95,7 @@
             this.btnSend.Name = "btnSend";
             this.btnSend.Size = new System.Drawing.Size(263, 23);
             this.btnSend.TabIndex = 6;
-            this.btnSend.Text = "Send";
+            this.btnSend.Text = "Posalji";
             this.btnSend.UseVisualStyleBackColor = true;
             // 
             // EmailForm

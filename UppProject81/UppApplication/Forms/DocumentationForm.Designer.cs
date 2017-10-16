@@ -1,4 +1,6 @@
-﻿namespace UppApplication.Forms
+﻿using System.Windows.Forms;
+
+namespace UppApplication.Forms
 {
     partial class DocumentationForm
     {
@@ -53,7 +55,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(58, 13);
             this.label1.TabIndex = 1;
-            this.label1.Text = "First name:";
+            this.label1.Text = "Ime:";
             // 
             // label2
             // 
@@ -62,7 +64,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(59, 13);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Last name:";
+            this.label2.Text = "Prezime:";
             // 
             // tboxLastname
             // 
@@ -78,7 +80,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(65, 13);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Department:";
+            this.label3.Text = "Katedra:";
             // 
             // ddlDepartment
             // 
@@ -95,7 +97,7 @@
             this.cboxDocSubmitted.Name = "cboxDocSubmitted";
             this.cboxDocSubmitted.Size = new System.Drawing.Size(146, 17);
             this.cboxDocSubmitted.TabIndex = 7;
-            this.cboxDocSubmitted.Text = "Documentation submitted";
+            this.cboxDocSubmitted.Text = "Podnesena dokumentacija";
             this.cboxDocSubmitted.UseVisualStyleBackColor = true;
             // 
             // label4
@@ -145,8 +147,9 @@
         private System.Windows.Forms.TextBox tboxLastname;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox ddlDepartment;
-        private System.Windows.Forms.CheckBox cboxDocSubmitted;
+        public System.Windows.Forms.CheckBox cboxDocSubmitted;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button okButton;
+        public System.Windows.Forms.Button okButton;
+
     }
 }

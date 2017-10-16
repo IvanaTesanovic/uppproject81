@@ -68,7 +68,7 @@
             this.okButton.Name = "okButton";
             this.okButton.Size = new System.Drawing.Size(165, 23);
             this.okButton.TabIndex = 3;
-            this.okButton.Text = "button1";
+            this.okButton.Text = "Potvrdi";
             this.okButton.UseVisualStyleBackColor = true;
             // 
             // ComissionForm

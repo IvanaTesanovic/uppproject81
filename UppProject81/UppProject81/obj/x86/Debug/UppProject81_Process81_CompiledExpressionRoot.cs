@@ -1,60 +1,60 @@
 namespace UppProject81 {
     
-    #line 15 "E:\Faks\GitRepos\uppproject81\UppProject81\UppProject81\Process81.xaml"
+    #line 15 "D:\Ivana\FAKS\Master\UPP\GitRepo\uppproject81\UppProject81\UppProject81\Process81.xaml"
     using System;
     
     #line default
     #line hidden
     
-    #line 1 "E:\Faks\GitRepos\uppproject81\UppProject81\UppProject81\Process81.xaml"
+    #line 1 "D:\Ivana\FAKS\Master\UPP\GitRepo\uppproject81\UppProject81\UppProject81\Process81.xaml"
     using System.Collections;
     
     #line default
     #line hidden
     
-    #line 16 "E:\Faks\GitRepos\uppproject81\UppProject81\UppProject81\Process81.xaml"
+    #line 16 "D:\Ivana\FAKS\Master\UPP\GitRepo\uppproject81\UppProject81\UppProject81\Process81.xaml"
     using System.Collections.Generic;
     
     #line default
     #line hidden
     
-    #line 1 "E:\Faks\GitRepos\uppproject81\UppProject81\UppProject81\Process81.xaml"
+    #line 1 "D:\Ivana\FAKS\Master\UPP\GitRepo\uppproject81\UppProject81\UppProject81\Process81.xaml"
     using System.Activities;
     
     #line default
     #line hidden
     
-    #line 1 "E:\Faks\GitRepos\uppproject81\UppProject81\UppProject81\Process81.xaml"
+    #line 1 "D:\Ivana\FAKS\Master\UPP\GitRepo\uppproject81\UppProject81\UppProject81\Process81.xaml"
     using System.Activities.Expressions;
     
     #line default
     #line hidden
     
-    #line 1 "E:\Faks\GitRepos\uppproject81\UppProject81\UppProject81\Process81.xaml"
+    #line 1 "D:\Ivana\FAKS\Master\UPP\GitRepo\uppproject81\UppProject81\UppProject81\Process81.xaml"
     using System.Activities.Statements;
     
     #line default
     #line hidden
     
-    #line 17 "E:\Faks\GitRepos\uppproject81\UppProject81\UppProject81\Process81.xaml"
+    #line 17 "D:\Ivana\FAKS\Master\UPP\GitRepo\uppproject81\UppProject81\UppProject81\Process81.xaml"
     using System.Data;
     
     #line default
     #line hidden
     
-    #line 18 "E:\Faks\GitRepos\uppproject81\UppProject81\UppProject81\Process81.xaml"
+    #line 18 "D:\Ivana\FAKS\Master\UPP\GitRepo\uppproject81\UppProject81\UppProject81\Process81.xaml"
     using System.Linq;
     
     #line default
     #line hidden
     
-    #line 19 "E:\Faks\GitRepos\uppproject81\UppProject81\UppProject81\Process81.xaml"
+    #line 19 "D:\Ivana\FAKS\Master\UPP\GitRepo\uppproject81\UppProject81\UppProject81\Process81.xaml"
     using System.Text;
     
     #line default
     #line hidden
     
-    #line 1 "E:\Faks\GitRepos\uppproject81\UppProject81\UppProject81\Process81.xaml"
+    #line 1 "D:\Ivana\FAKS\Master\UPP\GitRepo\uppproject81\UppProject81\UppProject81\Process81.xaml"
     using System.Activities.XamlIntegration;
     
     #line default
@@ -1652,7 +1652,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr0GetTree() {
                 
-                #line 47 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 47 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
                 PodnesenaDokumentacijaVar;
                 
@@ -1664,7 +1664,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr0Get() {
                 
-                #line 47 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 47 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                 PodnesenaDokumentacijaVar;
                 
@@ -1680,7 +1680,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public void @__Expr0Set(string value) {
                 
-                #line 47 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 47 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 
                 PodnesenaDokumentacijaVar = value;
                 
@@ -1755,7 +1755,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr1GetTree() {
                 
-                #line 55 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 55 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
               PodnesenaDokumentacijaVar.ToLower() == "ne";
                 
@@ -1767,7 +1767,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr1Get() {
                 
-                #line 55 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 55 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
               PodnesenaDokumentacijaVar.ToLower() == "ne";
                 
@@ -1782,7 +1782,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr2GetTree() {
                 
-                #line 67 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 67 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
               PodnesenaDokumentacijaVar.ToLower() == "da";
                 
@@ -1794,7 +1794,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr2Get() {
                 
-                #line 67 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 67 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
               PodnesenaDokumentacijaVar.ToLower() == "da";
                 
@@ -2165,7 +2165,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr3GetTree() {
                 
-                #line 107 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 110 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
                                                                 OdobrenIzvestajUniverzitetVar;
                 
@@ -2177,7 +2177,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr3Get() {
                 
-                #line 107 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 110 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                                 OdobrenIzvestajUniverzitetVar;
                 
@@ -2193,7 +2193,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public void @__Expr3Set(string value) {
                 
-                #line 107 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 110 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 
                                                                 OdobrenIzvestajUniverzitetVar = value;
                 
@@ -2268,7 +2268,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr4GetTree() {
                 
-                #line 115 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 118 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                                                               OdobrenIzvestajUniverzitetVar.ToLower() == "ne";
                 
@@ -2280,7 +2280,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr4Get() {
                 
-                #line 115 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 118 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                               OdobrenIzvestajUniverzitetVar.ToLower() == "ne";
                 
@@ -2295,7 +2295,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr5GetTree() {
                 
-                #line 120 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 123 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                                                               OdobrenIzvestajUniverzitetVar.ToLower() == "da";
                 
@@ -2307,7 +2307,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr5Get() {
                 
-                #line 120 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 123 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                               OdobrenIzvestajUniverzitetVar.ToLower() == "da";
                 
@@ -2776,7 +2776,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr6GetTree() {
                 
-                #line 91 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 94 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
                                                         OdobrenIzvestajNNVeceVar;
                 
@@ -2788,7 +2788,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr6Get() {
                 
-                #line 91 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 94 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                         OdobrenIzvestajNNVeceVar;
                 
@@ -2804,7 +2804,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public void @__Expr6Set(string value) {
                 
-                #line 91 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 94 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 
                                                         OdobrenIzvestajNNVeceVar = value;
                 
@@ -2879,7 +2879,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr7GetTree() {
                 
-                #line 99 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 102 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                                                       OdobrenIzvestajNNVeceVar.ToLower() == "da";
                 
@@ -2891,7 +2891,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr7Get() {
                 
-                #line 99 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 102 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                       OdobrenIzvestajNNVeceVar.ToLower() == "da";
                 
@@ -2906,7 +2906,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr8GetTree() {
                 
-                #line 574 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 577 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                                                       OdobrenIzvestajNNVeceVar.ToLower() == "ne";
                 
@@ -2918,7 +2918,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr8Get() {
                 
-                #line 574 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 577 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                       OdobrenIzvestajNNVeceVar.ToLower() == "ne";
                 
@@ -3093,7 +3093,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr9GetTree() {
                 
-                #line 128 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 131 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
                                                                         PotrebnoProduzenjeRokaZaIstrazivanjaVar;
                 
@@ -3105,7 +3105,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr9Get() {
                 
-                #line 128 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 131 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                                         PotrebnoProduzenjeRokaZaIstrazivanjaVar;
                 
@@ -3121,7 +3121,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public void @__Expr9Set(string value) {
                 
-                #line 128 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 131 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 
                                                                         PotrebnoProduzenjeRokaZaIstrazivanjaVar = value;
                 
@@ -3196,7 +3196,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr10GetTree() {
                 
-                #line 136 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 139 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                                                                       PotrebnoProduzenjeRokaZaIstrazivanjaVar.ToLower() == "ne";
                 
@@ -3208,7 +3208,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr10Get() {
                 
-                #line 136 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 139 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                                       PotrebnoProduzenjeRokaZaIstrazivanjaVar.ToLower() == "ne";
                 
@@ -3223,7 +3223,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr11GetTree() {
                 
-                #line 527 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 530 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                                                                       PotrebnoProduzenjeRokaZaIstrazivanjaVar.ToLower() == "da";
                 
@@ -3235,7 +3235,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr11Get() {
                 
-                #line 527 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 530 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                                       PotrebnoProduzenjeRokaZaIstrazivanjaVar.ToLower() == "da";
                 
@@ -3508,7 +3508,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr12GetTree() {
                 
-                #line 182 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 185 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
                                                                                                                 OdobrenaKomisijaVar;
                 
@@ -3520,7 +3520,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr12Get() {
                 
-                #line 182 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 185 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                                                                                 OdobrenaKomisijaVar;
                 
@@ -3536,7 +3536,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public void @__Expr12Set(string value) {
                 
-                #line 182 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 185 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 
                                                                                                                 OdobrenaKomisijaVar = value;
                 
@@ -3611,7 +3611,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr13GetTree() {
                 
-                #line 190 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 193 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                                                                                                               OdobrenaKomisijaVar.ToLower() == "ne";
                 
@@ -3623,7 +3623,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr13Get() {
                 
-                #line 190 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 193 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                                                                               OdobrenaKomisijaVar.ToLower() == "ne";
                 
@@ -3638,7 +3638,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr14GetTree() {
                 
-                #line 195 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 198 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                                                                                                               OdobrenaKomisijaVar.ToLower() == "da";
                 
@@ -3650,7 +3650,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr14Get() {
                 
-                #line 195 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 198 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                                                                               OdobrenaKomisijaVar.ToLower() == "da";
                 
@@ -3825,7 +3825,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr15GetTree() {
                 
-                #line 275 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 278 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
                                                                                                                                                 IzvestajUsvojenVar;
                 
@@ -3837,7 +3837,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr15Get() {
                 
-                #line 275 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 278 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                                                                                                                 IzvestajUsvojenVar;
                 
@@ -3853,7 +3853,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public void @__Expr15Set(string value) {
                 
-                #line 275 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 278 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 
                                                                                                                                                 IzvestajUsvojenVar = value;
                 
@@ -3928,7 +3928,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr16GetTree() {
                 
-                #line 283 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 286 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                                                                                                                                               IzvestajUsvojenVar.ToLower() == "da";
                 
@@ -3940,7 +3940,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr16Get() {
                 
-                #line 283 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 286 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                                                                                                               IzvestajUsvojenVar.ToLower() == "da";
                 
@@ -3955,7 +3955,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr17GetTree() {
                 
-                #line 461 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 464 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                                                                                                                                               IzvestajUsvojenVar.ToLower() == "ne";
                 
@@ -3967,7 +3967,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr17Get() {
                 
-                #line 461 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 464 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                                                                                                               IzvestajUsvojenVar.ToLower() == "ne";
                 
@@ -4240,7 +4240,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr18GetTree() {
                 
-                #line 535 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 538 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
                                                                                 OdobrenaDodatnaIstrazivanjaVar;
                 
@@ -4252,7 +4252,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr18Get() {
                 
-                #line 535 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 538 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                                                 OdobrenaDodatnaIstrazivanjaVar;
                 
@@ -4268,7 +4268,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public void @__Expr18Set(string value) {
                 
-                #line 535 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 538 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 
                                                                                 OdobrenaDodatnaIstrazivanjaVar = value;
                 
@@ -4343,7 +4343,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr19GetTree() {
                 
-                #line 543 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 546 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                                                                               OdobrenaDodatnaIstrazivanjaVar.ToLower() == "ne";
                 
@@ -4355,7 +4355,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr19Get() {
                 
-                #line 543 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 546 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                                               OdobrenaDodatnaIstrazivanjaVar.ToLower() == "ne";
                 
@@ -4370,7 +4370,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr20GetTree() {
                 
-                #line 548 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 551 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                                                                               OdobrenaDodatnaIstrazivanjaVar.ToLower() == "da";
                 
@@ -4382,7 +4382,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr20Get() {
                 
-                #line 548 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 551 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                                               OdobrenaDodatnaIstrazivanjaVar.ToLower() == "da";
                 
@@ -4664,7 +4664,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr21GetTree() {
                 
-                #line 153 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 156 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
                                                                                         ZavrsenElaboratVar;
                 
@@ -4676,7 +4676,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr21Get() {
                 
-                #line 153 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 156 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                                                         ZavrsenElaboratVar;
                 
@@ -4692,7 +4692,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public void @__Expr21Set(string value) {
                 
-                #line 153 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 156 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 
                                                                                         ZavrsenElaboratVar = value;
                 
@@ -4708,7 +4708,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr22GetTree() {
                 
-                #line 148 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 151 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
                                                                                         PotrebnaDopunaIstrazivanjaVar;
                 
@@ -4720,7 +4720,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr22Get() {
                 
-                #line 148 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 151 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                                                         PotrebnaDopunaIstrazivanjaVar;
                 
@@ -4736,7 +4736,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public void @__Expr22Set(string value) {
                 
-                #line 148 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 151 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 
                                                                                         PotrebnaDopunaIstrazivanjaVar = value;
                 
@@ -4821,7 +4821,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr23GetTree() {
                 
-                #line 161 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 164 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                                                                                       ZavrsenElaboratVar.ToLower() == "ne" && PotrebnaDopunaIstrazivanjaVar.ToLower() == "da";
                 
@@ -4833,7 +4833,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr23Get() {
                 
-                #line 161 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 164 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                                                       ZavrsenElaboratVar.ToLower() == "ne" && PotrebnaDopunaIstrazivanjaVar.ToLower() == "da";
                 
@@ -4848,7 +4848,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr24GetTree() {
                 
-                #line 166 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 169 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                                                                                       ZavrsenElaboratVar.ToLower() == "da" && PotrebnaDopunaIstrazivanjaVar.ToLower() == "ne";
                 
@@ -4860,7 +4860,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr24Get() {
                 
-                #line 166 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 169 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                                                       ZavrsenElaboratVar.ToLower() == "da" && PotrebnaDopunaIstrazivanjaVar.ToLower() == "ne";
                 
@@ -4875,7 +4875,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr25GetTree() {
                 
-                #line 503 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 506 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                                                                                       ZavrsenElaboratVar.ToLower() == "ne" && PotrebnaDopunaIstrazivanjaVar.ToLower() == "ne";
                 
@@ -4887,7 +4887,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr25Get() {
                 
-                #line 503 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 506 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                                                       ZavrsenElaboratVar.ToLower() == "ne" && PotrebnaDopunaIstrazivanjaVar.ToLower() == "ne";
                 
@@ -5155,7 +5155,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr26GetTree() {
                 
-                #line 207 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 210 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<int>> expression = () => 
                                                                                                                                 OcenaDoktorataVar;
                 
@@ -5167,7 +5167,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public int @__Expr26Get() {
                 
-                #line 207 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 210 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                                                                                                 OcenaDoktorataVar;
                 
@@ -5183,7 +5183,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public void @__Expr26Set(int value) {
                 
-                #line 207 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 210 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 
                                                                                                                                 OcenaDoktorataVar = value;
                 
@@ -5404,7 +5404,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr27GetTree() {
                 
-                #line 223 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 226 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
                                                                                                                                         PrihvacenePrimedbeVar;
                 
@@ -5416,7 +5416,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr27Get() {
                 
-                #line 223 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 226 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                                                                                                         PrihvacenePrimedbeVar;
                 
@@ -5432,7 +5432,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public void @__Expr27Set(string value) {
                 
-                #line 223 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 226 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 
                                                                                                                                         PrihvacenePrimedbeVar = value;
                 
@@ -5507,7 +5507,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr28GetTree() {
                 
-                #line 231 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 234 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                                                                                                                                       PrihvacenePrimedbeVar.ToLower() == "da" || OcenaDoktorataVar < 6;
                 
@@ -5519,7 +5519,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr28Get() {
                 
-                #line 231 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 234 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                                                                                                       PrihvacenePrimedbeVar.ToLower() == "da" || OcenaDoktorataVar < 6;
                 
@@ -5534,7 +5534,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr29GetTree() {
                 
-                #line 267 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 270 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                                                                                                                                       PrihvacenePrimedbeVar.ToLower() =="ne" && OcenaDoktorataVar > 5;
                 
@@ -5546,7 +5546,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr29Get() {
                 
-                #line 267 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 270 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                                                                                                       PrihvacenePrimedbeVar.ToLower() =="ne" && OcenaDoktorataVar > 5;
                 
@@ -5721,7 +5721,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr30GetTree() {
                 
-                #line 239 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 242 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
                                                                                                                                                 MoguceUklanjanjeNedostatakaVar;
                 
@@ -5733,7 +5733,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr30Get() {
                 
-                #line 239 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 242 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                                                                                                                 MoguceUklanjanjeNedostatakaVar;
                 
@@ -5749,7 +5749,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public void @__Expr30Set(string value) {
                 
-                #line 239 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 242 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 
                                                                                                                                                 MoguceUklanjanjeNedostatakaVar = value;
                 
@@ -5824,7 +5824,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr31GetTree() {
                 
-                #line 247 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 250 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                                                                                                                                               MoguceUklanjanjeNedostatakaVar.ToLower() == "da";
                 
@@ -5836,7 +5836,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr31Get() {
                 
-                #line 247 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 250 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                                                                                                               MoguceUklanjanjeNedostatakaVar.ToLower() == "da";
                 
@@ -5851,7 +5851,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr32GetTree() {
                 
-                #line 252 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 255 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                                                                                                                                               MoguceUklanjanjeNedostatakaVar.ToLower() == "ne";
                 
@@ -5863,7 +5863,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr32Get() {
                 
-                #line 252 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 255 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                                                                                                               MoguceUklanjanjeNedostatakaVar.ToLower() == "ne";
                 
@@ -6038,7 +6038,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr33GetTree() {
                 
-                #line 291 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 294 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
                                                                                                                                                         SaglasanUniverzitetVar;
                 
@@ -6050,7 +6050,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr33Get() {
                 
-                #line 291 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 294 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                                                                                                                         SaglasanUniverzitetVar;
                 
@@ -6066,7 +6066,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public void @__Expr33Set(string value) {
                 
-                #line 291 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 294 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 
                                                                                                                                                         SaglasanUniverzitetVar = value;
                 
@@ -6141,7 +6141,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr34GetTree() {
                 
-                #line 299 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 302 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                                                                                                                                                       SaglasanUniverzitetVar.ToLower() == "ne";
                 
@@ -6153,7 +6153,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr34Get() {
                 
-                #line 299 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 302 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                                                                                                                       SaglasanUniverzitetVar.ToLower() == "ne";
                 
@@ -6168,7 +6168,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr35GetTree() {
                 
-                #line 304 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 307 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                                                                                                                                                       SaglasanUniverzitetVar.ToLower() == "da";
                 
@@ -6180,7 +6180,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr35Get() {
                 
-                #line 304 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 307 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                                                                                                                       SaglasanUniverzitetVar.ToLower() == "da";
                 
@@ -6355,7 +6355,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr36GetTree() {
                 
-                #line 317 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 320 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
                                                                                                                                                                 MentorSprecenVar;
                 
@@ -6367,7 +6367,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr36Get() {
                 
-                #line 317 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 320 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                                                                                                                                 MentorSprecenVar;
                 
@@ -6383,7 +6383,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public void @__Expr36Set(string value) {
                 
-                #line 317 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 320 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 
                                                                                                                                                                 MentorSprecenVar = value;
                 
@@ -6399,7 +6399,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr37GetTree() {
                 
-                #line 322 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 325 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
                                                                                                                                                                 PotrebnaIzmenaKomisijeVar;
                 
@@ -6411,7 +6411,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr37Get() {
                 
-                #line 322 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 325 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                                                                                                                                 PotrebnaIzmenaKomisijeVar;
                 
@@ -6427,7 +6427,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public void @__Expr37Set(string value) {
                 
-                #line 322 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 325 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 
                                                                                                                                                                 PotrebnaIzmenaKomisijeVar = value;
                 
@@ -6443,7 +6443,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr38GetTree() {
                 
-                #line 312 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 315 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<int>> expression = () => 
                                                                                                                                                                 BrojSprecenihClanovaKomisijeVar;
                 
@@ -6455,7 +6455,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public int @__Expr38Get() {
                 
-                #line 312 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 315 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                                                                                                                                 BrojSprecenihClanovaKomisijeVar;
                 
@@ -6471,7 +6471,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public void @__Expr38Set(int value) {
                 
-                #line 312 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 315 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 
                                                                                                                                                                 BrojSprecenihClanovaKomisijeVar = value;
                 
@@ -6546,7 +6546,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr39GetTree() {
                 
-                #line 330 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 333 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                                                                                                                                                               PotrebnaIzmenaKomisijeVar.ToLower() == "ne";
                 
@@ -6558,7 +6558,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr39Get() {
                 
-                #line 330 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 333 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                                                                                                                               PotrebnaIzmenaKomisijeVar.ToLower() == "ne";
                 
@@ -6573,7 +6573,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr40GetTree() {
                 
-                #line 437 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 440 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                                                                                                                                                               MentorSprecenVar.ToLower() == "ne" && BrojSprecenihClanovaKomisijeVar == 0 && PotrebnaIzmenaKomisijeVar.ToLower() == "ne";
                 
@@ -6585,7 +6585,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr40Get() {
                 
-                #line 437 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 440 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                                                                                                                               MentorSprecenVar.ToLower() == "ne" && BrojSprecenihClanovaKomisijeVar == 0 && PotrebnaIzmenaKomisijeVar.ToLower() == "ne";
                 
@@ -6600,7 +6600,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr41GetTree() {
                 
-                #line 442 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 445 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                                                                                                                                                               PotrebnaIzmenaKomisijeVar.ToLower() == "da";
                 
@@ -6612,7 +6612,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr41Get() {
                 
-                #line 442 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 445 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                                                                                                                               PotrebnaIzmenaKomisijeVar.ToLower() == "da";
                 
@@ -6787,7 +6787,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr43GetTree() {
                 
-                #line 346 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 349 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
                                                                                                                                                                               OdlozenaOdbranaVar;
                 
@@ -6799,7 +6799,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr43Get() {
                 
-                #line 346 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 349 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                                                                                                                                               OdlozenaOdbranaVar;
                 
@@ -6815,7 +6815,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public void @__Expr43Set(string value) {
                 
-                #line 346 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 349 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 
                                                                                                                                                                               OdlozenaOdbranaVar = value;
                 
@@ -6831,7 +6831,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr45GetTree() {
                 
-                #line 368 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 371 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
                                                                                                                                                                                   OdlozenaOdbranaVar;
                 
@@ -6843,7 +6843,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr45Get() {
                 
-                #line 368 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 371 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                                                                                                                                                   OdlozenaOdbranaVar;
                 
@@ -6859,7 +6859,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public void @__Expr45Set(string value) {
                 
-                #line 368 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 371 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 
                                                                                                                                                                                   OdlozenaOdbranaVar = value;
                 
@@ -6875,7 +6875,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr46GetTree() {
                 
-                #line 383 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 386 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
                                                                                                                                                                                   OdlozenaOdbranaVar;
                 
@@ -6887,7 +6887,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr46Get() {
                 
-                #line 383 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 386 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                                                                                                                                                   OdlozenaOdbranaVar;
                 
@@ -6903,7 +6903,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public void @__Expr46Set(string value) {
                 
-                #line 383 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 386 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 
                                                                                                                                                                                   OdlozenaOdbranaVar = value;
                 
@@ -6978,7 +6978,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr42GetTree() {
                 
-                #line 338 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 341 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                                                                                                                                                                         MentorSprecenVar.ToLower() == "da";
                 
@@ -6990,7 +6990,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr42Get() {
                 
-                #line 338 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 341 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                                                                                                                                         MentorSprecenVar.ToLower() == "da";
                 
@@ -7005,7 +7005,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr44GetTree() {
                 
-                #line 360 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 363 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                                                                                                                                                                             BrojSprecenihClanovaKomisijeVar >=2;
                 
@@ -7017,7 +7017,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr44Get() {
                 
-                #line 360 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 363 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                                                                                                                                             BrojSprecenihClanovaKomisijeVar >=2;
                 
@@ -7032,7 +7032,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr47GetTree() {
                 
-                #line 397 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 400 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                                                                                                                                                                       OdlozenaOdbranaVar.ToLower() == "da";
                 
@@ -7044,7 +7044,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr47Get() {
                 
-                #line 397 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 400 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                                                                                                                                       OdlozenaOdbranaVar.ToLower() == "da";
                 
@@ -7059,7 +7059,7 @@ namespace UppProject81 {
             
             internal System.Linq.Expressions.Expression @__Expr48GetTree() {
                 
-                #line 402 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 405 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                                                                                                                                                                       OdlozenaOdbranaVar.ToLower() == "ne";
                 
@@ -7071,7 +7071,7 @@ namespace UppProject81 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr48Get() {
                 
-                #line 402 "E:\FAKS\GITREPOS\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
+                #line 405 "D:\IVANA\FAKS\MASTER\UPP\GITREPO\UPPPROJECT81\UPPPROJECT81\UPPPROJECT81\PROCESS81.XAML"
                 return 
                                                                                                                                                                       OdlozenaOdbranaVar.ToLower() == "ne";
                 
