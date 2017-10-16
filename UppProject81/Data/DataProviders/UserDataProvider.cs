@@ -8,7 +8,7 @@ namespace Data.DataProviders
     {
         public User GetUserByUsername(string username)
         {
-            using (var database = new Database("UPP_Database"))
+            using (var database = new Database("UppDb"))
             {
                 try
                 {
