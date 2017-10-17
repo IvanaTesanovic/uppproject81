@@ -21,8 +21,8 @@ namespace Activities.Custom
         {
             ActContext = context;
             form = new DocumentationForm();
-            form.ShowDialog();
             form.okButton.Click += new EventHandler(ClickBtn);
+            form.ShowDialog();
         }
 
         private void ClickBtn(object sender, EventArgs a)

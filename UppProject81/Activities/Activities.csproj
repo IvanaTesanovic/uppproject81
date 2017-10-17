@@ -68,6 +68,10 @@
     <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Data\Data.csproj">
+      <Project>{9F95DD5D-2EA8-43A4-81E2-A77E31266475}</Project>
+      <Name>Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\UppApplication\UppApplication.csproj">
       <Project>{2A0E9B32-9903-4293-87C9-6F0FFCCBAE08}</Project>
       <Name>UppApplication</Name>

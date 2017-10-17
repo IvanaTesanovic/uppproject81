@@ -25,3 +25,9 @@ D:\Ivana\FAKS\Master\UPP\GitRepo\uppproject81\UppProject81\Activities\bin\Debug\
 D:\Ivana\FAKS\Master\UPP\GitRepo\uppproject81\UppProject81\Activities\bin\Debug\NPoco.dll
 D:\Ivana\FAKS\Master\UPP\GitRepo\uppproject81\UppProject81\Activities\bin\Debug\UppApplication.pdb
 D:\Ivana\FAKS\Master\UPP\GitRepo\uppproject81\UppProject81\Activities\bin\Debug\Data.pdb
+E:\Faks\GitRepos\uppproject81\UppProject81\Activities\bin\Debug\UppApplication.exe
+E:\Faks\GitRepos\uppproject81\UppProject81\Activities\bin\Debug\Data.dll
+E:\Faks\GitRepos\uppproject81\UppProject81\Activities\bin\Debug\NPoco.dll
+E:\Faks\GitRepos\uppproject81\UppProject81\Activities\bin\Debug\UppApplication.pdb
+E:\Faks\GitRepos\uppproject81\UppProject81\Activities\bin\Debug\Data.pdb
+E:\Faks\GitRepos\uppproject81\UppProject81\Activities\obj\Debug\Activities.csprojResolveAssemblyReference.cache

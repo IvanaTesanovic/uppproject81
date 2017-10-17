@@ -42,7 +42,7 @@
             this.btnYes.Name = "btnYes";
             this.btnYes.Size = new System.Drawing.Size(75, 23);
             this.btnYes.TabIndex = 0;
-            this.btnYes.Text = "Yes";
+            this.btnYes.Text = "Da";
             this.btnYes.UseVisualStyleBackColor = true;
             // 
             // btnNo
@@ -52,13 +52,13 @@
             this.btnNo.Name = "btnNo";
             this.btnNo.Size = new System.Drawing.Size(75, 23);
             this.btnNo.TabIndex = 1;
-            this.btnNo.Text = "No";
+            this.btnNo.Text = "Ne";
             this.btnNo.UseVisualStyleBackColor = true;
             // 
             // labelQuestion
             // 
             this.labelQuestion.AutoSize = true;
-            this.labelQuestion.Location = new System.Drawing.Point(195, 70);
+            this.labelQuestion.Location = new System.Drawing.Point(12, 47);
             this.labelQuestion.Name = "labelQuestion";
             this.labelQuestion.Size = new System.Drawing.Size(73, 13);
             this.labelQuestion.TabIndex = 2;
@@ -87,9 +87,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnYes;
-        private System.Windows.Forms.Button btnNo;
-        private System.Windows.Forms.Label labelQuestion;
+        public System.Windows.Forms.Button btnYes;
+        public System.Windows.Forms.Button btnNo;
+        public System.Windows.Forms.Label labelQuestion;
         private System.IO.FileSystemWatcher fileSystemWatcher1;
     }
 }

@@ -29,8 +29,6 @@ E:\Faks\GitRepos\uppproject81\UppProject81\UppProject81\obj\x86\Debug\Process81.
 E:\Faks\GitRepos\uppproject81\UppProject81\UppProject81\obj\x86\Debug\UppProject81_Process81_BeforeInitializeComponentHelper.cs
 E:\Faks\GitRepos\uppproject81\UppProject81\UppProject81\obj\x86\Debug\UppProject81.csproj.XamlGeneratedCodeFileListAbsolute.txt
 E:\Faks\GitRepos\uppproject81\UppProject81\UppProject81\obj\x86\Debug\UppProject81.csproj.XamlGeneratedXamlFileListAbsolute.txt
-E:\Faks\GitRepos\uppproject81\UppProject81\UppProject81\obj\x86\Debug\UppProject81.csproj.FileListAbsolute.txt
-E:\Faks\GitRepos\uppproject81\UppProject81\UppProject81\obj\x86\Debug\UppProject81.dll
 E:\Faks\GitRepos\uppproject81\UppProject81\UppProject81\obj\x86\Debug\UppProject81.pdb
 E:\Faks\GitRepos\uppproject81\UppProject81\UppProject81\obj\x86\Debug\UppProject81_Process81_CompiledExpressionRoot.cs
 E:\Faks\GitRepos\uppproject81\UppProject81\UppProject81\obj\x86\Debug\AC2C1ABA-CCF6-44D4-8127-588FD4D0A860-DeferredValidationErrors.xml
@@ -60,3 +58,10 @@ D:\Ivana\FAKS\Master\UPP\GitRepo\uppproject81\UppProject81\UppProject81\obj\x86\
 D:\Ivana\FAKS\Master\UPP\GitRepo\uppproject81\UppProject81\UppProject81\obj\x86\Debug\UppProject81.dll
 D:\Ivana\FAKS\Master\UPP\GitRepo\uppproject81\UppProject81\UppProject81\obj\x86\Debug\UppProject81_Process81_CompiledExpressionRoot.cs
 D:\Ivana\FAKS\Master\UPP\GitRepo\uppproject81\UppProject81\UppProject81\obj\x86\Debug\AC2C1ABA-CCF6-44D4-8127-588FD4D0A860-DeferredValidationErrors.xml
+E:\Faks\GitRepos\uppproject81\UppProject81\UppProject81\bin\Debug\UppApplication.exe
+E:\Faks\GitRepos\uppproject81\UppProject81\UppProject81\bin\Debug\Data.dll
+E:\Faks\GitRepos\uppproject81\UppProject81\UppProject81\bin\Debug\NPoco.dll
+E:\Faks\GitRepos\uppproject81\UppProject81\UppProject81\bin\Debug\UppApplication.pdb
+E:\Faks\GitRepos\uppproject81\UppProject81\UppProject81\bin\Debug\Data.pdb
+E:\Faks\GitRepos\uppproject81\UppProject81\UppProject81\obj\x86\Debug\UppProject81.csproj.FileListAbsolute.txt
+E:\Faks\GitRepos\uppproject81\UppProject81\UppProject81\obj\x86\Debug\UppProject81.dll

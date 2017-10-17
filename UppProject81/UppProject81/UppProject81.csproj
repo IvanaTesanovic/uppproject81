@@ -64,6 +64,10 @@
       <Project>{85120C7E-8689-408F-8F66-5EED85A80E62}</Project>
       <Name>Activities</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Data\Data.csproj">
+      <Project>{9f95dd5d-2ea8-43a4-81e2-a77e31266475}</Project>
+      <Name>Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <XamlAppDef Include="Process81.xaml">

@@ -37,3 +37,6 @@ D:\Ivana\FAKS\Master\UPP\GitRepo\uppproject81\UppProject81\UppApplication\obj\De
 D:\Ivana\FAKS\Master\UPP\GitRepo\uppproject81\UppProject81\UppApplication\obj\Debug\UppApplication.Properties.Resources.resources
 D:\Ivana\FAKS\Master\UPP\GitRepo\uppproject81\UppProject81\UppApplication\obj\Debug\UppApplication.csproj.GenerateResource.Cache
 D:\Ivana\FAKS\Master\UPP\GitRepo\uppproject81\UppProject81\UppApplication\bin\Debug\Microsoft.Activities.Extensions.dll
+E:\Faks\GitRepos\uppproject81\UppProject81\UppApplication\bin\Debug\Microsoft.Activities.Extensions.dll
+E:\Faks\GitRepos\uppproject81\UppProject81\UppApplication\obj\Debug\UppApplication.Forms.ShowHideForm.resources
+E:\Faks\GitRepos\uppproject81\UppProject81\UppApplication\obj\Debug\UppApplication.Forms.ReportForm.resources

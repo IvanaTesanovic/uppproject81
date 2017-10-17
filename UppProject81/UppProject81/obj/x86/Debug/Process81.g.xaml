@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<u:Process81 xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:ac="clr-namespace:Activities.Custom;assembly=Activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:sads="http://schemas.microsoft.com/netfx/2010/xaml/activities/debugger" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:u="clr-namespace:UppProject81;assembly=UppProject81" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<u:Process81 xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:ac="clr-namespace:Activities.Custom;assembly=Activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:de="clr-namespace:Data.Entities;assembly=Data" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:sads="http://schemas.microsoft.com/netfx/2010/xaml/activities/debugger" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:u="clr-namespace:UppProject81;assembly=UppProject81" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System</x:String>
@@ -7,6 +7,7 @@
       <x:String>System.Data</x:String>
       <x:String>System.Linq</x:String>
       <x:String>System.Text</x:String>
+      <x:String>Data.Entities</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -24,6 +25,7 @@
       <AssemblyReference>System.Xml</AssemblyReference>
       <AssemblyReference>System.Xml.Linq</AssemblyReference>
       <AssemblyReference>Activities</AssemblyReference>
+      <AssemblyReference>Data</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
       <AssemblyReference>UppProject81</AssemblyReference>
     </sco:Collection>
@@ -33,13 +35,16 @@
       <StateMachine.InitialState>
         <State x:Name="__ReferenceID7" DisplayName="Provera dokumentacije">
           <State.Entry>
-            <ac:DokumentacijaActivity>
-              <ac:DokumentacijaActivity.PodnesenaDokumentacija>
-                <OutArgument x:TypeArguments="x:String">
-                  <mca:CSharpReference x:TypeArguments="x:String">PodnesenaDokumentacijaVar</mca:CSharpReference>
-                </OutArgument>
-              </ac:DokumentacijaActivity.PodnesenaDokumentacija>
-            </ac:DokumentacijaActivity>
+            <Sequence>
+              <WriteLine Text="PROVERA DOKUMENTACIJE..." />
+              <ac:DokumentacijaActivity>
+                <ac:DokumentacijaActivity.PodnesenaDokumentacija>
+                  <OutArgument x:TypeArguments="x:String">
+                    <mca:CSharpReference x:TypeArguments="x:String">PodnesenaDokumentacijaVar</mca:CSharpReference>
+                  </OutArgument>
+                </ac:DokumentacijaActivity.PodnesenaDokumentacija>
+              </ac:DokumentacijaActivity>
+            </Sequence>
           </State.Entry>
           <State.Transitions>
             <Transition DisplayName="">
@@ -49,7 +54,7 @@
               <Transition.To>
                 <State x:Name="__ReferenceID0" DisplayName="FinalState" IsFinal="True">
                   <State.Entry>
-                    <WriteLine Text="Process has ended." />
+                    <WriteLine Text="Proces je zavrsen." />
                   </State.Entry>
                 </State>
               </Transition.To>
@@ -61,32 +66,44 @@
               <Transition.To>
                 <State x:Name="__ReferenceID8" DisplayName="Organizovanje i dostavljanje teme">
                   <State.Entry>
-                    <WriteLine Text="ORGANIZOVANJE I DOSTAVLJANJE TEME" />
+                    <WriteLine Text="ORGANIZOVANJE I DOSTAVLJANJE TEME..." />
                   </State.Entry>
                   <State.Transitions>
                     <Transition DisplayName="">
                       <Transition.To>
                         <State x:Name="__ReferenceID9" DisplayName="Formiranje komisije">
+                          <State.Entry>
+                            <WriteLine Text="FORMIRANJE KOMISIJE..." />
+                          </State.Entry>
                           <State.Transitions>
                             <Transition DisplayName="T4">
                               <Transition.To>
                                 <State x:Name="__ReferenceID11" DisplayName="Izdavanje resenja za pripremu izvestaja">
+                                  <State.Entry>
+                                    <WriteLine Text="IZDAVANJE RESENJA ZA PRIPREMU IZVESTAJA..." />
+                                  </State.Entry>
                                   <State.Transitions>
                                     <Transition DisplayName="T5">
                                       <Transition.To>
                                         <State x:Name="__ReferenceID13" DisplayName="Izdavanje izvestaja">
+                                          <State.Entry>
+                                            <WriteLine Text="IZDAVANJE IZVESTAJA..." />
+                                          </State.Entry>
                                           <State.Transitions>
                                             <Transition DisplayName="T6">
                                               <Transition.To>
                                                 <State x:Name="__ReferenceID14" DisplayName="Odobravanje izvestaja od strane NN veca">
                                                   <State.Entry>
-                                                    <ac:OdobravanjeIzvestajaNNVeceActivity>
-                                                      <ac:OdobravanjeIzvestajaNNVeceActivity.OdobrenIzvestajNNVece>
-                                                        <OutArgument x:TypeArguments="x:String">
-                                                          <mca:CSharpReference x:TypeArguments="x:String">OdobrenIzvestajNNVeceVar</mca:CSharpReference>
-                                                        </OutArgument>
-                                                      </ac:OdobravanjeIzvestajaNNVeceActivity.OdobrenIzvestajNNVece>
-                                                    </ac:OdobravanjeIzvestajaNNVeceActivity>
+                                                    <Sequence>
+                                                      <WriteLine Text="ODOBRAVANJE IZVESTAJA OD STRANE NN VECA..." />
+                                                      <ac:OdobravanjeIzvestajaNNVeceActivity>
+                                                        <ac:OdobravanjeIzvestajaNNVeceActivity.OdobrenIzvestajNNVece>
+                                                          <OutArgument x:TypeArguments="x:String">
+                                                            <mca:CSharpReference x:TypeArguments="x:String">OdobrenIzvestajNNVeceVar</mca:CSharpReference>
+                                                          </OutArgument>
+                                                        </ac:OdobravanjeIzvestajaNNVeceActivity.OdobrenIzvestajNNVece>
+                                                      </ac:OdobravanjeIzvestajaNNVeceActivity>
+                                                    </Sequence>
                                                   </State.Entry>
                                                   <State.Transitions>
                                                     <Transition DisplayName="">
@@ -96,13 +113,16 @@
                                                       <Transition.To>
                                                         <State x:Name="__ReferenceID10" DisplayName="Odobravanje izvestaja od strane Univerziteta">
                                                           <State.Entry>
-                                                            <ac:OdobravanjeIzvestajaUniverzitetActivity>
-                                                              <ac:OdobravanjeIzvestajaUniverzitetActivity.OdobrenIzvestajUniverzitet>
-                                                                <OutArgument x:TypeArguments="x:String">
-                                                                  <mca:CSharpReference x:TypeArguments="x:String">OdobrenIzvestajUniverzitetVar</mca:CSharpReference>
-                                                                </OutArgument>
-                                                              </ac:OdobravanjeIzvestajaUniverzitetActivity.OdobrenIzvestajUniverzitet>
-                                                            </ac:OdobravanjeIzvestajaUniverzitetActivity>
+                                                            <Sequence>
+                                                              <WriteLine Text="ODOBRAVANJE IZVESTAJA OD STRANE UNIVERZITETA..." />
+                                                              <ac:OdobravanjeIzvestajaUniverzitetActivity>
+                                                                <ac:OdobravanjeIzvestajaUniverzitetActivity.OdobrenIzvestajUniverzitet>
+                                                                  <OutArgument x:TypeArguments="x:String">
+                                                                    <mca:CSharpReference x:TypeArguments="x:String">OdobrenIzvestajUniverzitetVar</mca:CSharpReference>
+                                                                  </OutArgument>
+                                                                </ac:OdobravanjeIzvestajaUniverzitetActivity.OdobrenIzvestajUniverzitet>
+                                                              </ac:OdobravanjeIzvestajaUniverzitetActivity>
+                                                            </Sequence>
                                                           </State.Entry>
                                                           <State.Transitions>
                                                             <Transition DisplayName="" To="{x:Reference __ReferenceID0}">
@@ -117,13 +137,18 @@
                                                               <Transition.To>
                                                                 <State x:Name="__ReferenceID1" DisplayName="Istrazivanja">
                                                                   <State.Entry>
-                                                                    <ac:IstrazivanjaActivity>
-                                                                      <ac:IstrazivanjaActivity.PotrebnoProduzenjeRokaZaIstrazivanja>
-                                                                        <OutArgument x:TypeArguments="x:String">
-                                                                          <mca:CSharpReference x:TypeArguments="x:String">PotrebnoProduzenjeRokaZaIstrazivanjaVar</mca:CSharpReference>
-                                                                        </OutArgument>
-                                                                      </ac:IstrazivanjaActivity.PotrebnoProduzenjeRokaZaIstrazivanja>
-                                                                    </ac:IstrazivanjaActivity>
+                                                                    <Sequence>
+                                                                      <WriteLine Text="ZAPOCETA ISTRAZIVANJA..." />
+                                                                      <Delay DisplayName="Istrazivanja" Duration="00:00:05" />
+                                                                      <WriteLine Text="ZAVRSENA ISTRAZIVANJA." />
+                                                                      <ac:IstrazivanjaActivity>
+                                                                        <ac:IstrazivanjaActivity.PotrebnoProduzenjeRokaZaIstrazivanja>
+                                                                          <OutArgument x:TypeArguments="x:String">
+                                                                            <mca:CSharpReference x:TypeArguments="x:String">PotrebnoProduzenjeRokaZaIstrazivanjaVar</mca:CSharpReference>
+                                                                          </OutArgument>
+                                                                        </ac:IstrazivanjaActivity.PotrebnoProduzenjeRokaZaIstrazivanja>
+                                                                      </ac:IstrazivanjaActivity>
+                                                                    </Sequence>
                                                                   </State.Entry>
                                                                   <State.Transitions>
                                                                     <Transition DisplayName="">
@@ -132,23 +157,31 @@
                                                                       </Transition.Condition>
                                                                       <Transition.To>
                                                                         <State x:Name="__ReferenceID6" DisplayName="Podnosenje Elaborata">
+                                                                          <State.Entry>
+                                                                            <WriteLine Text="PODNOSENJE ELABORATA..." />
+                                                                          </State.Entry>
                                                                           <State.Transitions>
                                                                             <Transition DisplayName="">
                                                                               <Transition.To>
                                                                                 <State x:Name="__ReferenceID19" DisplayName="Pregledanje Elaborata">
                                                                                   <State.Entry>
-                                                                                    <ac:PregledanjeElaborataActivity>
-                                                                                      <ac:PregledanjeElaborataActivity.PotrebnaDopunaIstrazivanja>
-                                                                                        <OutArgument x:TypeArguments="x:String">
-                                                                                          <mca:CSharpReference x:TypeArguments="x:String">PotrebnaDopunaIstrazivanjaVar</mca:CSharpReference>
-                                                                                        </OutArgument>
-                                                                                      </ac:PregledanjeElaborataActivity.PotrebnaDopunaIstrazivanja>
-                                                                                      <ac:PregledanjeElaborataActivity.ZavrsenElaborat>
-                                                                                        <OutArgument x:TypeArguments="x:String">
-                                                                                          <mca:CSharpReference x:TypeArguments="x:String">ZavrsenElaboratVar</mca:CSharpReference>
-                                                                                        </OutArgument>
-                                                                                      </ac:PregledanjeElaborataActivity.ZavrsenElaborat>
-                                                                                    </ac:PregledanjeElaborataActivity>
+                                                                                    <Sequence>
+                                                                                      <WriteLine Text="ZAPOCETO PREGLEDANJE ELABORATA..." />
+                                                                                      <Delay Duration="00:00:02" />
+                                                                                      <WriteLine Text="ELABORAT PREGLEDAN." />
+                                                                                      <ac:PregledanjeElaborataActivity>
+                                                                                        <ac:PregledanjeElaborataActivity.PotrebnaDopunaIstrazivanja>
+                                                                                          <OutArgument x:TypeArguments="x:String">
+                                                                                            <mca:CSharpReference x:TypeArguments="x:String">PotrebnaDopunaIstrazivanjaVar</mca:CSharpReference>
+                                                                                          </OutArgument>
+                                                                                        </ac:PregledanjeElaborataActivity.PotrebnaDopunaIstrazivanja>
+                                                                                        <ac:PregledanjeElaborataActivity.ZavrsenElaborat>
+                                                                                          <OutArgument x:TypeArguments="x:String">
+                                                                                            <mca:CSharpReference x:TypeArguments="x:String">ZavrsenElaboratVar</mca:CSharpReference>
+                                                                                          </OutArgument>
+                                                                                        </ac:PregledanjeElaborataActivity.ZavrsenElaborat>
+                                                                                      </ac:PregledanjeElaborataActivity>
+                                                                                    </Sequence>
                                                                                   </State.Entry>
                                                                                   <State.Transitions>
                                                                                     <Transition DisplayName="" To="{x:Reference __ReferenceID1}">
@@ -162,10 +195,25 @@
                                                                                       </Transition.Condition>
                                                                                       <Transition.To>
                                                                                         <State x:Name="__ReferenceID12" DisplayName="Obrada i predaja Elaborata">
+                                                                                          <State.Entry>
+                                                                                            <WriteLine Text="ODBRADA I PREDAJA ELABORATA..." />
+                                                                                          </State.Entry>
                                                                                           <State.Transitions>
                                                                                             <Transition DisplayName="">
                                                                                               <Transition.To>
                                                                                                 <State x:Name="__ReferenceID2" DisplayName="Predlaganje sastava Komisije za ocenu">
+                                                                                                  <State.Entry>
+                                                                                                    <Sequence>
+                                                                                                      <WriteLine Text="PREDLAGANJE SASTAVA KOMISIJE ZA OCENU..." />
+                                                                                                      <ac:PredlaganjaSastavaKomisijeZaOcenuActivity>
+                                                                                                        <ac:PredlaganjaSastavaKomisijeZaOcenuActivity.KomisijaZaOcenu>
+                                                                                                          <OutArgument x:TypeArguments="de:Member[]">
+                                                                                                            <mca:CSharpReference x:TypeArguments="de:Member[]">KomisijaZaOcenuVar</mca:CSharpReference>
+                                                                                                          </OutArgument>
+                                                                                                        </ac:PredlaganjaSastavaKomisijeZaOcenuActivity.KomisijaZaOcenu>
+                                                                                                      </ac:PredlaganjaSastavaKomisijeZaOcenuActivity>
+                                                                                                    </Sequence>
+                                                                                                  </State.Entry>
                                                                                                   <State.Transitions>
                                                                                                     <Transition DisplayName="T13">
                                                                                                       <Transition.To>
@@ -191,35 +239,65 @@
                                                                                                               </Transition.Condition>
                                                                                                               <Transition.To>
                                                                                                                 <State x:Name="__ReferenceID18" DisplayName="Obavestavanje clanova Komisije">
+                                                                                                                  <State.Entry>
+                                                                                                                    <Sequence>
+                                                                                                                      <WriteLine Text="OBAVESTAVANJE CLANOVA KOMISIJE..." />
+                                                                                                                      <ForEach x:TypeArguments="de:Member" DisplayName="ForEach&lt;Member&gt;">
+                                                                                                                        <ForEach.Values>
+                                                                                                                          <InArgument x:TypeArguments="scg:IEnumerable(de:Member)">
+                                                                                                                            <mca:CSharpValue x:TypeArguments="scg:IEnumerable(de:Member)">KomisijaZaOcenuVar</mca:CSharpValue>
+                                                                                                                          </InArgument>
+                                                                                                                        </ForEach.Values>
+                                                                                                                        <ActivityAction x:TypeArguments="de:Member">
+                                                                                                                          <ActivityAction.Argument>
+                                                                                                                            <DelegateInArgument x:TypeArguments="de:Member" Name="member" />
+                                                                                                                          </ActivityAction.Argument>
+                                                                                                                          <Sequence>
+                                                                                                                            <WriteLine>
+                                                                                                                              <InArgument x:TypeArguments="x:String">
+                                                                                                                                <mca:CSharpValue x:TypeArguments="x:String">"Obavestava se clan " + member.Name;</mca:CSharpValue>
+                                                                                                                              </InArgument>
+                                                                                                                            </WriteLine>
+                                                                                                                            <ac:ObavestavanjeClanaKomisije />
+                                                                                                                          </Sequence>
+                                                                                                                        </ActivityAction>
+                                                                                                                      </ForEach>
+                                                                                                                    </Sequence>
+                                                                                                                  </State.Entry>
                                                                                                                   <State.Transitions>
                                                                                                                     <Transition DisplayName="T16">
                                                                                                                       <Transition.To>
                                                                                                                         <State x:Name="__ReferenceID20" DisplayName="Kreiranje izvestaja o oceni">
                                                                                                                           <State.Entry>
-                                                                                                                            <ac:KreiranjeIzvestajaOOceniActivity>
-                                                                                                                              <ac:KreiranjeIzvestajaOOceniActivity.OcenaDoktorata>
-                                                                                                                                <OutArgument x:TypeArguments="x:Int32">
-                                                                                                                                  <mca:CSharpReference x:TypeArguments="x:Int32">OcenaDoktorataVar</mca:CSharpReference>
-                                                                                                                                </OutArgument>
-                                                                                                                              </ac:KreiranjeIzvestajaOOceniActivity.OcenaDoktorata>
-                                                                                                                            </ac:KreiranjeIzvestajaOOceniActivity>
+                                                                                                                            <Sequence>
+                                                                                                                              <WriteLine Text="KREIRANJE IZVESTAJA O OCENI..." />
+                                                                                                                              <ac:KreiranjeIzvestajaOOceniActivity>
+                                                                                                                                <ac:KreiranjeIzvestajaOOceniActivity.OcenaDoktorata>
+                                                                                                                                  <OutArgument x:TypeArguments="x:Int32">
+                                                                                                                                    <mca:CSharpReference x:TypeArguments="x:Int32">OcenaDoktorataVar</mca:CSharpReference>
+                                                                                                                                  </OutArgument>
+                                                                                                                                </ac:KreiranjeIzvestajaOOceniActivity.OcenaDoktorata>
+                                                                                                                              </ac:KreiranjeIzvestajaOOceniActivity>
+                                                                                                                            </Sequence>
                                                                                                                           </State.Entry>
                                                                                                                           <State.Transitions>
                                                                                                                             <Transition DisplayName="T17">
                                                                                                                               <Transition.To>
                                                                                                                                 <State x:Name="__ReferenceID21" DisplayName="Dostavljanje doktorata na uvid javnosti i prikupljanje primedbi">
                                                                                                                                   <State.Entry>
-                                                                                                                                    <Delay DisplayName="DoktoratNaUviduJavnosti" Duration="00:00:05" />
+                                                                                                                                    <Sequence>
+                                                                                                                                      <WriteLine Text="DOKTORAT STAVLJEN NA UVID JAVNOSTI." />
+                                                                                                                                      <Delay DisplayName="DoktoratNaUviduJavnosti" Duration="00:00:05" />
+                                                                                                                                      <WriteLine Text="DOKTORAT SKLONJEN SA UVIDA JAVNOSTI." />
+                                                                                                                                      <ac:PrikupljanjePrimedbiActivity>
+                                                                                                                                        <ac:PrikupljanjePrimedbiActivity.PrihvacenePrimedbe>
+                                                                                                                                          <OutArgument x:TypeArguments="x:String">
+                                                                                                                                            <mca:CSharpReference x:TypeArguments="x:String">PrihvacenePrimedbeVar</mca:CSharpReference>
+                                                                                                                                          </OutArgument>
+                                                                                                                                        </ac:PrikupljanjePrimedbiActivity.PrihvacenePrimedbe>
+                                                                                                                                      </ac:PrikupljanjePrimedbiActivity>
+                                                                                                                                    </Sequence>
                                                                                                                                   </State.Entry>
-                                                                                                                                  <State.Exit>
-                                                                                                                                    <ac:PrikupljanjePrimedbiActivity>
-                                                                                                                                      <ac:PrikupljanjePrimedbiActivity.PrihvacenePrimedbe>
-                                                                                                                                        <OutArgument x:TypeArguments="x:String">
-                                                                                                                                          <mca:CSharpReference x:TypeArguments="x:String">PrihvacenePrimedbeVar</mca:CSharpReference>
-                                                                                                                                        </OutArgument>
-                                                                                                                                      </ac:PrikupljanjePrimedbiActivity.PrihvacenePrimedbe>
-                                                                                                                                    </ac:PrikupljanjePrimedbiActivity>
-                                                                                                                                  </State.Exit>
                                                                                                                                   <State.Transitions>
                                                                                                                                     <Transition DisplayName="">
                                                                                                                                       <Transition.Condition>
@@ -247,7 +325,11 @@
                                                                                                                                                 <mca:CSharpValue x:TypeArguments="x:Boolean">MoguceUklanjanjeNedostatakaVar.ToLower() == "ne"</mca:CSharpValue>
                                                                                                                                               </Transition.Condition>
                                                                                                                                               <Transition.To>
-                                                                                                                                                <State x:Name="__ReferenceID3" DisplayName="FinalState" IsFinal="True" />
+                                                                                                                                                <State x:Name="__ReferenceID3" DisplayName="FinalState" IsFinal="True">
+                                                                                                                                                  <State.Entry>
+                                                                                                                                                    <WriteLine Text="Proces je zavrsen." />
+                                                                                                                                                  </State.Entry>
+                                                                                                                                                </State>
                                                                                                                                               </Transition.To>
                                                                                                                                             </Transition>
                                                                                                                                           </State.Transitions>
@@ -322,7 +404,7 @@
                                                                                                                                                           <State.Transitions>
                                                                                                                                                             <Transition DisplayName="">
                                                                                                                                                               <Transition.Condition>
-                                                                                                                                                                <mca:CSharpValue x:TypeArguments="x:Boolean">PotrebnaIzmenaKomisijeVar.ToLower() == "ne"</mca:CSharpValue>
+                                                                                                                                                                <mca:CSharpValue x:TypeArguments="x:Boolean">PotrebnaIzmenaKomisijeVar.ToLower() == "ne" &amp;&amp; (MentorSprecenVar.ToLower() == "da" || BrojSprecenihClanovaKomisijeVar &gt; 0)</mca:CSharpValue>
                                                                                                                                                               </Transition.Condition>
                                                                                                                                                               <Transition.To>
                                                                                                                                                                 <State x:Name="__ReferenceID24" DisplayName="Odlucivanje o odbrani">
@@ -345,6 +427,7 @@
                                                                                                                                                                               <InArgument x:TypeArguments="x:String">da</InArgument>
                                                                                                                                                                             </Assign.Value>
                                                                                                                                                                           </Assign>
+                                                                                                                                                                          <WriteLine Text="ODLAGANJE ODBRANE..." />
                                                                                                                                                                           <Delay DisplayName="OdlaganjeOdbrane" Duration="00:00:05" />
                                                                                                                                                                         </Sequence>
                                                                                                                                                                       </If.Then>
@@ -367,6 +450,7 @@
                                                                                                                                                                                   <InArgument x:TypeArguments="x:String">da</InArgument>
                                                                                                                                                                                 </Assign.Value>
                                                                                                                                                                               </Assign>
+                                                                                                                                                                              <WriteLine DisplayName="WriteLine" Text="ODLAGANJE ODBRANE..." />
                                                                                                                                                                               <Delay DisplayName="OdlaganjeOdbrane" Duration="00:00:05" />
                                                                                                                                                                             </Sequence>
                                                                                                                                                                           </If.Then>
@@ -379,7 +463,19 @@
                                                                                                                                                                                   </OutArgument>
                                                                                                                                                                                 </ac:OdlucivanjeOOdbraniActivity.OdlozenaOdbrana>
                                                                                                                                                                               </ac:OdlucivanjeOOdbraniActivity>
-                                                                                                                                                                              <Delay DisplayName="OdlaganjeOdbrane" Duration="00:00:05" />
+                                                                                                                                                                              <If>
+                                                                                                                                                                                <If.Condition>
+                                                                                                                                                                                  <InArgument x:TypeArguments="x:Boolean">
+                                                                                                                                                                                    <mca:CSharpValue x:TypeArguments="x:Boolean">OdlozenaOdbranaVar.ToLower() == "da"</mca:CSharpValue>
+                                                                                                                                                                                  </InArgument>
+                                                                                                                                                                                </If.Condition>
+                                                                                                                                                                                <If.Then>
+                                                                                                                                                                                  <Sequence>
+                                                                                                                                                                                    <WriteLine Text="ODLAGANJE ODBRANE..." />
+                                                                                                                                                                                    <Delay DisplayName="OdlaganjeOdbrane" Duration="00:00:05" />
+                                                                                                                                                                                  </Sequence>
+                                                                                                                                                                                </If.Then>
+                                                                                                                                                                              </If>
                                                                                                                                                                             </Sequence>
                                                                                                                                                                           </If.Else>
                                                                                                                                                                         </If>
@@ -398,14 +494,23 @@
                                                                                                                                                                       </Transition.Condition>
                                                                                                                                                                       <Transition.To>
                                                                                                                                                                         <State x:Name="__ReferenceID5" DisplayName="Pripremanje odbrane">
+                                                                                                                                                                          <State.Entry>
+                                                                                                                                                                            <WriteLine Text="PRIPREMANJE ODBRANE..." />
+                                                                                                                                                                          </State.Entry>
                                                                                                                                                                           <State.Transitions>
                                                                                                                                                                             <Transition DisplayName="T30">
                                                                                                                                                                               <Transition.To>
                                                                                                                                                                                 <State x:Name="__ReferenceID25" DisplayName="Odbrana">
+                                                                                                                                                                                  <State.Entry>
+                                                                                                                                                                                    <WriteLine Text="ODBRANA..." />
+                                                                                                                                                                                  </State.Entry>
                                                                                                                                                                                   <State.Transitions>
                                                                                                                                                                                     <Transition DisplayName="T31">
                                                                                                                                                                                       <Transition.To>
                                                                                                                                                                                         <State x:Name="__ReferenceID26" DisplayName="Zakljucak">
+                                                                                                                                                                                          <State.Entry>
+                                                                                                                                                                                            <WriteLine Text="ZAKLJUCAK..." />
+                                                                                                                                                                                          </State.Entry>
                                                                                                                                                                                           <State.Transitions>
                                                                                                                                                                                             <Transition DisplayName="" To="{x:Reference __ReferenceID0}" />
                                                                                                                                                                                           </State.Transitions>
@@ -429,7 +534,7 @@
                                                                                                                                                             </Transition>
                                                                                                                                                             <Transition DisplayName="" To="{x:Reference __ReferenceID5}">
                                                                                                                                                               <Transition.Condition>
-                                                                                                                                                                <mca:CSharpValue x:TypeArguments="x:Boolean">MentorSprecenVar.ToLower() == "ne" &amp;&amp; BrojSprecenihClanovaKomisijeVar == 0 &amp;&amp; PotrebnaIzmenaKomisijeVar.ToLower() == "ne"</mca:CSharpValue>
+                                                                                                                                                                <mca:CSharpValue x:TypeArguments="x:Boolean">PotrebnaIzmenaKomisijeVar.ToLower() == "ne" &amp;&amp; MentorSprecenVar.ToLower() == "ne" &amp;&amp; BrojSprecenihClanovaKomisijeVar == 0</mca:CSharpValue>
                                                                                                                                                               </Transition.Condition>
                                                                                                                                                             </Transition>
                                                                                                                                                             <Transition DisplayName="" To="{x:Reference __ReferenceID2}">
@@ -524,13 +629,16 @@
                                                                       <Transition.To>
                                                                         <State x:Name="__ReferenceID17" DisplayName="Odobravanje dodatnih istrazivanja">
                                                                           <State.Entry>
-                                                                            <ac:OdobravanjeDodatnihIstrazivanjaActivity>
-                                                                              <ac:OdobravanjeDodatnihIstrazivanjaActivity.OdobrenaDodatnaIstrazivanja>
-                                                                                <OutArgument x:TypeArguments="x:String">
-                                                                                  <mca:CSharpReference x:TypeArguments="x:String">OdobrenaDodatnaIstrazivanjaVar</mca:CSharpReference>
-                                                                                </OutArgument>
-                                                                              </ac:OdobravanjeDodatnihIstrazivanjaActivity.OdobrenaDodatnaIstrazivanja>
-                                                                            </ac:OdobravanjeDodatnihIstrazivanjaActivity>
+                                                                            <Sequence>
+                                                                              <WriteLine Text="ODOBRAVANJE DODATNIH ISTRAZIVANJA..." />
+                                                                              <ac:OdobravanjeDodatnihIstrazivanjaActivity>
+                                                                                <ac:OdobravanjeDodatnihIstrazivanjaActivity.OdobrenaDodatnaIstrazivanja>
+                                                                                  <OutArgument x:TypeArguments="x:String">
+                                                                                    <mca:CSharpReference x:TypeArguments="x:String">OdobrenaDodatnaIstrazivanjaVar</mca:CSharpReference>
+                                                                                  </OutArgument>
+                                                                                </ac:OdobravanjeDodatnihIstrazivanjaActivity.OdobrenaDodatnaIstrazivanja>
+                                                                              </ac:OdobravanjeDodatnihIstrazivanjaActivity>
+                                                                            </Sequence>
                                                                           </State.Entry>
                                                                           <State.Transitions>
                                                                             <Transition DisplayName="" To="{x:Reference __ReferenceID6}">
@@ -630,8 +738,9 @@
         <Variable x:TypeArguments="x:Int32" Name="OcenaDoktorataVar" />
         <Variable x:TypeArguments="x:String" Name="MentorSprecenVar" />
         <Variable x:TypeArguments="x:Int32" Name="BrojSprecenihClanovaKomisijeVar" />
+        <Variable x:TypeArguments="de:Member[]" Name="KomisijaZaOcenuVar" />
       </StateMachine.Variables>
-      <sads:DebugSymbol.Symbol>9xBTWY7bqLMFRqLn9G03ghTRVkQ6XEl2YW5hXEZBS1NcTWFzdGVyXFVQUFxHaXRSZXBvXHVwcHByb2plY3Q4MVxVcHBQcm9qZWN0ODFcVXBwUHJvamVjdDgxXFByb2Nlc3M4MS54YW1scSkDhAUSAgEBKwfgBA8DAd0CRw/ZBBcDAdgCThfVBB8DAdUCaje9BD8DAcICUh/RBCcDAb8CrQFX9gNfAwG8AlYnzQQvAwG5AlovyQQ3AwGmAn8/tgRHAwGTAo8BR44ETwMBkAK1AWfuA28DAf0BkgKHAdgDjwEDAeoBsQFf8gNnAwHnAZYER68ETwMB1AHKAW/nA3cDAdEBkwFPigRXAwGvAYMCjwGDAoMCAwGtATsPPxcDAakBzgF34wN/AwGhAdsBf98DhwEDAYwB7gGHAYoCjwECAXmiAo8BzAOXAQIBZrcClwHFA58BAgFE0QKfAbQDpwECAQ6ZA6cBrQOvAQIBC50DrwGpA7cBAgEIoQO3AaUDvwECAQX+A1eCBF8CAQItCzMmAwHqAjgPOHkDAeQCRA9EeQMB3wJJE0l3AwHbAmw7cmgDAc8Cdz93rQEDAckCfD98rQEDAcQCXDNiWwMBswJnN2egAQMBrQLCBDfCBKABAwGoAoEBQ4cBXQMBoAKMAUeMAb8BAwGaApMER5MEvwEDAZUCtwFrvQGRAQMBigLCAW/CAdMBAwGEAscBb8cB0wEDAf8BlAKLAZoCswEDAfcBnwKPAZ8C8gEDAfEB0QOPAdED8gEDAewBmARLngR4AwHhAaMET6MEvgEDAdsBqARPqAS+AQMB1gGVAVOgAXUDAcQBpQFXpQH1AQMBvQGqAVeqAfUBAwG3AfsDV/sD9QEDAbEBPRM9aAMBqwHQAXvWAaEBAwGkAd0BgwHdAfABAwGfAeABgwHmAaUBAwGZAesBhwHrAYkCAwGTAY8ChwGPApACAwGOAfABiwH2Aa4BAwGGAfsBjwH7Af4BAwGAAYACjwGAAv4BAgF7pAKTAaoCxAECAXOvApcBrwL+AQIBbbQClwG0Av4BAgFouQKbAckCvAECAVbOAp8BzgKJAgIBULkDnwG5A+cCAgFLvgOfAb4DiQICAUbTAqMBjAOoAQIBG5EDpwGRA4oCAgEVlgOnAZYDigICARAwETBwAwHrAklRSXQDAdwCb0FvpAEDAdACXzlflwEDAbQChAFJhAG2AQMBoQK6AXG6AcoBAwGLApcCkQGXAukBAwH4AZsEUZsEtQEDAeIBnQFZnQGxAQMBywGYAVmYAbwBAwHFAT1RPWUDAawB0wGBAdMB1wEDAaUB3QG5Ad0BwwEDAaAB4wGJAeMB5AEDAZoB8wGRAfMB9QEDAYcBpwKZAacC9QECAXTBAqEBwQL3AQIBYcYCoQHGAoACAgFcvAKhAbwChQICAVfWAqkB1gKKAgIBHNoCpwHmArIBAgE66QKnAYoDrAECASHbAqkB5AKyAQIBPeUCqQHlAo8CAgE77AKtAewCkgICASLwAqsB/AK2AQIBMP8CqwGIA7YBAgEn4gLUAeIC1gECAUPeAq8B3gKHAgIBPuUC2AHlAuIBAgE88QKtAfoCtgECATP7Aq0B+wKTAgIBMYADrQGGA84BAgEqhwOtAYcDkwICASj4AtgB+ALaAQIBOfQCswH0AosCAgE0+wLcAfsC5gECATKDA7MBgwOLAgIBK4cD3AGHA+YBAgEp</sads:DebugSymbol.Symbol>
+      <sads:DebugSymbol.Symbol>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</sads:DebugSymbol.Symbol>
     </StateMachine>
   </u:Process81.Implementation>
 </u:Process81>

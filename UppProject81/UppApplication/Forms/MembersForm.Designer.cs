@@ -76,7 +76,7 @@
             this.groupBox1.Size = new System.Drawing.Size(258, 158);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Member 1:";
+            this.groupBox1.Text = "Clan 1:";
             // 
             // errorProvider1
             // 
@@ -96,7 +96,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(38, 13);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Name:";
+            this.label1.Text = "Ime:";
             // 
             // label2
             // 
@@ -125,7 +125,7 @@
             this.groupBox2.Size = new System.Drawing.Size(258, 158);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Member 2:";
+            this.groupBox2.Text = "Clan 2:";
             // 
             // label3
             // 
@@ -150,7 +150,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(38, 13);
             this.label4.TabIndex = 1;
-            this.label4.Text = "Name:";
+            this.label4.Text = "Ime:";
             // 
             // textBox4
             // 
@@ -170,7 +170,7 @@
             this.groupBox3.Size = new System.Drawing.Size(258, 158);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Member 3:";
+            this.groupBox3.Text = "Clan 3:";
             // 
             // label5
             // 
@@ -195,7 +195,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(38, 13);
             this.label6.TabIndex = 1;
-            this.label6.Text = "Name:";
+            this.label6.Text = "Ime:";
             // 
             // textBox6
             // 
@@ -215,7 +215,7 @@
             this.groupBox4.Size = new System.Drawing.Size(258, 158);
             this.groupBox4.TabIndex = 3;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Member 4:";
+            this.groupBox4.Text = "Clan 4:";
             // 
             // label7
             // 
@@ -240,7 +240,7 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(38, 13);
             this.label8.TabIndex = 1;
-            this.label8.Text = "Name:";
+            this.label8.Text = "Ime:";
             // 
             // textBox8
             // 
@@ -260,7 +260,7 @@
             this.groupBox5.Size = new System.Drawing.Size(258, 158);
             this.groupBox5.TabIndex = 4;
             this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Member 5:";
+            this.groupBox5.Text = "Clan 5:";
             // 
             // label9
             // 
@@ -285,7 +285,7 @@
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(38, 13);
             this.label10.TabIndex = 1;
-            this.label10.Text = "Name:";
+            this.label10.Text = "Ime:";
             // 
             // textBox10
             // 
@@ -335,31 +335,31 @@
 
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
+        public System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        public System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.ErrorProvider errorProvider1;
-        private System.Windows.Forms.Button okButton;
+        public System.Windows.Forms.Button okButton;
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox9;
+        public System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox10;
+        public System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox7;
+        public System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox8;
+        public System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox5;
+        public System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox6;
+        public System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
+        public System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox4;
+        public System.Windows.Forms.TextBox textBox4;
         private System.IO.Ports.SerialPort serialPort1;
     }
 }

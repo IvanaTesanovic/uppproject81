@@ -56,7 +56,7 @@
             this.btnOk.Name = "btnOk";
             this.btnOk.Size = new System.Drawing.Size(68, 23);
             this.btnOk.TabIndex = 2;
-            this.btnOk.Text = "button1";
+            this.btnOk.Text = "Potvrdi";
             this.btnOk.UseVisualStyleBackColor = true;
             // 
             // TextboxForm
@@ -76,9 +76,9 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
+        public System.Windows.Forms.TextBox textBox1;
+        public System.Windows.Forms.Label label1;
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
-        private System.Windows.Forms.Button btnOk;
+        public System.Windows.Forms.Button btnOk;
     }
 }

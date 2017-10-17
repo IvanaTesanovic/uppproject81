@@ -68,6 +68,7 @@ namespace XamlStaticHelperNamespace {
             assemblyList.Add(Load("System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e08" +
                         "9"));
             assemblyList.Add(Load("Activities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"));
+            assemblyList.Add(Load("Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"));
             assemblyList.Add(Load("Microsoft.Activities.Extensions, Version=2.0.6.9, Culture=neutral, PublicKeyToken" +
                         "=23b0c89d0d5ad43f"));
             assemblyList.Add(System.Reflection.Assembly.GetExecutingAssembly());

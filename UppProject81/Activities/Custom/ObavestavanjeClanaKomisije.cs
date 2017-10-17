@@ -11,7 +11,7 @@ namespace Activities.Custom
     {
         protected override void Execute(CodeActivityContext context)
         {
-            throw new NotImplementedException();
+            
         }
     }
 }
