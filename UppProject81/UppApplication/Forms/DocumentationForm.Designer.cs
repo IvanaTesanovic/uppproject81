@@ -35,10 +35,10 @@ namespace UppApplication.Forms
             this.label2 = new System.Windows.Forms.Label();
             this.tboxLastname = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.ddlDepartment = new System.Windows.Forms.ComboBox();
             this.cboxDocSubmitted = new System.Windows.Forms.CheckBox();
             this.label4 = new System.Windows.Forms.Label();
             this.okButton = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // tboxFirstname
@@ -53,7 +53,7 @@ namespace UppApplication.Forms
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(109, 69);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(58, 13);
+            this.label1.Size = new System.Drawing.Size(27, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "Ime:";
             // 
@@ -62,7 +62,7 @@ namespace UppApplication.Forms
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(109, 117);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(59, 13);
+            this.label2.Size = new System.Drawing.Size(47, 13);
             this.label2.TabIndex = 3;
             this.label2.Text = "Prezime:";
             // 
@@ -78,24 +78,16 @@ namespace UppApplication.Forms
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(109, 164);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(65, 13);
+            this.label3.Size = new System.Drawing.Size(47, 13);
             this.label3.TabIndex = 5;
             this.label3.Text = "Katedra:";
-            // 
-            // ddlDepartment
-            // 
-            this.ddlDepartment.FormattingEnabled = true;
-            this.ddlDepartment.Location = new System.Drawing.Point(191, 161);
-            this.ddlDepartment.Name = "ddlDepartment";
-            this.ddlDepartment.Size = new System.Drawing.Size(183, 21);
-            this.ddlDepartment.TabIndex = 6;
             // 
             // cboxDocSubmitted
             // 
             this.cboxDocSubmitted.AutoSize = true;
             this.cboxDocSubmitted.Location = new System.Drawing.Point(191, 210);
             this.cboxDocSubmitted.Name = "cboxDocSubmitted";
-            this.cboxDocSubmitted.Size = new System.Drawing.Size(146, 17);
+            this.cboxDocSubmitted.Size = new System.Drawing.Size(152, 17);
             this.cboxDocSubmitted.TabIndex = 7;
             this.cboxDocSubmitted.Text = "Podnesena dokumentacija";
             this.cboxDocSubmitted.UseVisualStyleBackColor = true;
@@ -110,22 +102,29 @@ namespace UppApplication.Forms
             // 
             // okButton
             // 
-            this.okButton.Location = new System.Drawing.Point(191, 279);
+            this.okButton.Location = new System.Drawing.Point(191, 265);
             this.okButton.Name = "okButton";
             this.okButton.Size = new System.Drawing.Size(183, 23);
             this.okButton.TabIndex = 9;
             this.okButton.Text = "OK";
             this.okButton.UseVisualStyleBackColor = true;
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(191, 164);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(183, 20);
+            this.textBox1.TabIndex = 10;
+            // 
             // DocumentationForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(498, 419);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.okButton);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.cboxDocSubmitted);
-            this.Controls.Add(this.ddlDepartment);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.tboxLastname);
@@ -146,10 +145,9 @@ namespace UppApplication.Forms
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox tboxLastname;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox ddlDepartment;
         public System.Windows.Forms.CheckBox cboxDocSubmitted;
         private System.Windows.Forms.Label label4;
         public System.Windows.Forms.Button okButton;
-
+        private TextBox textBox1;
     }
 }

@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using Data.DataProviders;
+using Data.Entities;
+using System;
 using System.Activities;
-using System.Windows.Forms;
+using System.Collections.Generic;
 using UppApplication.Forms;
 
 namespace Activities.Custom
@@ -23,6 +22,8 @@ namespace Activities.Custom
             form = new DocumentationForm();
             form.okButton.Click += new EventHandler(ClickBtn);
             form.ShowDialog();
+
+            var chief = GetDepartmentChief();
         }
 
         private void ClickBtn(object sender, EventArgs a)
@@ -34,6 +35,27 @@ namespace Activities.Custom
         {
             PodnesenaDokumentacija.Set(ActContext, form.cboxDocSubmitted.Checked ? "Da" : "Ne");
             form.Close();
+        }
+
+        private User GetDepartmentChief()
+        {
+            List<Department> departments = new DepartmentDataProvider().GetAll();
+            List<User> users = new UserDataProvider().GetUserByRole("Sef");
+            User chief = new User();
+
+            foreach (var department in departments)
+            {
+                foreach (var user in users)
+                {
+                    if (user.DepartmentId == department.Id)
+                    {
+                        chief = user;
+                        break;
+                    }
+                }
+            }
+
+            return chief;
         }
     }
 }

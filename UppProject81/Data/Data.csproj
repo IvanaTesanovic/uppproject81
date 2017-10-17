@@ -47,7 +47,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataProviders\DepartmentDataProvider.cs" />
     <Compile Include="DataProviders\UserDataProvider.cs" />
+    <Compile Include="Entities\Department.cs" />
     <Compile Include="Entities\Member.cs" />
     <Compile Include="Entities\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
