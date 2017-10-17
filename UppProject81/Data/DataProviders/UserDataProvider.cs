@@ -7,7 +7,7 @@ namespace Data.DataProviders
 {
     public class UserDataProvider
     {
-        public User GetUserByUsername(string username)
+        public User GetByUsername(string username)
         {
             using (var database = new Database("UppDb"))
             {

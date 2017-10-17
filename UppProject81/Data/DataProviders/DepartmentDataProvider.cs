@@ -25,5 +25,21 @@ namespace Data.DataProviders
                 }
             }
         }
+
+        public Department GetByName(string name)
+        {
+            using (var database = new Database("UppDb"))
+            {
+                try
+                {
+                    var department = database.Query<Department>().FirstOrDefault(u => u.Name == name);
+                    return department;
+                }
+                catch (Exception ex)
+                {
+                    return null;
+                }
+            }
+        }
     }
 }

@@ -16,7 +16,7 @@ namespace UppApplication.Services
 
         public static bool ValidateUser(string username, string password)
         {
-            var user = UserDataProvider.GetUserByUsername(username);
+            var user = UserDataProvider.GetByUsername(username);
             if (user == null || user.Password != password)
             {
                 return false;

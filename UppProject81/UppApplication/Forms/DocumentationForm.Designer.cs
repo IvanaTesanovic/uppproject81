@@ -148,6 +148,6 @@ namespace UppApplication.Forms
         public System.Windows.Forms.CheckBox cboxDocSubmitted;
         private System.Windows.Forms.Label label4;
         public System.Windows.Forms.Button okButton;
-        private TextBox textBox1;
+        public TextBox textBox1;
     }
 }

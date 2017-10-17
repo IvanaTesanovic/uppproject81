@@ -23,7 +23,7 @@ namespace Activities.Custom
             form.okButton.Click += new EventHandler(ClickBtn);
             form.ShowDialog();
 
-            var chief = GetDepartmentChief();
+            var chief = GetDepartmentChief(form.textBox1.Text);
         }
 
         private void ClickBtn(object sender, EventArgs a)
@@ -37,21 +37,18 @@ namespace Activities.Custom
             form.Close();
         }
 
-        private User GetDepartmentChief()
+        private User GetDepartmentChief(string departmentName)
         {
-            List<Department> departments = new DepartmentDataProvider().GetAll();
+            Department department = new DepartmentDataProvider().GetByName(departmentName);
             List<User> users = new UserDataProvider().GetUserByRole("Sef");
             User chief = new User();
 
-            foreach (var department in departments)
+            foreach (var user in users)
             {
-                foreach (var user in users)
+                if (user.DepartmentId == department.Id)
                 {
-                    if (user.DepartmentId == department.Id)
-                    {
-                        chief = user;
-                        break;
-                    }
+                    chief = user;
+                    break;
                 }
             }
 
