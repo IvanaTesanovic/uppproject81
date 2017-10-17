@@ -268,7 +268,13 @@
                                                                                                                               <mca:CSharpValue x:TypeArguments="x:String">"Obavestava se clan " + member.Name;</mca:CSharpValue>
                                                                                                                             </InArgument>
                                                                                                                           </WriteLine>
-                                                                                                                          <ac:ObavestavanjeClanaKomisije sap2010:WorkflowViewState.IdRef="ObavestavanjeClanaKomisije_1" />
+                                                                                                                          <ac:ObavestavanjeClanaKomisije sap2010:WorkflowViewState.IdRef="ObavestavanjeClanaKomisije_1">
+                                                                                                                            <ac:ObavestavanjeClanaKomisije.Imejl>
+                                                                                                                              <InArgument x:TypeArguments="x:String">
+                                                                                                                                <mca:CSharpValue x:TypeArguments="x:String">member.Email</mca:CSharpValue>
+                                                                                                                              </InArgument>
+                                                                                                                            </ac:ObavestavanjeClanaKomisije.Imejl>
+                                                                                                                          </ac:ObavestavanjeClanaKomisije>
                                                                                                                         </Sequence>
                                                                                                                       </ActivityAction>
                                                                                                                     </ForEach>
@@ -614,6 +620,12 @@
                                                                                     </Transition.Condition>
                                                                                     <Transition.To>
                                                                                       <State x:Name="__ReferenceID27" DisplayName="Javljanje NN vecu o obustavljanju doktorata" sap2010:WorkflowViewState.IdRef="State_29">
+                                                                                        <State.Entry>
+                                                                                          <Sequence sap2010:WorkflowViewState.IdRef="Sequence_18">
+                                                                                            <WriteLine sap2010:WorkflowViewState.IdRef="WriteLine_30" Text="JAVLJANJE NN VECU O OBUSTAVLJANJU DOKTORATA..." />
+                                                                                            <ac:JavljanjeNNVecuOObustavljanju sap2010:WorkflowViewState.IdRef="JavljanjeNNVecuOObustavljanju_1" />
+                                                                                          </Sequence>
+                                                                                        </State.Entry>
                                                                                         <State.Transitions>
                                                                                           <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_40" To="{x:Reference __ReferenceID0}" />
                                                                                         </State.Transitions>
@@ -750,7 +762,7 @@
       <Variable x:TypeArguments="x:Int32" Name="BrojSprecenihClanovaKomisijeVar" />
       <Variable x:TypeArguments="de:Member[]" Name="KomisijaZaOcenuVar" />
     </StateMachine.Variables>
-    <sads:DebugSymbol.Symbol>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</sads:DebugSymbol.Symbol>
+    <sads:DebugSymbol.Symbol>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</sads:DebugSymbol.Symbol>
   </StateMachine>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
@@ -1228,7 +1240,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="State_16" sap:VirtualizedContainerService.HintSize="259,61">
+      <sap2010:ViewStateData Id="State_16" sap:VirtualizedContainerService.HintSize="335,986">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">500.5,969.5</av:Point>
@@ -1305,6 +1317,15 @@
             <av:PointCollection x:Key="ConnectorLocation">588.05,620.5 588.05,650.5 580.2,650.5 580.2,676.5</av:PointCollection>
             <x:Int32 x:Key="SrcConnectionPointIndex">27</x:Int32>
             <x:Int32 x:Key="DestConnectionPointIndex">22</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="WriteLine_30" sap:VirtualizedContainerService.HintSize="211,62" />
+      <sap2010:ViewStateData Id="JavljanjeNNVecuOObustavljanju_1" sap:VirtualizedContainerService.HintSize="211,22" />
+      <sap2010:ViewStateData Id="Sequence_18" sap:VirtualizedContainerService.HintSize="233,248">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>

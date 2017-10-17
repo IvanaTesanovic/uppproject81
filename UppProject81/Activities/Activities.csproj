@@ -50,6 +50,7 @@
     <Compile Include="Custom\DokumentacijaActivity.cs" />
     <Compile Include="Custom\DonosenjeOdlukeOKomisijiActivity.cs" />
     <Compile Include="Custom\IstrazivanjaActivity.cs" />
+    <Compile Include="Custom\JavljanjeNNVecuOObustavljanju.cs" />
     <Compile Include="Custom\KreiranjeIzvestajaOOceniActivity.cs" />
     <Compile Include="Custom\ObavestavanjeClanaKomisije.cs" />
     <Compile Include="Custom\OdlucivanjeOOdbraniActivity.cs" />
